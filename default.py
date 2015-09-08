@@ -1,4 +1,4 @@
-﻿#!/usr/bin/python
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 import xbmcaddon
@@ -20,7 +20,6 @@ icon = os.path.join(addonDir ,'fanart.jpg')
 xbmcplugin.setContent(addon_handle, "movies")
 path = os.path.dirname(os.path.realpath(__file__))
 addonID = os.path.basename(path)
-addon = xbmcaddon.Addon(id=addonID)
 
 def addDir(title, stream, thumb, mode):
     link = sys.argv[0]+"?url="+urllib.quote_plus(stream)+"&mode="+str(mode)
