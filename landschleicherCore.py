@@ -39,12 +39,14 @@ villages = []
 villageDescriptions = []
 villageLinks = []
 villageImages = []
+villageDates = []
 
 def setVillageContent(url):
     global villages
     global villageDescriptions
     global villageLinks
     global villageImages
+    global villageDates
     global hasNextSite
     global nextSite
 
@@ -66,6 +68,8 @@ def setVillageContent(url):
 
         fvillageImages = re.compile(" src=\"(.+?jpg)\"", re.DOTALL).findall(fragment)
 
+        fvillageDate = re.compile("datetime=\"(.+?)T", re.DOTALL).findall(fragment)
+
         # hat gültigen Name und Link?
         if (len(fvillages) == 1 and len(fvillageLinks) == 1):
             villages.append(fvillages[0])
@@ -82,6 +86,12 @@ def setVillageContent(url):
                 villageDescriptions.append(fvillageDescriptions[0])
             else:
                 villageDescriptions.append("")
+
+            # dazu ein gültiges Datum
+            if (len(fvillageDate) == 1):
+                villageDates.append(fvillageDate[0])
+            else:
+                villageDates.append("")
 
 
     thisSiteNr = re.compile("page=(.+?).html", re.DOTALL).findall(url)

@@ -2,3 +2,8 @@ v0.0.1
 - first version
 v0.0.2
 - icon added
+v0.0.3
+- blocked videos removed
+- better fanart and icon
+- sorting moved to settings
+- description and date to video info

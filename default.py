@@ -20,6 +20,7 @@ icon = os.path.join(addonDir ,'fanart.jpg')
 xbmcplugin.setContent(addon_handle, "movies")
 path = os.path.dirname(os.path.realpath(__file__))
 addonID = os.path.basename(path)
+alphabetisch = addon.getSetting("sortierung") == "0"
 
 def addDir(title, stream, thumb, mode):
     link = sys.argv[0]+"?url="+urllib.quote_plus(stream)+"&mode="+str(mode)
@@ -27,11 +28,11 @@ def addDir(title, stream, thumb, mode):
     liz.setInfo(type="Video", infoLabels={"Title": title})
     return xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]), url=link, listitem=liz, isFolder=True)
 
-def addLink(name, url, mode, iconimage, label):
+def addLink(name, url, mode, iconimage, label, date):
     u = sys.argv[0]+"?url="+urllib.quote_plus(url)+"&mode="+urllib.quote_plus(mode)
     ok = True
-    liz = xbmcgui.ListItem(name, label, iconImage=icon, thumbnailImage=iconimage)
-    liz.setInfo(type="Video", infoLabels={"Title": name})
+    liz = xbmcgui.ListItem(name, iconImage=icon, thumbnailImage=iconimage)
+    liz.setInfo(type="Video", infoLabels={"Title": name, "Plot": label, "Tagline": date})
     liz.setProperty("fanart_image", icon)
     liz.setProperty('IsPlayable', 'true')
     ok = xbmcplugin.addDirectoryItem(handle=int(sys.argv[1]), url=u, listitem=liz)
@@ -52,11 +53,6 @@ mode = urllib.unquote_plus(params.get('mode', ''))
 url = urllib.unquote_plus(params.get('url', ''))
 name = urllib.unquote_plus(params.get('name', ''))
 
-def index():
-    addDir('A-Z', landschleicherCore.archivUrl, icon, 'listLetters')
-    addDir('Chronologisch', landschleicherCore.chronologischUrl, icon, 'listYears')
-    xbmcplugin.endOfDirectory(addon_handle)
-
 def listLetters():
     letters = landschleicherCore.getLetters()
     for letter in letters:
@@ -73,7 +69,7 @@ def listVideos(url):
     i = 0
     landschleicherCore.setVillageContent(url)
     for village in landschleicherCore.villages:
-        addLink(village, landschleicherCore.baseUrl + landschleicherCore.villageLinks[i], 'playVideo', landschleicherCore.rbbUrl + landschleicherCore.villageImages[i], landschleicherCore.villageDescriptions[i])
+        addLink(village, landschleicherCore.baseUrl + landschleicherCore.villageLinks[i], 'playVideo', landschleicherCore.rbbUrl + landschleicherCore.villageImages[i], landschleicherCore.villageDescriptions[i], landschleicherCore.villageDates[i])
         i = i+1
     if (landschleicherCore.hasNextSite):
         addDir("Nächste Seite", landschleicherCore.nextSite, icon, 'listVideos')
@@ -88,9 +84,8 @@ if mode == "playVideo":
     playVideo(url)
 elif mode == "listVideos":
     listVideos(url)
-elif mode == "listLetters":
-    listLetters()
-elif mode == "listYears":
-    listYears()
 else:
-    index()
+    if (alphabetisch):
+        listLetters()
+    else:
+        listYears()
