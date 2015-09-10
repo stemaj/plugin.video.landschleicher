@@ -50,17 +50,39 @@ def setVillageContent(url):
 
     tSite = getUrl(url).split(r"Drei-Stufen")
     tSite2 = tSite[0].split("<!-- Default Content -->")
-    
-    villages = re.compile("manualteasertitle\">(.+?)</span>", re.DOTALL).findall(tSite2[1])
-    
-    villageDescriptions = re.compile("manualteasershorttext\">(.+?)</div>", re.DOTALL).findall(tSite2[1])
-    for i in range(len(villageDescriptions)): 
-        villageDescriptions[i] = villageDescriptions[i].replace("<p>","")
-        villageDescriptions[i] = villageDescriptions[i].replace("</p>","")
+    tSite3 = tSite2[1].split("<article")
+    tSite3.pop(0)
 
-    villageLinks = re.compile("'{}'><a href=\"/brandenburgaktuell/landschleicher(.+?)\" class=\"sendeplatz\"><img", re.DOTALL).findall(tSite2[1])
+    for fragment in tSite3:
+        
+        fvillages = re.compile("manualteasertitle\">(.+?)</span>", re.DOTALL).findall(fragment)
+        
+        fvillageDescriptions = re.compile("manualteasershorttext\">(.+?)</div>", re.DOTALL).findall(fragment)
+        for i in range(len(fvillageDescriptions)): 
+            fvillageDescriptions[i] = fvillageDescriptions[i].replace("<p>","")
+            fvillageDescriptions[i] = fvillageDescriptions[i].replace("</p>","")
 
-    villageImages = re.compile(" src=\"(.+?jpg)\"", re.DOTALL).findall(tSite2[1])
+        fvillageLinks = re.compile("'{}'><a href=\"/brandenburgaktuell/landschleicher(.+?)\" class=\"sendeplatz\"><img", re.DOTALL).findall(fragment)
+
+        fvillageImages = re.compile(" src=\"(.+?jpg)\"", re.DOTALL).findall(fragment)
+
+        # hat gültigen Name und Link?
+        if (len(fvillages) == 1 and len(fvillageLinks) == 1):
+            villages.append(fvillages[0])
+            villageLinks.append(fvillageLinks[0])
+
+            # dazu ein gültiges Bild
+            if (len(fvillageImages) == 1):
+                villageImages.append(fvillageImages[0])
+            else:
+                villageImages.append("content/dam/rbb/rbb/logos/touch.png/_jcr_content/renditions/appletouchicon57x57precomposed.png")
+
+            # dazu eine gültige Beschreibung
+            if (len(fvillageDescriptions) == 1):
+                villageDescriptions.append(fvillageDescriptions[0])
+            else:
+                villageDescriptions.append("")
+
 
     thisSiteNr = re.compile("page=(.+?).html", re.DOTALL).findall(url)
     hasNextSite = False
@@ -84,9 +106,9 @@ def getVillageVideoLink(url):
 
     return videoLink[0]
 
-# Test: 5. Dorf der 2. D-Seite 
+# Test: 5. Dorf der 3. S-Seite 
 #letters = getLetters()
-#setVillageContent(getLetterUrl(letters[17][0],8))
+#setVillageContent(getLetterUrl(letters[17][0],3))
 #link = getVillageVideoLink(baseUrl + villageLinks[4])
 
 #years = getYears()
