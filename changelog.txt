@@ -7,3 +7,7 @@ v0.0.3
 - better fanart and icon
 - sorting moved to settings
 - description and date to video info
+v0.0.4
+- try to handle incompleteRead exception
+- fixed missing actual year entry
+- added videoquality settings

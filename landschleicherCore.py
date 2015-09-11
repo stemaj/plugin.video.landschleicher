@@ -8,7 +8,10 @@ def getUrl(url):
     req = urllib2.Request(url)
     req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; rv:19.0) Gecko/20100101 Firefox/19.0')
     response = urllib2.urlopen(req)
-    link = response.read()
+    try:
+        link = response.read()
+    except httplib.IncompleteRead, e:
+        link = e.partial
     response.close()
     return link
 
@@ -18,6 +21,7 @@ archivBase = baseUrl + "/archiv"
 archivUrl = archivBase + ".html"
 chronologischBase = baseUrl + "/chronologisch/index"
 chronologischUrl = chronologischBase + ".html"
+thisYear = 1111
 
 def getLetters():
     archivSite = getUrl(archivUrl)
@@ -25,12 +29,18 @@ def getLetters():
     return letters
 
 def getYears():
+    global thisYear
     chronologischSite = getUrl(chronologischUrl)
-    years = re.compile("<a href=\"/brandenburgaktuell/landschleicher/chronologisch/index/(.+?).html").findall(chronologischSite)
+    thisYears = re.compile("title=\"([0-9]+?)\" class=\"active").findall(chronologischSite)
+    thisYear = thisYears[0]
+    years = re.compile(".html\" title=\"([0-9]+?)\"").findall(chronologischSite)
     return years
 
 def getYearUrl(year):
-    return chronologischBase + "/" + str(year) + ".html"
+    if (year == thisYear):
+        return chronologischUrl
+    else:
+        return chronologischBase + "/" + str(year) + ".html"
 
 def getLetterUrl(letter,page):
     return archivBase + "/" + letter + ".htm/page=" + str(page-1) + ".html"
@@ -105,7 +115,7 @@ def setVillageContent(url):
             nextSite = url.replace(str(nr-1),str(nr))
 
 
-def getVillageVideoLink(url):
+def getVillageVideoLink(url, quality):
     villageSite = getUrl(url)
     
     jsnLink = re.compile("data-media-ref=\"(.+?jsn)\"", re.DOTALL).findall(villageSite)
@@ -113,8 +123,14 @@ def getVillageVideoLink(url):
     videoUrlSite = getUrl(rbbUrl + jsnLink[0])
     
     videoLink = re.compile("stream\":\"(.+?mp4)\"", re.DOTALL).findall(videoUrlSite)
+    videoquality = re.compile("_quality\":([0-9])}", re.DOTALL).findall(videoUrlSite)
 
-    return videoLink[0]
+    if (str(quality) in videoquality):
+        index = videoquality.index(str(quality))
+    else:
+        index = 0
+
+    return videoLink[index]
 
 # Test: 5. Dorf der 3. S-Seite 
 #letters = getLetters()
@@ -122,8 +138,7 @@ def getVillageVideoLink(url):
 #link = getVillageVideoLink(baseUrl + villageLinks[4])
 
 #years = getYears()
-#setVillageContent(getYearUrl(years[3]))
-#link = getVillageVideoLink(baseUrl + villageLinks[4])
+#setVillageContent(getYearUrl(years[0]))
+#link = getVillageVideoLink(baseUrl + villageLinks[4], 2)
 
 #i = 2
-

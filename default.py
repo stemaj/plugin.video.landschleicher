@@ -21,6 +21,7 @@ xbmcplugin.setContent(addon_handle, "movies")
 path = os.path.dirname(os.path.realpath(__file__))
 addonID = os.path.basename(path)
 alphabetisch = addon.getSetting("sortierung") == "0"
+videoquality = addon.getSetting("videoquality")
 
 def addDir(title, stream, thumb, mode):
     link = sys.argv[0]+"?url="+urllib.quote_plus(stream)+"&mode="+str(mode)
@@ -76,7 +77,7 @@ def listVideos(url):
     xbmcplugin.endOfDirectory(addon_handle)
 
 def playVideo(url):
-    vLink = landschleicherCore.getVillageVideoLink(url)
+    vLink = landschleicherCore.getVillageVideoLink(url, videoquality)
     listitem = xbmcgui.ListItem(path=vLink)
     xbmcplugin.setResolvedUrl(addon_handle, True, listitem)
 
