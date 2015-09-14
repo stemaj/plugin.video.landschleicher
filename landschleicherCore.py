@@ -3,6 +3,7 @@
 
 import urllib2
 import re
+import httplib
 
 def getUrl(url):
     req = urllib2.Request(url)
