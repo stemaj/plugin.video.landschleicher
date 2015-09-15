@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+import xbmc
 import xbmcaddon
 import xbmcgui
 import xbmcplugin
@@ -22,6 +23,11 @@ path = os.path.dirname(os.path.realpath(__file__))
 addonID = os.path.basename(path)
 alphabetisch = addon.getSetting("sortierung") == "0"
 videoquality = addon.getSetting("videoquality")
+
+# resources
+RES_naechsteSeite = "Nächste Seite"
+RES_landschleicher = "Landschleicher"
+RES_seiteNichtGelesen = "Die Seite konnte nicht gelesen werden."
 
 def addDir(title, stream, thumb, mode):
     link = sys.argv[0]+"?url="+urllib.quote_plus(stream)+"&mode="+str(mode)
@@ -54,14 +60,21 @@ mode = urllib.unquote_plus(params.get('mode', ''))
 url = urllib.unquote_plus(params.get('url', ''))
 name = urllib.unquote_plus(params.get('name', ''))
 
+def notification(text):
+    xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(RES_landschleicher, text, 4500, icon))
+
 def listLetters():
     letters = landschleicherCore.getLetters()
+    if (len(letters) == 0):
+        notification(RES_seiteNichtGelesen)
     for letter in letters:
         addDir(letter[1], landschleicherCore.getLetterUrl(letter[0], 1), icon, 'listVideos')
     xbmcplugin.endOfDirectory(addon_handle)
 
 def listYears():
     years = landschleicherCore.getYears()
+    if (len(years) == 0):
+        notification(RES_seiteNichtGelesen)
     for year in years:
         addDir(year, landschleicherCore.getYearUrl(year), icon, 'listVideos')
     xbmcplugin.endOfDirectory(addon_handle)
@@ -69,15 +82,19 @@ def listYears():
 def listVideos(url):
     i = 0
     landschleicherCore.setVillageContent(url)
+    if (len(landschleicherCore.villages) == 0):
+        notification(RES_seiteNichtGelesen)
     for village in landschleicherCore.villages:
         addLink(village, landschleicherCore.baseUrl + landschleicherCore.villageLinks[i], 'playVideo', landschleicherCore.rbbUrl + landschleicherCore.villageImages[i], landschleicherCore.villageDescriptions[i], landschleicherCore.villageDates[i])
         i = i+1
     if (landschleicherCore.hasNextSite):
-        addDir("Nächste Seite", landschleicherCore.nextSite, icon, 'listVideos')
+        addDir(RES_naechsteSeite, landschleicherCore.nextSite, icon, 'listVideos')
     xbmcplugin.endOfDirectory(addon_handle)
 
 def playVideo(url):
     vLink = landschleicherCore.getVillageVideoLink(url, videoquality)
+    if (vLink == None):
+        notification(RES_seiteNichtGelesen)
     listitem = xbmcgui.ListItem(path=vLink)
     xbmcplugin.setResolvedUrl(addon_handle, True, listitem)
 

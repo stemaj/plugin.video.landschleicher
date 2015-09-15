@@ -13,3 +13,5 @@ v0.0.4
 - added videoquality settings
 v0.0.5
 - fix missing import
+v0.0.6
+- error handling and notifications

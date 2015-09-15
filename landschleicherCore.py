@@ -4,15 +4,24 @@
 import urllib2
 import re
 import httplib
+import socket
 
 def getUrl(url):
     req = urllib2.Request(url)
     req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; rv:19.0) Gecko/20100101 Firefox/19.0')
-    response = urllib2.urlopen(req)
+    try:
+        response = urllib2.urlopen(req)
+    except Exception as e:
+        print e.reason
+        return None
     try:
         link = response.read()
     except httplib.IncompleteRead, e:
-        link = e.partial
+        #link = e.partial
+        socket.setdefaulttimeout(5) # timeout in seconds
+        # this call to urllib2.urlopen now uses the default timeout
+        # we have set in the socket module
+        response = urllib2.urlopen(req)
     response.close()
     return link
 
@@ -61,8 +70,16 @@ def setVillageContent(url):
     global hasNextSite
     global nextSite
 
+    site = getUrl(url)
+    if (site == None):
+        return
+    
     tSite = getUrl(url).split(r"Drei-Stufen")
     tSite2 = tSite[0].split("<!-- Default Content -->")
+    
+    if (len(tSite2) < 2):
+        return
+
     tSite3 = tSite2[1].split("<article")
     tSite3.pop(0)
 
@@ -118,9 +135,15 @@ def setVillageContent(url):
 
 def getVillageVideoLink(url, quality):
     villageSite = getUrl(url)
+
+    if (villageSite == None):
+        return None
     
     jsnLink = re.compile("data-media-ref=\"(.+?jsn)\"", re.DOTALL).findall(villageSite)
     
+    if (len(jsnLink) == 0):
+        return
+
     videoUrlSite = getUrl(rbbUrl + jsnLink[0])
     
     videoLink = re.compile("stream\":\"(.+?mp4)\"", re.DOTALL).findall(videoUrlSite)
@@ -136,7 +159,7 @@ def getVillageVideoLink(url, quality):
 # Test: 5. Dorf der 3. S-Seite 
 #letters = getLetters()
 #setVillageContent(getLetterUrl(letters[17][0],3))
-#link = getVillageVideoLink(baseUrl + villageLinks[4])
+#link = getVillageVideoLink(baseUrl + villageLinks[4], 3)
 
 #years = getYears()
 #setVillageContent(getYearUrl(years[0]))
