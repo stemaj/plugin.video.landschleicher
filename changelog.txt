@@ -15,3 +15,5 @@ v0.0.5
 - fix missing import
 v0.0.6
 - error handling and notifications
+v0.0.7
+- fixed missing response.read

@@ -22,6 +22,7 @@ def getUrl(url):
         # this call to urllib2.urlopen now uses the default timeout
         # we have set in the socket module
         response = urllib2.urlopen(req)
+        link = response.read()
     response.close()
     return link
 
