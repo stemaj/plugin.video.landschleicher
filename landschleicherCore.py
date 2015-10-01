@@ -12,7 +12,7 @@ def getUrl(url):
     try:
         response = urllib2.urlopen(req)
     except Exception as e:
-        print e.reason
+        print e.message
         return None
     try:
         link = response.read()

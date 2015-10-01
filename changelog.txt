@@ -17,3 +17,5 @@ v0.0.6
 - error handling and notifications
 v0.0.7
 - fixed missing response.read
+v0.0.8
+- try to fix
