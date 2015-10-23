@@ -19,3 +19,5 @@ v0.0.7
 - fixed missing response.read
 v0.0.8
 - try to fix
+v0.1.0
+- changes on rbb site

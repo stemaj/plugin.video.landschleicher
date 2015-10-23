@@ -42,7 +42,7 @@ def getLetters():
 def getYears():
     global thisYear
     chronologischSite = getUrl(chronologischUrl)
-    thisYears = re.compile("title=\"([0-9]+?)\" class=\"active").findall(chronologischSite)
+    thisYears = re.compile(".html\" title=\"([0-9]+?)\">").findall(chronologischSite)
     thisYear = thisYears[0]
     years = re.compile(".html\" title=\"([0-9]+?)\"").findall(chronologischSite)
     return years
