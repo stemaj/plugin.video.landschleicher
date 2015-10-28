@@ -65,25 +65,31 @@ def notification(text):
 
 def listLetters():
     letters = landschleicherCore.getLetters()
-    if (len(letters) == 0):
-        notification(RES_seiteNichtGelesen)
-    for letter in letters:
-        addDir(letter[1], landschleicherCore.getLetterUrl(letter[0], 1), icon, 'listVideos')
-    xbmcplugin.endOfDirectory(addon_handle)
+    if not isinstance(letters,basestring):
+        for letter in letters:
+            addDir(letter[1], landschleicherCore.getLetterUrl(letter[0], 1), icon, 'listVideos')
+        xbmcplugin.endOfDirectory(addon_handle)
+    else:
+        notification(letters)
 
 def listYears():
     years = landschleicherCore.getYears()
-    if (len(years) == 0):
-        notification(RES_seiteNichtGelesen)
-    for year in years:
-        addDir(year, landschleicherCore.getYearUrl(year), icon, 'listVideos')
-    xbmcplugin.endOfDirectory(addon_handle)
+    if not isinstance(years,basestring):
+        for year in years:
+            addDir(year, landschleicherCore.getYearUrl(year), icon, 'listVideos')
+        xbmcplugin.endOfDirectory(addon_handle)
+    else:
+        notification(years)
 
 def listVideos(url):
     i = 0
-    landschleicherCore.setVillageContent(url)
+    error = landschleicherCore.setVillageContent(url)
+    if error:
+        notification(error)
+        return
     if (len(landschleicherCore.villages) == 0):
         notification(RES_seiteNichtGelesen)
+        return
     for village in landschleicherCore.villages:
         addLink(village, landschleicherCore.baseUrl + landschleicherCore.villageLinks[i], 'playVideo', landschleicherCore.rbbUrl + landschleicherCore.villageImages[i], landschleicherCore.villageDescriptions[i], landschleicherCore.villageDates[i])
         i = i+1
@@ -93,9 +99,10 @@ def listVideos(url):
 
 def playVideo(url):
     vLink = landschleicherCore.getVillageVideoLink(url, videoquality)
-    if (vLink == None):
-        notification(RES_seiteNichtGelesen)
-    listitem = xbmcgui.ListItem(path=vLink)
+    if not vLink[0]:
+        notification(vLink[1])
+        return
+    listitem = xbmcgui.ListItem(path=vLink[0])
     xbmcplugin.setResolvedUrl(addon_handle, True, listitem)
 
 if mode == "playVideo":

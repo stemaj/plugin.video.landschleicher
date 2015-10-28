@@ -7,51 +7,67 @@ import httplib
 import socket
 
 def getUrl(url):
-    req = urllib2.Request(url)
+    error = ''
+    link = ''
+    req = urllib2.Request(url, headers={'accept': '*/*'})
     req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.1; rv:19.0) Gecko/20100101 Firefox/19.0')
     try:
         response = urllib2.urlopen(req)
+        if not response:
+            error = 'No response - Please try again'
+    except urllib2.HTTPError as e:
+        error = 'Error code: ', e.code
+    except urllib2.URLError as e:
+        error = 'Reason: ', e.reason
     except Exception as e:
-        print e.message
-        return None
-    try:
-        link = response.read()
-    except httplib.IncompleteRead, e:
-        #link = e.partial
-        socket.setdefaulttimeout(5) # timeout in seconds
-        # this call to urllib2.urlopen now uses the default timeout
-        # we have set in the socket module
-        response = urllib2.urlopen(req)
-        link = response.read()
-    response.close()
-    return link
+        error = 'Other reason'
+    if not error:
+        try:
+            link = response.read()
+            if not link:
+                error = 'No data - Please try again'
+        except httplib.IncompleteRead as e:
+            error = e.message
+        except Exception as e:
+            error = e.message
+    
+    if response:
+        response.close()
 
+    return (link, error)
+
+socket.setdefaulttimeout(5) # timeout in seconds
 rbbUrl = "http://www.rbb-online.de"
 baseUrl = rbbUrl + "/brandenburgaktuell/landschleicher"
 archivBase = baseUrl + "/archiv"
 archivUrl = archivBase + ".html"
 chronologischBase = baseUrl + "/chronologisch/index"
 chronologischUrl = chronologischBase + ".html"
-thisYear = 1111
 
 def getLetters():
     archivSite = getUrl(archivUrl)
-    letters = re.compile("<a href=\"/brandenburgaktuell/landschleicher/archiv/(.+?).html\" title=\"(.+?)\"", re.DOTALL).findall(archivSite)
-    return letters
+    error = archivSite[1]
+    if not error:
+        letters = re.compile("<a href=\"/brandenburgaktuell/landschleicher/archiv/(.+?).html\" title=\"(.+?)\"", re.DOTALL).findall(archivSite[0])
+        if (len(letters) > 0):
+            return letters
+        else:
+            error = 'No Letters - please try again'
+    return error
 
 def getYears():
-    global thisYear
     chronologischSite = getUrl(chronologischUrl)
-    thisYears = re.compile(".html\" title=\"([0-9]+?)\">").findall(chronologischSite)
-    thisYear = thisYears[0]
-    years = re.compile(".html\" title=\"([0-9]+?)\"").findall(chronologischSite)
-    return years
+    error = chronologischSite[1]
+    if not error:
+        years = re.compile(".html\" title=\"([0-9]+?)\"").findall(chronologischSite[0])
+        if (len(years) > 0):
+            return years
+        else:
+            error = 'No Years - please try again'
+    return error
 
 def getYearUrl(year):
-    if (year == thisYear):
-        return chronologischUrl
-    else:
-        return chronologischBase + "/" + str(year) + ".html"
+    return chronologischBase + "/" + str(year) + ".html"
 
 def getLetterUrl(letter,page):
     return archivBase + "/" + letter + ".htm/page=" + str(page-1) + ".html"
@@ -72,14 +88,14 @@ def setVillageContent(url):
     global nextSite
 
     site = getUrl(url)
-    if (site == None):
-        return
+    if not site[0]:
+        return site[1]
     
-    tSite = getUrl(url).split(r"Drei-Stufen")
+    tSite = site[0].split(r"Drei-Stufen")
     tSite2 = tSite[0].split("<!-- Default Content -->")
     
     if (len(tSite2) < 2):
-        return
+        return 'Parse Error'
 
     tSite3 = tSite2[1].split("<article")
     tSite3.pop(0)
@@ -133,37 +149,56 @@ def setVillageContent(url):
             hasNextSite = True
             nextSite = url.replace(str(nr-1),str(nr))
 
+    return ''
 
 def getVillageVideoLink(url, quality):
-    villageSite = getUrl(url)
-
-    if (villageSite == None):
-        return None
     
-    jsnLink = re.compile("data-media-ref=\"(.+?jsn)\"", re.DOTALL).findall(villageSite)
+    error = ''
+    villageSite = getUrl(url)
+    if not villageSite[0]:
+        return (villageSite[0], villageSite[1])
+
+    jsnLink = re.compile("data-media-ref=\"(.+?jsn)\"", re.DOTALL).findall(villageSite[0])
     
     if (len(jsnLink) == 0):
-        return
+        return ('', 'Video Link Parse Error')
 
     videoUrlSite = getUrl(rbbUrl + jsnLink[0])
+    if not videoUrlSite[0]:
+        return (videoUrlSite[0],videoUrlSite[1])
     
-    videoLink = re.compile("stream\":\"(.+?mp4)\"", re.DOTALL).findall(videoUrlSite)
-    videoquality = re.compile("_quality\":([0-9])}", re.DOTALL).findall(videoUrlSite)
+    videoLink = re.compile("stream\":\"(.+?mp4)\"", re.DOTALL).findall(videoUrlSite[0])
+    videoquality = re.compile("_quality\":([0-9])}", re.DOTALL).findall(videoUrlSite[0])
 
     if (str(quality) in videoquality):
         index = videoquality.index(str(quality))
     else:
         index = 0
 
-    return videoLink[index]
+    return (videoLink[index], error)
 
-# Test: 5. Dorf der 3. S-Seite 
+## Test: 5. Dorf der 3. S-Seite 
 #letters = getLetters()
-#setVillageContent(getLetterUrl(letters[17][0],3))
-#link = getVillageVideoLink(baseUrl + villageLinks[4], 3)
+#if not isinstance(letters,basestring):
+#    error = setVillageContent(getLetterUrl(letters[17][0],3))
+#    if not error:
+#        link = getVillageVideoLink(baseUrl + villageLinks[4], 3)
+#        print link
+#    else:
+#        print error
+#else:
+#    print letters
 
+## Test: 5. Dorf des 3. Jahres
 #years = getYears()
-#setVillageContent(getYearUrl(years[0]))
-#link = getVillageVideoLink(baseUrl + villageLinks[4], 2)
+#if not isinstance(years,basestring):
+#    error = setVillageContent(getYearUrl(years[0]))
+#    if not error:
+#        link = getVillageVideoLink(baseUrl + villageLinks[2], 2)
+#        print link
+#    else:
+#        print error
+#else:
+#    print years
 
 #i = 2

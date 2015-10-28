@@ -21,3 +21,5 @@ v0.0.8
 - try to fix
 v0.1.0
 - changes on rbb site
+v0.1.1
+- error handling and notifications
