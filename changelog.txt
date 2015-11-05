@@ -23,3 +23,5 @@ v0.1.0
 - changes on rbb site
 v0.1.1
 - error handling and notifications
+v0.1.2
+- repo test
