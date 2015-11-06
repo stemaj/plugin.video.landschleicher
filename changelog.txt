@@ -25,3 +25,6 @@ v0.1.1
 - error handling and notifications
 v0.1.2
 - repo test
+v0.1.3
+- error handling no response
+- sorting in years from new to old

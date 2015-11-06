@@ -64,6 +64,8 @@ def notification(text):
     xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(RES_landschleicher, text, 4500, icon))
 
 def listLetters():
+    global sortierungUmkehren
+    sortierungUmkehren = False
     letters = landschleicherCore.getLetters()
     if not isinstance(letters,basestring):
         for letter in letters:
@@ -73,6 +75,8 @@ def listLetters():
         notification(letters)
 
 def listYears():
+    global sortierungUmkehren
+    sortierungUmkehren = True
     years = landschleicherCore.getYears()
     if not isinstance(years,basestring):
         for year in years:
@@ -81,9 +85,9 @@ def listYears():
     else:
         notification(years)
 
-def listVideos(url):
+def listVideos(url, sortierungUmkehren):
     i = 0
-    error = landschleicherCore.setVillageContent(url)
+    error = landschleicherCore.setVillageContent(url, sortierungUmkehren)
     if error:
         notification(error)
         return
@@ -108,7 +112,10 @@ def playVideo(url):
 if mode == "playVideo":
     playVideo(url)
 elif mode == "listVideos":
-    listVideos(url)
+    if (alphabetisch):
+        listVideos(url, False)
+    else:
+        listVideos(url, True)
 else:
     if (alphabetisch):
         listLetters()

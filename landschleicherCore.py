@@ -20,7 +20,10 @@ def getUrl(url):
     except urllib2.URLError as e:
         error = 'Reason: ', e.reason
     except Exception as e:
-        error = 'Other reason'
+        if e.message:
+            error = e.message
+        else:
+            error = 'Other reason'
     if not error:
         try:
             link = response.read()
@@ -31,8 +34,9 @@ def getUrl(url):
         except Exception as e:
             error = e.message
     
-    if response:
-        response.close()
+    if not error:
+        if response:
+            response.close()
 
     return (link, error)
 
@@ -78,7 +82,7 @@ villageLinks = []
 villageImages = []
 villageDates = []
 
-def setVillageContent(url):
+def setVillageContent(url, sortierungUmkehren = False):
     global villages
     global villageDescriptions
     global villageLinks
@@ -138,7 +142,13 @@ def setVillageContent(url):
             else:
                 villageDates.append("")
 
-
+    if sortierungUmkehren:
+        villages.reverse()
+        villageLinks.reverse()
+        villageImages.reverse()
+        villageDescriptions.reverse()
+        villageDates.reverse()
+                
     thisSiteNr = re.compile("page=(.+?).html", re.DOTALL).findall(url)
     hasNextSite = False
     nextSite = ""
@@ -192,7 +202,7 @@ def getVillageVideoLink(url, quality):
 ## Test: 5. Dorf des 3. Jahres
 #years = getYears()
 #if not isinstance(years,basestring):
-#    error = setVillageContent(getYearUrl(years[0]))
+#    error = setVillageContent(getYearUrl(years[0]), True)
 #    if not error:
 #        link = getVillageVideoLink(baseUrl + villageLinks[2], 2)
 #        print link
