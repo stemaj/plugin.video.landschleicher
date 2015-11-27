@@ -4,7 +4,7 @@
 import urllib2
 import re
 import httplib
-import socket
+#import socket
 
 def getUrl(url):
     error = ''
@@ -40,7 +40,7 @@ def getUrl(url):
 
     return (link, error)
 
-socket.setdefaulttimeout(5) # timeout in seconds
+#socket.setdefaulttimeout(5) # timeout in seconds
 rbbUrl = "http://www.rbb-online.de"
 baseUrl = rbbUrl + "/brandenburgaktuell/landschleicher"
 archivBase = baseUrl + "/archiv"
@@ -56,7 +56,7 @@ def getLetters():
         if (len(letters) > 0):
             return letters
         else:
-            error = 'No Letters - please try again'
+            error = 'Please try again'
     return error
 
 def getYears():
@@ -67,7 +67,7 @@ def getYears():
         if (len(years) > 0):
             return years
         else:
-            error = 'No Years - please try again'
+            error = 'Please try again'
     return error
 
 def getYearUrl(year):
