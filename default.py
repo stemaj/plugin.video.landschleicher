@@ -112,10 +112,7 @@ def playVideo(url):
 if mode == "playVideo":
     playVideo(url)
 elif mode == "listVideos":
-    if (alphabetisch):
-        listVideos(url, False)
-    else:
-        listVideos(url, True)
+    listVideos(url, False)
 else:
     if (alphabetisch):
         listLetters()

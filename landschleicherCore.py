@@ -71,7 +71,7 @@ def getYears():
     return error
 
 def getYearUrl(year):
-    return chronologischBase + "/" + str(year) + ".html"
+    return chronologischBase + "/" + str(year) + ".htm/sort=date/sortasc=false.html"
 
 def getLetterUrl(letter,page):
     return archivBase + "/" + letter + ".htm/page=" + str(page-1) + ".html"
@@ -199,12 +199,12 @@ def getVillageVideoLink(url, quality):
 #else:
 #    print letters
 
-## Test: 5. Dorf des 3. Jahres
+# Test: 5. Dorf des 3. Jahres
 #years = getYears()
 #if not isinstance(years,basestring):
-#    error = setVillageContent(getYearUrl(years[0]), True)
+#    error = setVillageContent(getYearUrl(years[0]))
 #    if not error:
-#        link = getVillageVideoLink(baseUrl + villageLinks[2], 2)
+#        link = getVillageVideoLink(baseUrl + villageLinks[0], 2)
 #        print link
 #    else:
 #        print error
