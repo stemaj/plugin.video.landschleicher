@@ -6,6 +6,8 @@ import re
 import httplib
 #import socket
 
+alleJahre = "Alle Jahre"
+
 def getUrl(url):
     error = ''
     link = ''
@@ -64,6 +66,7 @@ def getYears():
     error = chronologischSite[1]
     if not error:
         years = re.compile(".html\" title=\"([0-9]+?)\"").findall(chronologischSite[0])
+        list.insert(years,0,alleJahre)
         if (len(years) > 0):
             return years
         else:
@@ -71,7 +74,10 @@ def getYears():
     return error
 
 def getYearUrl(year):
-    return chronologischBase + "/" + str(year) + ".htm/sort=date/sortasc=false.html"
+    if (year == alleJahre):
+        return chronologischBase + ".htm/sort=date/sortasc=false.html"
+    else:
+        return chronologischBase + "/" + str(year) + ".html"
 
 def getLetterUrl(letter,page):
     return archivBase + "/" + letter + ".htm/page=" + str(page-1) + ".html"
@@ -199,7 +205,7 @@ def getVillageVideoLink(url, quality):
 #else:
 #    print letters
 
-# Test: 5. Dorf des 3. Jahres
+##Test: 5. Dorf des 3. Jahres
 #years = getYears()
 #if not isinstance(years,basestring):
 #    error = setVillageContent(getYearUrl(years[0]))
