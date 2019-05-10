@@ -34,3 +34,5 @@ v0.1.5
 - changes while rbb site does not include 2016
 v0.1.6
 - other changes while misfunctional rbb site
+v1.0.0
+- rework
