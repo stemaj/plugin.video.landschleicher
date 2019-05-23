@@ -5,5 +5,6 @@ from lib import read
 class Test_1(unittest.TestCase):
 
   def test_1(self):
-    read.load_file('000')
-    self.assertEqual(4, main.increment(3))
+    data = read.load_file('000')
+    arr = main.listOfNewest(data)
+    self.assertEqual(4, len(arr))
