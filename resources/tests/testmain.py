@@ -7,4 +7,4 @@ class Test_1(unittest.TestCase):
   def test_1(self):
     data = read.load_file('000')
     arr = main.listOfNewest(data)
-    self.assertEqual(4, len(arr))
+    self.assertEqual(59, len(arr))
