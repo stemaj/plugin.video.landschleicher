@@ -30,3 +30,10 @@ def listOfNewest(bytes):
         film = Film(matches[0][2], link2, matches[0][3], link)
         filme.append(film)
   return filme
+
+def videoLink(bytes):
+  regex = r"contentUrl.+\"(.+)\""
+  matches = re.findall(regex, bytes.decode('utf-8'), re.MULTILINE)
+  if len(matches) > 0:
+    return matches[0]
+  return ""
