@@ -25,9 +25,9 @@ def listOfNewest(bytes):
       data = data.replace("\'","\\\'")
       matches = re.findall(regex, data, re.MULTILINE)
       if len (matches) > 0:
-        link = 'https://www.rbb-online.de' + matches[0][1]
-        link2 = 'https://www.rbb-online.de' + matches[0][0] + '/trailer'
-        film = Film(matches[0][2], link2, matches[0][3], link)
+        link = 'www.rbb-online.de' + matches[0][1] + '/trailer'
+        link2 = 'www.rbb-online.de' + matches[0][0]
+        film = Film(matches[0][2], link, matches[0][3], link2)
         filme.append(film)
   return filme
 
