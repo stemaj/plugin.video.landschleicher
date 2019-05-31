@@ -16,7 +16,7 @@ def listOfNewest(bytes):
   splits3 = split2.split('<article')
   splits4 = splits3[1:len(splits3)]
 
-  regex = r"src=\\'(.+)\\'.+href=\"(.+)\"sende.+teasertitle\">(.+)</span.+shorttext.+<p>(.+)</p>"
+  regex = r"src=\\'(.+)\\'.+href=\"(.+)\".+=\"sende.+teasertitle\">(.+)</span.+shorttext.+<p>(.+)</p>"
   
   filme = []
   for data in splits4:
@@ -25,8 +25,8 @@ def listOfNewest(bytes):
       data = data.replace("\'","\\\'")
       matches = re.findall(regex, data, re.MULTILINE)
       if len (matches) > 0:
-        link = 'www.rbb-online.de' + matches[0][1] + '/trailer'
-        link2 = 'www.rbb-online.de' + matches[0][0]
+        link = 'https://www.rbb-online.de' + matches[0][1] + '/trailer'
+        link2 = 'https://www.rbb-online.de' + matches[0][0]
         film = Film(matches[0][2], link, matches[0][3], link2)
         filme.append(film)
   return filme

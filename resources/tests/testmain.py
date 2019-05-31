@@ -13,4 +13,10 @@ class Test_1(unittest.TestCase):
     data = read.load_file('001')
     link = main.videoLink(data)
     self.assertEqual('https://rbbhttpstream-a.akamaihd.net/rbb/aktuell/landschleicher/prignitz/aktuell_19990131_Gerdshagen_PR_m_16_9_512x288.mp4', link)
+
+  def test_4(self):
+    data = read.load_file('004')
+    arr = main.listOfNewest(data)
+    self.assertEqual(60, len(arr))
+
   

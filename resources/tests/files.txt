@@ -12,3 +12,5 @@ X Y fehlen
 003 - 6 Orte
 https://www.rbb-online.de/brandenburgaktuell/landschleicher/chronologisch/index.htm/page=0.html#searchform_q__buckow___sort__meta,,3AtimeStamp,,3AD,,3A,,3A,,3A,,3AY___start__0___site__evo_p_rbb___partialfields__archive,,3Arbb_ba_landschleicher
 
+004 - > 50 Orte
+https://www.rbb-online.de/brandenburgaktuell/landschleicher/chronologisch/index.htm/page=0.html
