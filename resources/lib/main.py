@@ -10,7 +10,7 @@ class Film():
         self.plot = plot
         self.poster = poster
 
-def listOfNewest(bytes):
+def listOfNewest(bytes, size):
   split1 = bytes.decode('utf-8').split('Default Content')[1]
   split2 = split1.split('actionbar')[0]
   splits3 = split2.split('<article')
@@ -18,6 +18,7 @@ def listOfNewest(bytes):
 
   regex = r"src=\\'(.+)\\'.+href=\"(.+)\".+=\"sende.+teasertitle\">(.+)</span.+shorttext.+<p>(.+)</p>"
   
+  i = 0
   filme = []
   for data in splits4:
       data = data.replace("\n","\\n")
@@ -29,6 +30,9 @@ def listOfNewest(bytes):
         link2 = 'https://www.rbb-online.de' + matches[0][0]
         film = Film(matches[0][2], link, matches[0][3], link2)
         filme.append(film)
+      i = i+1
+      if i == size:
+        return filme
   return filme
 
 def videoLink(bytes):

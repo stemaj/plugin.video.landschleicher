@@ -7,6 +7,7 @@ from resources.lib import kodiutils
 from resources.lib import kodilogging
 from xbmcgui import ListItem
 from xbmcplugin import addDirectoryItem, endOfDirectory
+from xbmc import log
 from resources.lib import main
 from resources.lib import read
 
@@ -26,15 +27,17 @@ def index():
 @plugin.route('/category/<category_id>')
 def show_category(category_id):
     if category_id == "one":
-        data = read.load_url("www.rbb-online.de/brandenburgaktuell/landschleicher/chronologisch/index.htm/page=0.html")
-        arr = main.listOfNewest(data)
+        data = read.load_url("https://www.rbb-online.de/brandenburgaktuell/landschleicher/chronologisch/index.htm/page=0.html")
+        arr = main.listOfNewest(data, 13)
         for x in arr:
             data2 = read.load_url(x.link)
-            listItem = ListItem(path=data2 , label=x.film)
+            data3 = main.videoLink(data2)
+            log('#####LINK####' + data3 + '#####LINK####')
+            listItem = ListItem(path=data3, label=x.film)
             listItem.setArt({'poster':x.poster})
             listItem.setInfo('video',infoLabels={ 'plot': x.plot })
             listItem.setProperty('IsPlayable', 'true')
-            addDirectoryItem(plugin.handle, data2, listItem)
+            addDirectoryItem(plugin.handle, data3, listItem)
         endOfDirectory(plugin.handle)
 
 def run():
