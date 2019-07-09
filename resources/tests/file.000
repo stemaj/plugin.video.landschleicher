@@ -1,0 +1,2557 @@
+
+<!DOCTYPE html> 
+<!--[if lte IE 8]> <html class="ie8 no-touch" lang="de"> <![endif]-->
+<!--[if IE 9]> <html class="ie9 no-touch" lang="de"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-touch" lang="de"> <!--<![endif]-->
+<head>
+	
+	
+		
+		
+		
+		
+		
+	
+
+
+<meta charset="utf-8" />
+<title>
+Alle Jahre  | rbb</title>
+
+
+
+
+
+
+
+
+
+<meta name="Content-Language" content="de"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta name="Keywords" content=""/>
+<meta name="email" content="internet@rbb-online.de"/>
+<meta name="copyright" content="Rundfunk Berlin-Brandenburg, Berlin, Germany"/>
+<meta name="robots" content="index,follow"/>
+
+<meta name="Description" content="BRANDENBURG AKTUELL ist das t&auml;gliche Nachrichtenmagazin f&uuml;r Brandenburg. &Uuml;berall im Land sind tagt&auml;glich Kamera-Teams in der Region unterwegs, um Neuigkeiten f&uuml;r Sie einzufangen. BRANDENBURG AKTUELL gibt es t&auml;glich um 19:30 Uhr bis 20:00 ..."/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<meta name="application-name" content="rbb Online"/> 
+<meta name="apple-mobile-web-app-title" content="rbb Online">
+<link rel="icon" sizes="192x192" href="/content/dam/rbb/rbb/logos/touch/rbb-n-192.png">
+<link rel="icon" sizes="128x128" href="/content/dam/rbb/rbb/logos/touch/rbb-n-128.png">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/content/dam/rbb/rbb/logos/touch/rbb-n-152.png">
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/content/dam/rbb/rbb/logos/touch/rbb-n-76.png">
+<link rel="apple-touch-icon-precomposed" href="/content/dam/rbb/rbb/logos/touch/rbb-n-57.png">
+<meta name="msvalidate.01" content="FAED7252293CB2878BA8E5621A0A9BAB" />
+
+<!-- rbb24 --> <meta property="fb:pages" content="1645763252367579" />
+<!-- rbb FS --> <meta property="fb:pages" content="138089939576812" />
+<!-- zibb --> <meta property="fb:pages" content="164599463573948" />
+<!-- AS --> <meta property="fb:pages" content="141018599260302" />
+<!-- BA --> <meta property="fb:pages" content="150952781609610" />
+<!-- Ko --> <meta property="fb:pages" content="128969093802560" />
+<!-- rbbspo --> <meta property="fb:pages" content="141926952497345" />
+<!-- kess --> <meta property="fb:pages" content="107794365938898" />
+<!-- thad --> <meta property="fb:pages" content="196521060383505" />
+<!-- sup --> <meta property="fb:pages" content="1860503600868461" />
+<!-- fritz --> <meta property="fb:pages" content="28245726690" />
+<!-- r1 --> <meta property="fb:pages" content="94769185977" />
+<!-- ant --> <meta property="fb:pages" content="612771378929551" />
+<!-- 888 --> <meta property="fb:pages" content="152466181493113" />
+<!-- inf --> <meta property="fb:pages" content="125278414154885" />
+<!-- kul --> <meta property="fb:pages" content="172687819274" />
+
+
+<link rel="start" title="Startseite" href="//www.rbb-online.de/"/>
+<link rel="search" title="Suche" href="//www.rbb-online.de/suche/index.html"/>
+
+<link rel="copyright" title="Impressum" href="//www.rbb-online.de/impressum/index.html"/>
+<link rel="help" title="Hilfe" href="//www.rbb-online.de/hilfe/index.html"/>
+
+<link rel="SHORTCUT ICON" href="/static/rbb/frontend/favicon.ico"/>
+
+<meta http-equiv="imagetoolbar" content="no" />
+
+  	
+
+<link rel="canonical" href="https://www.rbb-online.de/brandenburgaktuell/landschleicher/chronologisch/"/>
+
+<link rel="image_src" href="https://www.rbb-online.de/content/dam/rbb/rbb/logos/tv/landschleicher_sendungslogo.jpg.jpg/rendition=2015_BA_Landschleicher_1280.jpg/size=708x398.jpg"/>
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Alle Jahre"/>
+<meta property="og:description" content=""/>
+<meta property="og:image" content="https://www.rbb-online.de/content/dam/rbb/rbb/logos/tv/landschleicher_sendungslogo.jpg.jpg/rendition=2015_BA_Landschleicher_1280.jpg/size=708x398.jpg"/>
+<meta property="og:url" content="https://www.rbb-online.de/brandenburgaktuell/landschleicher/chronologisch/"/>
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@rbbfernsehen"/>
+<meta name="twitter:title" content="Alle Jahre"/>
+
+<meta name="twitter:image" content="https://www.rbb-online.de/content/dam/rbb/rbb/logos/tv/landschleicher_sendungslogo.jpg.jpg/rendition=2015_BA_Landschleicher_1280.jpg/size=708x398.jpg"/>
+
+
+
+	
+	
+
+
+<link href="/vorlagen/compressor.combined.css/v=8.9.0/f=css.css" rel="stylesheet" type="text/css"/>
+<link href="/vorlagen/compressor.combined.css/v=8.9.0/f=css2.css" rel="stylesheet" type="text/css"/>
+
+
+
+
+<!-- Einbindung des IE-Anpassungsstylesheets -->
+<!--[if lte IE 8]><link href="/basis/css/patch_layout.css" rel="stylesheet" type="text/css"/><![endif]-->
+<link href="/basis/css/print.css" rel="stylesheet" media="print" type="text/css"/>
+
+
+
+  <link rel="stylesheet" href="/brandenburgaktuell/vorlagen/layout/_jcr_content/properties/property_438763117.css" type="text/css" media="screen"/>
+
+
+
+
+
+
+<script type="text/javascript">
+
+documentRoot = '/rbb';
+requestHandle = '/content/rbb/rbb/brandenburgaktuell/landschleicher/chronologisch/index';
+requestParams = new Object();
+requestParams.page = '0';
+
+function externalize(hdl) {
+	var etcroot = '/etc';
+	var grafikroot = '/rbb/grafik';
+	var contentrbbsiteroot = '';
+	if (hdl.indexOf('/etc') == 0) {
+		return etcroot + hdl.substr(4);
+	}
+	if (hdl.indexOf('/grafik') == 0) {
+		return grafikroot + hdl.substr(7);
+	}
+	if (hdl.indexOf('/content/rbb/rbb') == 0) {
+		return contentrbbsiteroot + hdl.substr(16);
+	}
+	return hdl;
+}
+
+function isPublish() {
+	return true;
+}
+function isAuthor() {
+	return false;
+}
+function isEditMode() {
+	return false;
+}
+</script>
+
+
+
+
+
+
+<script src="/vorlagen/compressor.combined.js/v=8.9.0/f=jshead.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+</head>
+
+<body class="doctypeuebersicht layoutarchiv_standard site_rbb" id="top" data-analytics='{"mode":"ati:useHandleID,ivw:enabled","title":"Alle Jahre","handle":"/content/rbb/rbb/brandenburgaktuell/landschleicher/chronologisch/index","createDate":20090315,"doctype":20,"login":1,"lang":"de","uuid":"0c347c36-329d-4f90-8911-bf544eaab93d","lastModified":201711071126,"chapter":["Brandenburg aktuell","Landschleicher","Chronologisch"],"ATIxtsite":549284,"ATIxtn2":"26","IVWst":"mobrbbon","IVWcp":"fernsehen_rbb"}'>
+
+
+
+<div style="display:none"></div>
+
+
+	
+	<div class="page_margins">
+	
+<!--  Übersicht als Seitentyp Detailseite (3/4 Hauptspalte + 1/4 Marginalspalte): --><!-- anfang: header --><header id="header" class="header"><div class="nav nav-meta jsb_ jsb_rbbnav jsb_rbbnav-meta">
+		<div class="nav-meta-header">
+			<button id="nav-meta-handle" class="nav-meta-handle" type="button" aria-controls="nav-meta-container" aria-expanded="false">
+				<span id="nav-meta-handle-title" class="nav-meta-handle-title">rbb Metanavigation</span>
+			<span class="nav-meta-handle-action">ausklappen</span>
+			</button>
+			<div class="nav-meta-weather">
+		<div class="nav-meta-weather-current" tabindex="0">
+			<img alt="wolkig" title="wolkig" class="nav-meta-weather-current-icon" src="/basis/grafik/icons/wetter/120000.png"><span class="nav-meta-weather-current-temp">15&deg;</span>
+
+		</div>
+		<div class="nav-meta-weather-flyout">
+			<table>
+				<tbody>
+<tr class="odd">
+<td><a href="https://www.rbb24.de/wetter/orte.htm/id=18228265.html"><span class="wetter_ort">Berlin</span><img alt="wolkig" title="wolkig" class="weather_icon" src="/basis/grafik/icons/wetter/120000.png"><span class="wetter_temp">15 &deg;C</span></a></td><td><a href="https://www.rbb24.de/wetter/orte.htm/id=18228271.html"><span class="wetter_ort">Cottbus</span><img alt="bedeckt, Regen" title="bedeckt, Regen" class="weather_icon" src="/basis/grafik/icons/wetter/331000.png"><span class="wetter_temp">13 &deg;C</span></a></td><td><a href="https://www.rbb24.de/wetter/orte.htm/id=18228272.html"><span class="wetter_ort">Frankfurt (Oder)</span><img alt="stark bew&ouml;lkt, Regenschauer" title="stark bew&ouml;lkt, Regenschauer" class="weather_icon" src="/basis/grafik/icons/wetter/321000.png"><span class="wetter_temp">12 &deg;C</span></a></td>
+</tr>
+<tr class="even">
+<td><a href="https://www.rbb24.de/wetter/orte.htm/id=18229869.html"><span class="wetter_ort">Perleberg</span><img alt="stark bew&ouml;lkt, Regenschauer" title="stark bew&ouml;lkt, Regenschauer" class="weather_icon" src="/basis/grafik/icons/wetter/321000.png"><span class="wetter_temp">14 &deg;C</span></a></td><td><a href="https://www.rbb24.de/wetter/orte.htm/id=18230337.html"><span class="wetter_ort">Prenzlau</span><img alt="bedeckt, Regen" title="bedeckt, Regen" class="weather_icon" src="/basis/grafik/icons/wetter/331000.png"><span class="wetter_temp">12 &deg;C</span></a></td><td><a href="https://www.rbb24.de/wetter/orte.htm/id=18228273.html"><span class="wetter_ort">Potsdam</span><img alt="wolkig" title="wolkig" class="weather_icon" src="/basis/grafik/icons/wetter/120000.png"><span class="wetter_temp">15 &deg;C</span></a></td>
+</tr>
+</tbody>
+
+			</table>
+			<a href="https://www.rbb24.de/wetter/" class="mehrlink">Wetter in Berlin Brandenburg</a>
+		</div></div>
+			<div class="nav-search">
+		<form id="nav-search-form" class="form jsb_ jsb_input jsb_searchbox" method="post" action="/suche/index.html" role="search" data-jsb='{"queryStringTopResults": "site=evo_p_rbb&client=default_searchbox&proxystylesheet=default_searchbox&usesnippet=1&sort=&getfields=shortText.doctype.roofLine.image.imageAlt.mediaType.Title.contactRef&num=3&filter=0&output=xml_no_dtd&wc=200&wc_mc=1&oe=UTF-8&ie=UTF-8&ud=1","queryStringSuggestionList": "site=evo_p_rbb&client=default_searchbox&max=5&access=p&format=rich"}'>
+			<fieldset>
+				<input type="hidden" name="_charset_" value="utf-8">
+				<input type="hidden" name="search" value="hidden">
+				<input type="hidden" name="swq" value="n">
+				<input type="hidden" name="start" value="0">
+				
+				<input type="hidden" name=":formtype" value="/apps/cq5fwk/components/page">
+				
+				<legend class="hide">Suche</legend>
+
+				<div class="type_text">
+					<label id="search_label" for="search_input" class="hide">Suchbegriff</label>
+					<input id="search_input" class="text js_input" type="text" name="query" value="" size="10" role="textbox" aria-labelledby="search_label" autocomplete="off" autocapitalize="off" autocorrect="off">
+				</div>
+				<button class="btn ico ico_close js_input_reset" type="reset" title="Suche zurücksetzen">Zurücksetzen</button>
+				<button class="btn" type="submit" title="Suche abschicken">Suchen</button>
+			</fieldset>
+		</form>
+		
+<div id="searchbox_result" class="hide">
+	<div id="searchbox_result_suggestions">
+		<i>Suchvorschläge</i>
+		<ul id="searchbox_result_suggestions_list"></ul>
+	</div>
+	<div id="searchbox_result_topresults">
+		<i>Ergebnisse</i>
+		<div id="searchbox_result_topresults_list"></div>
+	</div>
+</div>
+
+	</div>
+		</div>
+		<nav id="nav-meta-container" class="nav-meta-container" aria-labelledby="nav-meta-handle-title">
+			<ul class="nav-highlight-fs nav-meta-list nav-meta-list-first">
+		<li class="nav-itemname-rbb24 nav-meta-list-item">
+				
+				<a href="https://www.rbb24.de">
+					
+					<span class="nav-item-text">rbb24</span></a>
+				
+				
+			</li>
+	<li class="nav-itemname-rbbkultur nav-meta-list-item">
+				
+				<a href="https://www.rbb-online.de/rbbkultur/">
+					
+					<span class="nav-item-text">rbb Kultur</span></a>
+				
+				
+			</li>
+	<li class="nav-itemname-radio nav-meta-list-item">
+				
+				<a href="https://www.rbb-online.de/radio/">
+					
+					<span class="nav-item-text">Radio</span></a>
+				
+				
+			</li>
+	<li class="nav-itemname-fernsehen nav-meta-list-item">
+				
+				<a href="https://www.rbb-online.de/fernsehen/">
+					
+					<span class="nav-item-text">Fernsehen</span></a>
+				
+				
+			</li>
+	<li class="nav-itemname-mediathek nav-meta-list-item">
+				
+				<a href="https://mediathek.rbb-online.de/tv">
+					
+					<span class="nav-item-text">Mediathek</span></a>
+				
+				
+			</li>
+	</ul>
+<ul class="nav-meta-list nav-meta-list-last">
+		<li class="nav-itemname-derrbb nav-meta-list-item">
+				
+				<a href="https://www.rbb-online.de/unternehmen/der_rbb/">
+					
+					<span class="nav-item-text">Der rbb</span></a>
+				
+				
+			</li>
+	</ul>
+
+
+		</nav>
+	</div>
+
+
+
+
+
+	<div class="nav nav-top jsb_ jsb_rbbnav jsb_rbbnav-top">
+		<nav id="nav-top-container" class="nav-top-container">
+			<ul class="nav-top-logo">
+		<li class="nav-itemname-rbbfernseh nav-top-list-item">
+				
+				<a href="https://www.rbb-online.de/fernsehen/">
+					<img src="/content/dam/rbb/rbb/logos/rbb-fs.svg.svg/img.svg" alt="rbb Fernsehen" title="rbb Fernsehen" id="middleColumnList_teaserbox_1377305244_teaserList_manualteaser_300650111"/>
+					<span class="nav-item-text">rbb Fernsehen</span></a>
+				
+				
+			</li>
+	</ul>
+<ul class="nav-top-list nav-top-scrollable">
+		<li class="nav-current nav-hasdropdown nav-itemname-sendungen nav-top-list-item">
+				
+				<a href="/fernsehen/sendungen_von_a_z/sendungen-von-a-z.html">
+					
+					<span class="nav-item-text">Sendungen</span></a>
+				
+				<ul class="nav-top-list-dropdown">
+						
+							<li class="nav-current nav-top-list-item">
+								<a href="/fernsehen/sendungen_von_a_z/sendungen-von-a-z.html">
+									<span class="nav-item-text">&gt; Sendungen von A-Z</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/30favoriten/">
+									<span class="nav-item-text">30 Favoriten</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/abendschau/">
+									<span class="nav-item-text">Abendschau</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/abendshow/">
+									<span class="nav-item-text">Abendshow</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/auf-leben-und-tod/">
+									<span class="nav-item-text">Auf Leben und Tod</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="http://www.daserste.de/information/politik-weltgeschehen/mittagsmagazin/index.html" target="_blank">
+									<span class="nav-item-text">ARD-Mittagsmagazin</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="http://www.daserste.de/information/reportage-dokumentation/dokus/index.html" target="_blank">
+									<span class="nav-item-text">ARD-Dokumentation</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/berlin-schicksalsjahre/">
+									<span class="nav-item-text">Berlin - Schicksalsjahre einer Stadt</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/brandenburgaktuell/">
+									<span class="nav-item-text">Brandenburg aktuell</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/kleinkunstfestival/">
+									<span class="nav-item-text">Das große Kleinkunstfestival</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/dersonneentgegen/">
+									<span class="nav-item-text">Der Sonne entgegen</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/doku/die_rbb_reporter/die-rbb-reporter.html">
+									<span class="nav-item-text">Die rbb Reporter</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/wahrheit/">
+									<span class="nav-item-text">Die Wahrheit über...</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/doku/">
+									<span class="nav-item-text">Doku &amp; Reportage</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/film/">
+									<span class="nav-item-text">Film im rbb</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/geheimnisvolle_orte/geheimnisvolle-orte.html">
+									<span class="nav-item-text">Geheimnisvolle Orte</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/heimatjournal/">
+									<span class="nav-item-text">HEIMATJOURNAL</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/himmelunderde/">
+									<span class="nav-item-text">Himmel und Erde</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/imparlament/">
+									<span class="nav-item-text">IM PARLAMENT</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/jede-antwort-zaehlt/">
+									<span class="nav-item-text">Jede Antwort zählt!</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/kontraste/" target="_blank">
+									<span class="nav-item-text">Kontraste</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/kowalskiundschmidt/">
+									<span class="nav-item-text">Kowalski &amp; Schmidt</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/luzyca/">
+									<span class="nav-item-text">Łužyca</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/maerchenfilm/" target="_blank">
+									<span class="nav-item-text">Märchenfilm im Ersten</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/maerchen-im-rbb/">
+									<span class="nav-item-text">Märchen im rbb</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="http://www.daserste.de/satiregipfel/" target="_blank">
+									<span class="nav-item-text">Nuhr im Ersten</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/panda-rbb/">
+									<span class="nav-item-text">Panda, Gorilla &amp; Co. im rbb</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/panda/" target="_blank">
+									<span class="nav-item-text">Panda, Gorilla &amp; Co. im Ersten</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/film/polizeiruf_110/polizeiruf-110.html">
+									<span class="nav-item-text">Polizeiruf 110</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/rbb24/">
+									<span class="nav-item-text">rbb24</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/gartenzeit/">
+									<span class="nav-item-text">rbb Gartenzeit</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/rbbkultur/dasmagazin/">
+									<span class="nav-item-text">rbb Kultur - Das Magazin</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/rbbpraxis/">
+									<span class="nav-item-text">rbb Praxis</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/rbbspezial/">
+									<span class="nav-item-text">rbb spezial</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/rbbsport/">
+									<span class="nav-item-text">rbb Sport</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/rbbum6/">
+									<span class="nav-item-text">rbb UM6 - Das Ländermagazin</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="http://www.sandmaennchen.de/" target="_blank">
+									<span class="nav-item-text">Sandmann</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/supermarkt/">
+									<span class="nav-item-text">SUPER.MARKT</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/taeteropferpolizei/">
+									<span class="nav-item-text">Täter | Opfer | Polizei</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/film/tatort/tatort.html">
+									<span class="nav-item-text">rbb Tatort</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/talkausberlin/">
+									<span class="nav-item-text">Talk aus Berlin</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/beobachter/">
+									<span class="nav-item-text">THADEUSZ und die Beobachter</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/tierzuliebe/">
+									<span class="nav-item-text">Tier zuliebe</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="http://www.daserste.de/ttt/" target="_blank">
+									<span class="nav-item-text">ttt - titel thesen temperamente</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/zibb/">
+									<span class="nav-item-text">zibb</span></a>
+							</li>
+					</ul>
+			</li>
+	<li class="nav-itemname-live nav-top-list-item">
+				
+				<a href="http://mediathek.rbb-online.de/tv/live">
+					
+					<span class="nav-item-text">Live</span></a>
+				
+				
+			</li>
+	<li class="nav-itemname-programm nav-top-list-item">
+				
+				<a href="/fernsehen/programm/">
+					
+					<span class="nav-item-text">Programm</span></a>
+				
+				
+			</li>
+	<li class="nav-hasdropdown nav-itemname-moderatore nav-top-list-item">
+				
+					<a href="#"><span class="nav-item-text">Moderatoren</span></a>
+				
+				<ul class="nav-top-list-dropdown">
+						
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/martin-adam.html">
+									<span class="nav-item-text">Martin Adam </span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/silke-beickert.html">
+									<span class="nav-item-text">Silke Beickert</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/cathrin_bonhoff.html">
+									<span class="nav-item-text">Cathrin Bonhoff</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/ingo_boetig.html">
+									<span class="nav-item-text">Ingo Bötig</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/arndt_breitfeld.html">
+									<span class="nav-item-text">Arndt Breitfeld</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/christina_derlien.html">
+									<span class="nav-item-text">Christina Derlien</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/marwa-eldessouky.html">
+									<span class="nav-item-text">Marwa Eldessouky</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/britta_elm.html">
+									<span class="nav-item-text">Britta Elm</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/janna-falkenstein.html">
+									<span class="nav-item-text">Janna Falkenstein</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/finck_ulrike.html">
+									<span class="nav-item-text">Ulrike Finck</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/daniel_gaesche.html">
+									<span class="nav-item-text">Daniel Gäsche</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/alexander-greiner.html">
+									<span class="nav-item-text">Alexander Greiner</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/nadine-heidenreich.html">
+									<span class="nav-item-text">Nadine Heidenreich</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/franziska-hessberger.html">
+									<span class="nav-item-text">Franziska Hessberger</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/sascha_hingst.html">
+									<span class="nav-item-text">Sascha Hingst</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/andreas-jacob.html">
+									<span class="nav-item-text">Andreas Jacob</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/Dirk_Jacobs.html">
+									<span class="nav-item-text">Dirk Jacobs</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/tatjana_jury.html">
+									<span class="nav-item-text">Tatjana Jury</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/marc_langebeck.html">
+									<span class="nav-item-text">Marc Langebeck</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/eva-maria-lemke.html">
+									<span class="nav-item-text">Eva-Maria Lemke</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/uwe_madel.html">
+									<span class="nav-item-text">Uwe Madel</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/christian_matthee.html">
+									<span class="nav-item-text">Christian Matthée</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/franziska-maushake.html">
+									<span class="nav-item-text">Franziska Maushake</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/gerald_meyer.html">
+									<span class="nav-item-text">Gerald Meyer</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/sabrina-n_diaye.html">
+									<span class="nav-item-text">Sabrina N’Diaye</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/sven-oswald.html">
+									<span class="nav-item-text">Sven Oswald</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/harald_pignatelli.html">
+									<span class="nav-item-text">Harald Pignatelli</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/adriana-rozwadowska.html">
+									<span class="nav-item-text">Adriana Rozwadowska</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/marco_seiffert.html">
+									<span class="nav-item-text">Marco Seiffert</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/friederike_sittler.html">
+									<span class="nav-item-text">Friederike Sittler</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/britta-steffenhagen.html">
+									<span class="nav-item-text">Britta Steffenhagen</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/dietmar_teige.html">
+									<span class="nav-item-text">Dietmar Teige</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/joerg_thadeusz.html">
+									<span class="nav-item-text">Jörg Thadeusz</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/raiko_thal.html">
+									<span class="nav-item-text">Raiko Thal</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/susanne-tockan.html">
+									<span class="nav-item-text">Susanne Tockan</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/andreas_ulrich.html">
+									<span class="nav-item-text">Andreas Ulrich</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/dilek-uesuek.html">
+									<span class="nav-item-text">Dilek Üşük</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/andrea_vannahme.html">
+									<span class="nav-item-text">Andrea Vannahme</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/peter_wachsmann.html">
+									<span class="nav-item-text">Peter Wachsmann</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/axel_walter.html">
+									<span class="nav-item-text">Axel Walter</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/madeleine_wehle.html">
+									<span class="nav-item-text">Madeleine Wehle</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/jessy-wellmer.html">
+									<span class="nav-item-text">Jessy Wellmer</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/volker-wieprecht.html">
+									<span class="nav-item-text">Volker Wieprecht</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/moderatoren/sarah-zerdick.html">
+									<span class="nav-item-text">Sarah Zerdick</span></a>
+							</li>
+					</ul>
+			</li>
+	<li class="nav-itemname-rbbtext nav-top-list-item">
+				
+				<a href="https://rbbtext.de">
+					
+					<span class="nav-item-text">rbbtext</span></a>
+				
+				
+			</li>
+	<li class="nav-itemname-untertitel nav-top-list-item">
+				
+				<a href="/fernsehen/untertitel_angebot/">
+					
+					<span class="nav-item-text">Untertitel</span></a>
+				
+				
+			</li>
+	<li class="nav-hasdropdown nav-itemname-service nav-top-list-item">
+				
+				<a href="/unternehmen/service/service-redaktion/">
+					
+					<span class="nav-item-text">Service</span></a>
+				
+				<ul class="nav-top-list-dropdown">
+						
+							<li class="nav-top-list-item">
+								<a href="/unternehmen/service/service-redaktion/">
+									<span class="nav-item-text">Die rbb Service-Redaktion</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="/fernsehen/frequenzen/">
+									<span class="nav-item-text">Frequenzen</span></a>
+							</li>
+							<li class="nav-top-list-item">
+								<a href="https://www.rbb-online.de/static/shop/rbb.html" target="_blank">
+									<span class="nav-item-text">rbb Shop</span></a>
+							</li>
+					</ul>
+			</li>
+	</ul>
+
+
+		</nav>
+		<div class="nav-top-weather">
+		<div class="nav-top-weather-current" tabindex="0">
+			<img alt="wolkig" title="wolkig" class="nav-top-weather-current-icon" src="/basis/grafik/icons/wetter/120000.png"><span class="nav-top-weather-current-temp">15&deg;</span>
+
+		</div>
+		<div class="nav-top-weather-flyout">
+			<table>
+				<tbody>
+<tr class="odd">
+<td><a href="https://www.rbb24.de/wetter/orte.htm/id=18228265.html"><span class="wetter_ort">Berlin</span><img alt="wolkig" title="wolkig" class="weather_icon" src="/basis/grafik/icons/wetter/120000.png"><span class="wetter_temp">15 &deg;C</span></a></td><td><a href="https://www.rbb24.de/wetter/orte.htm/id=18228271.html"><span class="wetter_ort">Cottbus</span><img alt="bedeckt, Regen" title="bedeckt, Regen" class="weather_icon" src="/basis/grafik/icons/wetter/331000.png"><span class="wetter_temp">13 &deg;C</span></a></td><td><a href="https://www.rbb24.de/wetter/orte.htm/id=18228272.html"><span class="wetter_ort">Frankfurt (Oder)</span><img alt="stark bew&ouml;lkt, Regenschauer" title="stark bew&ouml;lkt, Regenschauer" class="weather_icon" src="/basis/grafik/icons/wetter/321000.png"><span class="wetter_temp">12 &deg;C</span></a></td>
+</tr>
+<tr class="even">
+<td><a href="https://www.rbb24.de/wetter/orte.htm/id=18229869.html"><span class="wetter_ort">Perleberg</span><img alt="stark bew&ouml;lkt, Regenschauer" title="stark bew&ouml;lkt, Regenschauer" class="weather_icon" src="/basis/grafik/icons/wetter/321000.png"><span class="wetter_temp">14 &deg;C</span></a></td><td><a href="https://www.rbb24.de/wetter/orte.htm/id=18230337.html"><span class="wetter_ort">Prenzlau</span><img alt="bedeckt, Regen" title="bedeckt, Regen" class="weather_icon" src="/basis/grafik/icons/wetter/331000.png"><span class="wetter_temp">12 &deg;C</span></a></td><td><a href="https://www.rbb24.de/wetter/orte.htm/id=18228273.html"><span class="wetter_ort">Potsdam</span><img alt="wolkig" title="wolkig" class="weather_icon" src="/basis/grafik/icons/wetter/120000.png"><span class="wetter_temp">15 &deg;C</span></a></td>
+</tr>
+</tbody>
+
+			</table>
+			<a href="https://www.rbb24.de/wetter/" class="mehrlink">Wetter in Berlin Brandenburg</a>
+		</div></div>
+	</div></header><!-- ende: header -->
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+            "@id": "https://www.rbb-online.de/fernsehen/",
+            "name": "rbb Fernsehen"
+            }
+        },
+        {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+            "@id": "https://www.rbb-online.de/brandenburgaktuell/",
+            "name": "BRANDENBURG AKTUELL"
+            }
+        },
+        {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+            "@id": "https://www.rbb-online.de/brandenburgaktuell/landschleicher/",
+            "name": "Landschleicher"
+            }
+        },
+        {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+            "@id": "https://www.rbb-online.de/brandenburgaktuell/landschleicher/chronologisch/",
+            "name": "Chronologisch"
+            }
+        }
+    ]
+    }
+</script>
+<div class="breadcrumb jsb_ jsb_breadcrumb">
+				<ol>
+					
+						<li><a href="/fernsehen/" class="uebersicht">rbb Fernsehen</a></li>
+					
+					
+						<li><a href="/brandenburgaktuell/" class="sendestrecke">BRANDENBURG AKTUELL</a></li>
+					
+					
+					
+					
+					
+				
+				<li><a href="/brandenburgaktuell/landschleicher/">Landschleicher</a></li><li><a href="/brandenburgaktuell/landschleicher/chronologisch/">Chronologisch</a></li>	
+				
+					
+					
+					
+					
+					
+					
+				</ol>
+			</div>	
+
+
+
+
+
+<div id="contentheader" class="second_level_nav standard" role="banner">
+	<div class="header_content">
+
+
+
+	
+	
+	
+	
+	
+			
+
+
+	
+		
+		
+	
+	
+	
+	
+	 		
+			
+				
+				 	<h2 class="header_splited">
+						 <a href="/brandenburgaktuell/index.html" class="sendestrecke logo"><img src="/content/dam/rbb/rbb/layout/brandenburg_aktuell_2018.png.png/img.png" alt="Brandenburg Aktuell" title="Brandenburg Aktuell" id="middleColumnList_teaserbox_teaserList_manualteaser_885003241"/></a><span class="text">Täglich 19:30</span>
+					</h2>
+				
+				
+			
+				
+				
+					<div class="presentation">
+						<a href="/brandenburgaktuell/vorlagen/header-helper.htm/doc=%21content%21rbb%21rbb%21brandenburgaktuell%21moderation%21moderation-brandenburgaktuell.html" class="uebersicht logo"><img src="/content/dam/rbb/rbb/layout/presentations/Header_Moderatoren_2019.png.png/img.png" alt="Marc Langebeck,Tatjana Jury und Franzsika Maushake - Moderation Brandenburg aktuell (Montage: rbb)" title="Marc Langebeck,Tatjana Jury und Franzsika Maushake - Moderation Brandenburg aktuell (Montage: rbb)" id="middleColumnList_teaserbox_0_teaserList_manualteaser_0_122764789"/></a>
+				        
+					</div>
+				
+			
+				
+				
+			
+			
+			
+			
+			
+		
+	
+	
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+		
+	
+	
+	<nav id="contentnav" class="clearfix jsb_ jsb_MobileContentNav" role="navigation" data-jsb='{"title":"Brandenburg aktuell"}'>
+		
+		
+		
+		
+	
+
+	<button class="ico ico_menu" type="button" title="Meta Menü"><!-- Menü --></button>
+	
+		
+		  <ul class="level1">
+		
+
+	<li class="first index"><a href="/brandenburgaktuell/" title="BRANDENBURG AKTUELL">BRANDENBURG AKTUELL</a></li>
+
+		
+	
+		
+		
+
+	<li class="archiv intermediate"><a href="/brandenburgaktuell/archiv/archiv.html" title="Archiv">Archiv</a></li>
+
+		
+	
+		
+		
+
+	<li class="expanded intermediate landschlei"><a href="/brandenburgaktuell/landschleicher/" title="Landschleicher">Landschleicher</a>
+
+		
+	
+		
+		  <ul class="level2">
+		
+
+	<li class="archiv first"><a href="/brandenburgaktuell/landschleicher/archiv.html" title="A-Z">A-Z</a></li>
+
+		
+	
+		
+		
+
+	<li class="chronologi last selected"><a href="/brandenburgaktuell/landschleicher/chronologisch/" title="Chronologisch">Chronologisch</a></li>
+
+		
+			</ul></li>
+			
+	
+		
+		
+
+	<li class="ausflugsti intermediate"><a href="/brandenburgaktuell/ausflugstipps/ausflugstipps.html" title="Ausflugstipps">Ausflugstipps</a>
+
+		
+	
+		
+		  <ul class="level2">
+		
+
+	<li class="archiv first last"><a href="/brandenburgaktuell/ausflugstipps/archiv.html" title="Suche A-Z">Suche A-Z</a></li>
+
+		
+			</ul></li>
+			
+	
+		
+		
+
+	<li class="intermediate moderation"><a href="/brandenburgaktuell/moderation/moderation-brandenburgaktuell.html" title="Moderation">Moderation</a></li>
+
+		
+	
+		
+		
+
+	<li class="kontakt last"><a href="/brandenburgaktuell/kontakt/" title="Kontakt">Kontakt</a></li>
+
+		
+			</ul>
+	
+	</nav>
+	
+
+	</div>
+</div><!-- anfang: main --><div id="main"><!-- anfang: col1 --><div id="col1" role="main">
+	
+		
+			
+		<!-- AJAX-SEARCH  -->
+
+<section class="teaserbox first intermediate count1 even layoutarchive layoutsearchresult doctypeteaser jsb_ jsb_datefilter jsb_tab_navigation" data-jsb='{"follow_links":"true","get_active_tab":"true","from": "datefilterfrom","fromPlaceholder": "tt.mm.jjjj", "to": "datefilterto","toPlaceholder": "tt.mm.jjjj", "daterange": "archive_dateFilter_input","reset": "datefilterreset","query": "qfield","querySubmitForm": true,"yearRange": ""}'>
+
+	<h2 class="boxheadline">Landschleicher-Archiv</h2>
+	
+	<div class="searchform">
+		
+<div class="searchform_row">
+	<form id="searchform" name="searchform" method="get" action="/search" class="form js_form jsb_ jsb_form jsb_input" data-jsb='{ "useAjaxSearch": true,"modifyElementVisibility": true,"queryField": "q","displayField": "qdisplay","searchTermDisplayElement": "searchqueryterm","isArchive": true,"archiveName": "rbb_ba_landschleicher", "ajaxSubmit":true, "callback":"initializeGSAObject", "omitHiddenFieldForSubmitButton": true }'>
+		
+		
+		
+		
+		
+			<input type="hidden" name="site" id="sitefield" value="evo_p_rbb"/>
+			<input type="hidden" name="client" value="default_archivelist"/>
+			<input type="hidden" name="proxystylesheet" value="default_archivelist"/>
+			<input type="hidden" name="usesnippet" value="1" />
+			<input type="hidden" name="sort" value="meta:timeStamp:D::::Y" />
+			<input type="hidden" name="isArchive" value="1" />
+				<input type="hidden" name="archiveName" value="rbb_ba_landschleicher"/>
+			<input type="hidden" name="start" value="0" />
+			<input type="hidden" name="num" id="numfield" value="10" />
+			
+				<input type="hidden" name="getfields" value="shortText.doctype.roofLine.image.mediaType.mediaRef.mediaAnalytics.mediaCustomClass.downloadFileSize.downloadFileType.downloadFileType.dateFull.teaserDateTime.breadcrumb.archiveSection.Title.contactRef"/>
+					
+					
+					
+				
+			
+			
+			<input type="hidden" name="output" value="xml_no_dtd" />
+			<input type="hidden" name="wc" value="200" />
+			<input type="hidden" name="wc_mc" value="1" />
+			<input type="hidden" name="oe" value="UTF-8" />
+			<input type="hidden" name="ie" value="UTF-8" />
+			<input type="hidden" name="ud" value="1" />
+			
+			<input type="hidden" name="exclude_apps" value="1" />
+			
+			<input type="hidden" name="filter" value="0" />
+			
+			<input type="hidden" name="partialfields" value="archive:rbb_ba_landschleicher">
+			
+			<input type="hidden" name="displaySortAlphanumeric" value="1">
+			
+			<input type="hidden" name="displaySortDate" value="1">
+			
+			
+		
+			<div class="type-text">
+				<label for="qdisplay" class="hideme">Suche nach</label>				
+				<input name="qdisplay" type="text" class="js_input text" value="" role="textbox" aria-labelledby="search_label" placeholder="Dieses Archiv durchsuchen" autocomplete="off" autocapitalize="off" autocorrect="off"/>
+				<label class="js_input_label hide" for="tabbed_search_input" id="tabbed_search_label">optionale Suche</label><input type="hidden" name="q" id="qfield" value=""></input>
+				<button title="Suche zurücksetzen" type="reset" class="btn ico ico_close js_input_reset"><!-- Reset --></button>
+				<button title="Suche abschicken" type="submit" class="btn ico ico_lupe submit js_input_submit"><!--Suchen --></button>				
+			</div>
+			<div class="advancedSearch">
+				<a href="#" class="advancedSearchLink">Erweiterte Suche</a>
+			</div>			
+			
+			
+			
+			
+			
+						
+	</form>
+</div>
+
+
+		
+			
+			<div class="searchform_row">
+				<div class="wrapper_filter datefilter">
+					<div class="filter">
+						<ul class="filter_list" title="Filterliste">
+							<!-- Kalender-Filter -->
+							<li>
+								<form class="form">
+									<div class="type-text jsb_ jsb_placeholder" data-jsb="text_value=tt.mm.jjjj" id="datefilterfrom2">
+										<label for="datefilterfrom" id="datefilterfrom_label">von</label>
+										<input class="text datefilterfrom" type="text" name="restr_startdate" id="datefilterfrom" autocomplete="off" autocapitalize="off" autocorrect="off"/>
+									</div>
+									<div class="type-text jsb_ jsb_placeholder" data-jsb="text_value=tt.mm.jjjj">
+										<label for="datefilterto" id="datefilterto_label">bis</label>
+										<input class="text datefilterto" type="text" name="restr_enddate" id="datefilterto" autocomplete="off" autocapitalize="off" autocorrect="off"/>
+									</div>
+									<div class="type-select" id="dateFilter-select">
+										<label for="archive_dateFilter_input" class="hideme" id="archive_dateFilter_label">Wählen Sie einen Zeitraum:</label>
+										<select size="1" aria-labelledby="archive_dateFilter_label" role="textbox" name="dateFilterMode" class="text" id="archive_dateFilter_input">
+											<option value="">Zeitraum auswählen</option>
+											<option value="0,-30">-30 Tage</option>
+												<option value="0,-7">-7 Tage</option>
+												<option value="0,0">Heute</option>
+												<option value="0,7">+7 Tage</option>
+												<option value="0,30">+30 Tage</option>
+												</select>
+									</div>
+									<a href="#" id="datefilterreset">Zeiten zurücksetzen</a>
+								</form>
+							</li>
+							<!-- Ende Kalender-Filter -->
+						</ul>
+					</div>
+				</div>
+			</div>
+
+		
+	</div>
+
+	<section class="layouttabbedteasermodule doctypeteaser">
+		
+		
+			
+			
+
+
+		<div class="tab_navigation_viewport" style="overflow: hidden;">
+			<ul role="navigation" class="tab_navigation" style="width: 943px; transition-property: transform; transform-origin: 0px 0px 0px; transform: translate(0px, 0px) translateZ(0px);">
+				
+					<li class="active"><a href="/brandenburgaktuell/landschleicher/chronologisch/index.html" title="Alle Jahre" class="active">Alle Jahre</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/2018.html" title="2018">2018</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/2017.html" title="2017">2017</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/2016.html" title="2016">2016</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/2015.html" title="2015">2015</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/2014.html" title="2014">2014</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/2013.html" title="2013">2013</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/2012.html" title="2012">2012</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/2011.html" title="2011">2011</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/2010.html" title="2010">2010</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/2009.html" title="2009">2009</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/2008.html" title="2008">2008</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/2007.html" title="2007">2007</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/2006.html" title="2006">2006</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/2005.html" title="2005">2005</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/2004.html" title="2004">2004</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/2003.html" title="2003">2003</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/2002.html" title="2002">2002</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/2001.html" title="2001">2001</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/2000.html" title="2000">2000</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/1999.html" title="1999">1999</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/1998.html" title="1998">1998</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/1997.html" title="1997">1997</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/1996.html" title="1996">1996</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/1995.html" title="1995">1995</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/1994.html" title="1994">1994</a></li>
+					<li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index/1993.html" title="1993">1993</a></li>
+			</ul>
+		</div>
+		
+		<div class="wrapper_button_left">
+			<span class="ico ico ico_arrow_wide_left" title="Vorherige Tabs"><!-- Vorherige Tabs --></span>
+			<ul class="tab_navigation_extend" role="navigation"><!-- Vorherige Tabs --></ul>
+		</div>
+	
+		<div class="wrapper_button_right">
+			<span class="ico ico_arrow_wide_right" title="Weitere Tabs"><!-- Weitere Tabs --></span>
+			<ul class="tab_navigation_extend" role="navigation"><!-- Weitere Tabs --></ul>
+		</div>
+	
+
+
+			
+		
+	
+		<div id="searchform_response">
+			
+		<!-- Filter für Default-Content -->
+		<div class="filter">
+			<ul class="filter_list" title="Filterliste">
+				
+					<li>
+						<dl>
+							<dt>A-Z</dt>
+							<dd>
+								<a href="/brandenburgaktuell/landschleicher/chronologisch/index.htm/sort=title/sortasc=false.html" class="ico ico_arrow_down" title="absteigend sortieren" rel="nofollow">
+									
+									
+									
+									
+									
+								</a>
+							</dd>
+							<dd>
+								<a href="/brandenburgaktuell/landschleicher/chronologisch/index.htm/sort=title/sortasc=true.html" class="ico ico_arrow_up" title="aufsteigend sortieren" rel="nofollow">
+									
+									
+									
+									
+									
+								</a>
+							</dd>
+						</dl>
+					</li>
+				
+				
+					<li>
+						<dl>
+							<dt>Datum</dt>
+							<dd>
+								<a href="/brandenburgaktuell/landschleicher/chronologisch/index.htm/sort=date/sortasc=false.html" class="ico ico_arrow_down" title="absteigend sortieren" rel="nofollow">
+									
+									
+									
+									
+									
+								</a>
+							</dd>
+							<dd>
+								<a href="/brandenburgaktuell/landschleicher/chronologisch/index.htm/sort=date/sortasc=true.html" class="ico ico_arrow_up" title="aufsteigend sortieren" rel="nofollow">
+									
+									
+									
+									
+									
+								</a>
+							</dd>
+						</dl>
+					</li>
+				
+			</ul>
+		</div>	
+
+		<!-- Default Content -->
+		<div class="tab_content">
+			<section class="active count1 doctypeteaser first last layoutstandard layouttabbedteaserbox odd teaserbox"><article class="count1 doctypesendeplatz first layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=55a8d15e-599f-4ce3-832d-b944deb8ebb6/cpp=8a1b0ebb-d322-4512-8a28-c83b4c570e1e/imageref=8a1b0ebb-d322-4512-8a28-c83b4c570e1e%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Dahmsdorf","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20190505_dahmsdorf","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge oder-spree"],"isTrailer":false,"duration":272,"termids":["1.2.3.7.1","1.2.3.9.1","1.2.3.6.1","1.2.3.11.1","1.2.3.12.2","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/oder-spree/landschleicher-dahmsdorf/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2019-05-05T19:30">So 05.05.2019 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/oder-spree/landschleicher-dahmsdorf.html" class="sendeplatz"><span class="manualteaserroofline">Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Dahmsdorf</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Schön umgeben von Wäldern und Gewässern - darunter der große Storkower See - liegt der 125-Einwohner-Ort Dahmsdorf. Beliebt ist bei Camping-Urlaubern. Im Sommer kann sich die Zahl der Menschen hier schon mal verdoppeln. Dass der Sommer nicht mehr weit ist, erkennt der Landschleicher auch an den vielen Booten am Seeufer vor dem Campingplatz.&nbsp;<br>
+</p>
+</div>
+
+
+</article><article class="count2 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=7b36354d-969f-4d4b-8798-1414fa131a12/cpp=510cedab-ea70-4141-ba3e-11f3d7c8cdb2/imageref=510cedab-ea70-4141-ba3e-11f3d7c8cdb2%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Landschleicher in Plötzin","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20190428_ploetzin","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge potsdam-mittelmark"],"isTrailer":false,"duration":291,"termids":["1.2.3.11.1","1.2.3.6.1","1.2.3.12.2","1.2.3.7.1","1.2.3.9.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/potsdam-mittelmark/ploetzin/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2019-04-28T19:30">So 28.04.2019 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/potsdam-mittelmark/ploetzin.html" class="sendeplatz"><span class="manualteaserroofline">Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Plötzin</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Der Landschleicher kommt! Und alle gehen... Denn heute ging es nach Plötzin, einem Nachbarort von Werder und dort tobt gerade das Baumblütenfest. Er fand sie dennoch: Feuerwehrmänner mit historischem Fuhrpark, entspannte Havelländer abseits des Trubels und der Landschleicher lernte, was das perfekte Obstweinwetter ist.</p>
+</div>
+
+
+</article><article class="count3 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=feee01bd-72e9-4093-be52-2f389714795d/cpp=d414733d-f3dd-4aa1-aff0-f1160c83a8ef/imageref=d414733d-f3dd-4aa1-aff0-f1160c83a8ef%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Guhlen","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20190421_guhlen1","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge dahme-spreewald"],"isTrailer":false,"duration":292,"termids":["1.2.3.7.1","1.2.3.11.1","1.2.3.6.1","1.2.3.12.2","5.2.13.12.1","1.2.3.9.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/dahme-spreewald/landschleicher-guhlen/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2019-04-21T19:30">So 21.04.2019 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/dahme-spreewald/landschleicher-guhlen.html" class="sendeplatz"><span class="manualteaserroofline">Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Guhlen</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Der Landschleicher ist diesmal in den Süden gefahren – nach Guhlen, zwischen Schwielochsee und Lübben gelegen. Dabei konnte er eigentlich einfach seiner Nase folgen, denn in Guhlen duftet es jedes Wochenende nach frisch gebackenem Brot. Unwiderstehlich für unseren Landschleicher!</p>
+</div>
+
+
+</article><article class="count4 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=ff4e0f57-b504-4260-b90d-2a81e30eb6f8/cpp=50e1d370-7516-4fec-8778-5d5cfdfd53cb/imageref=50e1d370-7516-4fec-8778-5d5cfdfd53cb%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Wiepersdorf","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20190414_wiepersdorf","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge teltow-flaeming"],"isTrailer":false,"duration":278,"termids":["1.2.3.12.2","1.2.3.11.1","1.2.3.6.1","1.2.3.9.1","1.2.3.7.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/teltow-flaeming/wiepersdorf/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2019-04-14T19:30">So 14.04.2019 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/teltow-flaeming/wiepersdorf.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher in </span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Wiepersdorf </span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Es war einmal ein kleines Dorf mit einem schönen Schloss: Den Landschleicher zog es an diesem Wochenende in eine Brandenburgische Idylle, die neben dem bekannten Schloss aber noch einiges mehr zu bieten hat.<b></b></p>
+<p>&nbsp;</p>
+</div>
+
+
+</article><article class="count5 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=62e3a35d-f0d3-46da-93d2-8c8289fbd6b6/cpp=453c2be6-786e-4bb8-8d16-c60db96e5d05/imageref=453c2be6-786e-4bb8-8d16-c60db96e5d05%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Ausflugstipp Mueggelspree","rbbhandle":"/content/rbb/rbb/av/aktuell/dossier/aktuell_20190412_mueggelspree","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge havelland"],"isTrailer":false,"duration":212,"termids":["1.2.3.7.1","1.2.3.9.1","1.2.3.11.1","1.2.3.6.1","1.2.3.12.2","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/havelland/ausflugstipp/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2019-04-12T19:30">Fr 12.04.2019 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/havelland/ausflugstipp.html" class="sendeplatz"><span class="manualteaserroofline">Auf der Müggelspree von Hangelsberg nach Erkner</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Ausflugstipp: Mueggelspree</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Viele Boote führen nach Erkner. Ob im Kanu oder Fünfer-Canadier, sie alle führen einen sportlich durch sanfte Wiesen- und Wälderlandschaften und vorbei an Mönchwinkel, Jägerbude oder Neu Zittau.&nbsp; Motorboote sind auf den 26 Kilometern verboten, was wesentlich zu einem entspannten Tagesausflug beiträgt.</p>
+</div>
+
+
+</article><article class="count6 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=8e8d61ba-f444-408d-87c8-de0eea58b1d8/cpp=37d508d0-5d9a-44eb-bdf6-da84367be6eb/imageref=37d508d0-5d9a-44eb-bdf6-da84367be6eb%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Holzendorf","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20190407_holzendorf","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge uckermark"],"isTrailer":false,"duration":278,"termids":["1.2.3.6.1","1.2.3.9.1","1.2.3.7.1","1.2.3.12.2","5.2.13.12.1","1.2.3.11.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/uckermark/landschleicher/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2019-04-07T19:30">So 07.04.2019 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/uckermark/landschleicher.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Holzendorf</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Der Landschleicher macht heute Halt in Holzendorf. Per Kutsche geht es durch den Ort und zu den Bewohnern – gezogen von den Shetlandponys Shakira und Pauline. Viel zu sehen gibt es hier: vorbei am Gut, hin zur legendären Hubertusklause und der Ortskirche. Ein idyllischer Ort zwischen See und ausrangiertem Kinderspielplatz einer Fast-Food-Kette. So mancher zieht hierher zurück – trotz langer Fahrtzeiten.</p>
+</div>
+
+
+</article><article class="count7 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=75697859-1e84-4ebc-bb65-86dc5e8967a6/cpp=0042ed2b-ee01-43b9-b280-f9ee743ad9ac/imageref=0042ed2b-ee01-43b9-b280-f9ee743ad9ac%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Landschleicher","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20190331_land","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge teltow-flaeming"],"isTrailer":false,"duration":264,"termids":["1.2.3.7.1","1.2.3.6.1","1.2.3.9.1","5.2.13.12.1","1.2.3.12.2","1.2.3.11.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/teltow-flaeming/landschleicher-waltersdorf/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2019-03-31T19:30">So 31.03.2019 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/teltow-flaeming/landschleicher-waltersdorf.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Waltersdorf</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Waltersdorf hatte mal fast 300 Einwohner, 1946. Heute sind es keine 100 mehr. Ein paar Neue könnte man schon gebrauchen, hörte der Landschleicher heraus. Unsere Reporterin Ute Barthel wurde mit dem Traktor durch Walterdorf gefahren und staunte über die Herzlichkeit der kleinen Gemeinschaft.</p>
+</div>
+
+
+</article><article class="count8 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=6d4f99c9-566f-4c85-ba2d-f83c4778ef03/cpp=12c4c0ab-4658-4ada-ba97-cc9aa0317450/imageref=12c4c0ab-4658-4ada-ba97-cc9aa0317450%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Zu Besuch in Flemsdorf","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20190324_flemsdorf","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge uckermark"],"isTrailer":false,"duration":274,"termids":["1.2.3.11.1","1.2.3.12.2","1.2.3.6.1","5.2.13.12.1","1.2.3.9.1","1.2.3.7.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/uckermark/flemsdorf/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2019-03-24T19:30">So 24.03.2019 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/uckermark/flemsdorf.html" class="sendeplatz"><span class="manualteaserroofline">Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Zu Besuch in Flemsdorf	</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Flemsdorf ist Teil der Gemeinde Schöneberg und liegt zwischen Angermünde und Schwedt. In dem uckermärkischen Dörfchen gibt es zwar kaum noch Arbeit. Trotz der Möglichkeit wegzuziehen, haben sich viele fürs Dableiben entschieden. Unser Landschleicher versucht, die Anziehungskraft des Dorfes zu ergründen.</p>
+</div>
+
+
+</article><article class="count9 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=acfd5e99-091c-4e50-be9e-b425ebb910eb/cpp=052ed85c-3a50-43ea-9896-23a729b0da1c/imageref=052ed85c-3a50-43ea-9896-23a729b0da1c%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Brottewitz","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20190317_brottewitz","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge elbe-elster"],"isTrailer":false,"duration":273,"termids":["1.2.3.12.2","1.2.3.11.1","1.2.3.7.1","1.2.3.9.1","1.2.3.6.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/elbe-elster/brottewitz/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2019-03-17T19:30">So 17.03.2019 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/elbe-elster/brottewitz.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher in</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Brottewitz </span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Die meisten Orte haben eine Kirche mit Turm – Brottewitz hat eine Zuckerfabrik. Noch. Das Aus für die Zuckerfabrik trifft die Brottewitzer hart. Der Betrieb hat auch immer viel Leben in den Ort gebracht. &nbsp;</p>
+<p>&nbsp;</p>
+</div>
+
+
+</article><article class="count10 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=0e6df053-6e7a-425b-a07b-570330a99c7d/cpp=d6dd34cb-1d28-43a9-83f5-8e84e73ccebf/imageref=d6dd34cb-1d28-43a9-83f5-8e84e73ccebf%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Phoeben","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20190310_phoeben","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge potsdam-mittelmark"],"isTrailer":false,"duration":285,"termids":["1.2.3.6.1","1.2.3.7.1","1.2.3.9.1","1.2.3.11.1","5.2.13.12.1","1.2.3.12.2"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/potsdam-mittelmark/phoeben/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2019-03-10T19:30">So 10.03.2019 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/potsdam-mittelmark/phoeben.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher in</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Phoeben</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Ein Ort mit Traumlage: Direkt an der Havel und am Nordhang des Wachtelberges. Fast wie Urlaub für den Landschleicher.</p>
+<p>&nbsp;</p>
+</div>
+
+
+</article><article class="count11 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=dbbe2f4c-41ef-434d-bf31-be9f2543ad3d/cpp=ca3dcd5c-53fc-478d-a8ec-07920d688ad2/imageref=ca3dcd5c-53fc-478d-a8ec-07920d688ad2%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Telz","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20190303_telz","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge dahme-spreewald"],"isTrailer":false,"duration":315,"termids":["1.2.3.11.1","1.2.3.7.1","1.2.3.6.1","1.2.3.9.1","1.2.3.12.2","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/dahme-spreewald/landschleicher-telz/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2019-03-03T19:30">So 03.03.2019 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/dahme-spreewald/landschleicher-telz.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher in</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Telz</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Es wurde wohl Zeit, dass der Landschleicher endlich nach Telz kommt, bei seiner Ankunft traf er jedenfalls auf Telzer, die seit nunmehr Jahrzehnten auf ihn gewartet haben.</p>
+</div>
+
+
+</article><article class="count12 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=30086c03-1a01-48ef-9a8c-21bee0990de3/cpp=9fb3774f-bd5d-4800-899e-c4f9815c29e7/imageref=9fb3774f-bd5d-4800-899e-c4f9815c29e7%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Kahren","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20190224_kahren","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge spree-neisse"],"isTrailer":false,"duration":296,"termids":["1.2.3.7.1","1.2.3.12.2","1.2.3.11.1","1.2.3.6.1","1.2.3.9.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/spree-neisse/kahren/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2019-02-24T19:30">So 24.02.2019 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/spree-neisse/kahren.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Kahren</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Kahren bei Cottbus ist ein munterer Ort. Viele Vereine beleben das Dorf, in dem auch die jüngsten Bewohner nicht zu kurz kommen. Denn in Kahren gibt es sogar eine Puppenbühne.</p>
+</div>
+
+
+</article><article class="count13 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=28894bf1-6900-4996-90b1-9725fad9a7af/cpp=e75d200d-187f-4ac0-8e62-83cb5ec82cf6/imageref=e75d200d-187f-4ac0-8e62-83cb5ec82cf6%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Küdow-Lüchfeld","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20190217_kuedow","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge ostprignitz-ruppin"],"isTrailer":false,"duration":282,"termids":["1.2.3.7.1","1.2.3.6.1","1.2.3.12.2","1.2.3.11.1","1.2.3.9.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/ostprignitz-ruppin/landschleicher-kuedow-luechfeld/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2019-02-17T19:30">So 17.02.2019 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/ostprignitz-ruppin/landschleicher-kuedow-luechfeld.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher in</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Küdow-Lüchfeld</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Küdow-Lüchfeld ist ein Doppeldorf in der Gemeinde Temnitztal (Ostprignitz-Ruppin) bei Neuruppin. Rund 250 Menschen leben dort in einer Nachbarschaft, die einen gewissen Freiraum schätzt. Egal, ob bei der Arbeit in der Landwirtschaft oder beim gemeinsamen Angeln am neu angelegten Teich.<br>
+</p>
+</div>
+
+
+</article><article class="count14 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=4940d037-8592-437b-b838-c29691f318f3/cpp=f3723cb1-fd63-49d0-9d03-ec486c8f01a2/imageref=f3723cb1-fd63-49d0-9d03-ec486c8f01a2%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Dechtow","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20190210_dechtow","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge ostprignitz-ruppin"],"isTrailer":false,"duration":288,"termids":["1.2.3.12.2","1.2.3.6.1","1.2.3.7.1","1.2.3.11.1","1.2.3.9.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/ostprignitz-ruppin/landschleicher-in-dechtow/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2019-02-10T19:30">So 10.02.2019 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/ostprignitz-ruppin/landschleicher-in-dechtow.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher in</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Dechtow</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>„Dechtow mit langem E“, so wurde der Landschleicher im Ort begrüßt. Dechtow gehört zum Landkreis Ostprignitz-Ruppin und ist ein Ortsteil der Gemeinde Fehrbellin. Dechtow hieß mal Degete und der ursprüngliche Name bedeute, dass es ein Ort ist, an dem es Teer gäbe. Was es heute dort gibt, hat unserem Landschleicher sehr gefallen.</p>
+</div>
+
+
+</article><article class="count15 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=3e8895da-c26e-47e9-9e97-767346787c6c/cpp=1709d197-48fd-4f89-9829-e1e69e798682/imageref=1709d197-48fd-4f89-9829-e1e69e798682%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Der Landschleicher in Schapow","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20190203_schapo","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge uckermark"],"isTrailer":false,"duration":312,"termids":["1.2.3.11.1","1.2.3.12.2","1.2.3.7.1","1.2.3.9.1","1.2.3.6.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/uckermark/landschleicher-schapow/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2019-02-03T19:30">So 03.02.2019 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/uckermark/landschleicher-schapow.html" class="sendeplatz"><span class="manualteaserroofline">Ein Ort mit ganz viel Charme</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Der Landschleicher in Schapow</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Der Landschleicher war im Nordwesten der Uckermark- im Mittelalter erbauten Schapow. Der Ortsname, der natürlich auch slawischen Ursprung ist, habe mehrere Deutungen. Aber die, dass es ein Ort sei, wo Klepper und Schindmähren sind, kann heute völlig ausgeschlossen werden. Schauen Sie selbst.</p>
+</div>
+
+
+</article><article class="count16 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=9fe9cca4-578b-4ffd-a99c-4096b0de584e/cpp=d7be7209-d223-4751-a4c5-333d5cb4406e/imageref=d7be7209-d223-4751-a4c5-333d5cb4406e%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Lögow","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20190127_loegow","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge ostprignitz-ruppin"],"isTrailer":false,"duration":287,"termids":["1.2.3.9.1","1.2.3.12.2","1.2.3.11.1","1.2.3.7.1","1.2.3.6.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/ostprignitz-ruppin/loegow/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2019-01-27T19:30">So 27.01.2019 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/ostprignitz-ruppin/loegow.html" class="sendeplatz"><span class="manualteaserroofline">Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Lögow</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Das Schicksal wollte, dass wir an einem grauen Wintertag nach Lögow reisen. Für die Lögower kein Problem: sie haben trotzdem gute Laune. In dem 255 Einwohner-Dorf bei Wusterhausen gibt es sogar ein Kino Marke Eigenbau. Außerdem finden wir das Trödellager von Herr Firlefanz und Fräulein Nippes. Und unser Landschleicher trifft den jüngesten Einwohner des Ortes: Einen Pappschneeman mit dem schönen Namen Erwin.</p>
+<p><b>Beitrag von Ute Bartel</b></p>
+<p>&nbsp;</p>
+</div>
+
+
+</article><article class="count17 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=9f98f273-432c-4ff0-97fc-41b9f11611ad/cpp=3373bed9-a407-452c-963e-e5144abe7e3b/imageref=3373bed9-a407-452c-963e-e5144abe7e3b%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Buckow","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20190120_buckow","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge oder-spree"],"isTrailer":false,"duration":245,"termids":["1.2.3.9.1","1.2.3.12.2","1.2.3.6.1","1.2.3.7.1","1.2.3.11.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/oder-spree/landschleicher-in-buckow/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2019-01-20T19:30">So 20.01.2019 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/oder-spree/landschleicher-in-buckow.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher in</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Buckow</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Achtmal gibt es Buckow allein in Brandenburg. Der Landschleicher war dieses Mal in Buckow im Landkreis Oder-Spree. Das Dorf ist ein Ortsteil von Rietz-Neuendorf bei Beeskow und pflegt in dieser Jahreszeit eine ganz bestimmt Tradition.</p>
+</div>
+
+
+</article><article class="count18 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=26d4a2bf-1e1f-483f-a83f-601585b1e6d7/cpp=46d41973-ca93-4235-9909-05e9656eb2e0/imageref=46d41973-ca93-4235-9909-05e9656eb2e0%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Herzfelde","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20190113_herzfelde","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge maerkisch-oderland"],"isTrailer":false,"duration":273,"termids":["1.2.3.6.1","1.2.3.11.1","1.2.3.9.1","1.2.3.7.1","1.2.3.12.2","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/maerkisch-oderland/herzfelde/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2019-01-13T19:30">So 13.01.2019 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/maerkisch-oderland/herzfelde.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher in </span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Herzfelde	</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Der Landschleicher zog heute durch einen Ortsteil von Rüderdorf. Die ehemalige Industriegemeinde Herzfelde, in der im vergangenen Jahrhundert mehrere große Ziegeleien ansässig waren, hat den Strukturwandel offenbar gut gemeistert: Wo einst der Ton für die Ziegel geholt wurde, baden heute die Kinder aus dem Dorf.</p>
+<p>&nbsp;</p>
+</div>
+
+
+</article><article class="count19 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=e343aee6-1ffd-42d4-bea0-cf1e1c389a51/cpp=538b1ae5-e88a-4480-9fba-a177d1cb3391/imageref=538b1ae5-e88a-4480-9fba-a177d1cb3391%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Zootzen","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20190106_zootzen","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge oberhavel"],"isTrailer":false,"duration":257,"termids":["1.2.3.7.1","1.2.3.12.2","1.2.3.11.1","1.2.3.9.1","1.2.3.6.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/oberhavel/zootzen/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2019-01-06T19:30">So 06.01.2019 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/oberhavel/zootzen.html" class="sendeplatz"><span class="manualteaserroofline">Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Zootzen</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>In Brandenburg gibt es gleich drei Zootzen – das richtige zu finden ist da nicht so ganz einfach. Dieses Mal zog es den Landschleicher jedoch in den Norden Brandenburgs. Das Dorf liegt hier eingebettet in die hügelige Seenlandschaft der Oberhavel. Dort wartete eine gemütliche und&nbsp; außerordentlich freundliche Dorfgemeinschaft. Den Grund dafür hat der Landschleicher auch gleich herausgefunden.</p>
+</div>
+
+
+</article><article class="count20 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=ee95a1b9-c111-4124-b421-912d397b60dc/cpp=1eb89e14-4a23-42e0-98c5-2985989d3b0e/imageref=1eb89e14-4a23-42e0-98c5-2985989d3b0e%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Züllsdorf","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20181230_zuellsdorf","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge elbe-elster"],"isTrailer":false,"duration":263,"termids":["1.2.3.9.1","1.2.3.6.1","1.2.3.7.1","1.2.3.11.1","1.2.3.12.2","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/elbe-elster/zuellsdorf/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-12-30T19:30">So 30.12.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/elbe-elster/zuellsdorf.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Züllsdorf</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Wie viele Dörfer hat auch Züllsdorf (Elbe-Elster) lange Zeit mit Einwohnerschwund zu kämpfen. Doch mittlerweile kehren einige der Weggezogenen nun wieder zurück. Vergangenes Jahr wurde Züllsdorf Kreissieger beim Wettbewerb &quot;Unser Dorf hat Zukunft&quot;. Wer in Züllsdorf wohnt, der engagiert sich, zum Beispiel in einem der vielen Vereine.</p>
+</div>
+
+
+</article><article class="count21 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=21236f2d-bd7e-4581-93a8-3ec9b00482b9/cpp=2db45d7d-39bb-4ad6-9726-b3e2398403c4/imageref=2db45d7d-39bb-4ad6-9726-b3e2398403c4%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Rohrlack Neuruppin","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20181223_land","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge ostprignitz-ruppin"],"isTrailer":false,"duration":291,"termids":["1.2.3.6.1","1.2.3.12.2","1.2.3.11.1","1.2.3.9.1","1.2.3.7.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/ostprignitz-ruppin/Landschleicher/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-12-23T19:30">So 23.12.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/ostprignitz-ruppin/Landschleicher.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Rohrlack (Ostprignitz-Ruppin)</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Rund 160 Menschen leben in dem kleinen Dorf Rohrlack. Ein Bio-Bäcker und die „LebensWerkGemeinschaft“ prägen das Leben vor Ort. Doch etwas sorgt für Missmut: Windkraftanlagen sollen rund um das Dorf aufgestellt werden und das macht den Einwohnern Sorgen.</p>
+</div>
+
+
+</article><article class="count22 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=41a61f1f-2e12-4dd8-a53c-9f8133b2963f/cpp=e1f1977a-215f-48e8-b147-af4b32f54c54/imageref=e1f1977a-215f-48e8-b147-af4b32f54c54%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Treppeln","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20181216_schleicher","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge oder-spree"],"isTrailer":false,"duration":304,"termids":["1.2.3.12.2","1.2.3.6.1","1.2.3.9.1","1.2.3.11.1","1.2.3.7.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/oder-spree/treppeln/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-12-16T19:30">So 16.12.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/oder-spree/treppeln.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Treppeln</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Treppeln ist ein Ortsteil der Gemeinde Neuzelle. Unser Landschleicher ist heute dort unterwegs und trifft Schafe beim Mittagsgrasen, entdeckt ein ehemaliges Wirtshaus das zum Kloster werden soll und staunt über eine Kegelbahn in einer alten Scheune. &nbsp;</p>
+</div>
+
+
+</article><article class="count23 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=b7fee96b-2ab5-4f75-9763-446cc37284fe/cpp=2a6759f8-9054-4d92-bb6c-8cb42dcf883c/imageref=2a6759f8-9054-4d92-bb6c-8cb42dcf883c%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Kemnitz (Nuthe-Urstromtal)","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20181209_kemnitz","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge teltow-flaeming"],"isTrailer":false,"duration":264,"termids":["1.2.3.12.2","1.2.3.6.1","1.2.3.9.1","1.2.3.7.1","1.2.3.11.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/teltow-flaeming/kemnitz/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-12-09T19:30">So 09.12.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/teltow-flaeming/kemnitz.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Kemnitz (Nuthe-Urstromtal)</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Dreimal Kemnitz in Brandenburg: Jenes bei Pritzwald hatte schon vor 15 Jahren Besuch vom Landschleicher. 2017 war er in Kemnitz bei Werder/Havel. Nun ging es nach Kemnitz in der Gemeinde Nuthe–Urstromtal. Dort wird die Jagd ganz groß geschrieben.</p>
+</div>
+
+
+</article><article class="count24 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=5a15cc71-e289-41c3-ab58-a7c74909ddc7/cpp=ebccac54-8445-4969-84d7-817de6d633ae/imageref=%21content%21dam%21rbb%21rbb%21fernsehen%211_brandenburg_aktuell%212018_10%21BA-Landschleicher-online.jpg.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Buchwäldchen","rbbhandle":"/content/rbb/rbb/av/aktuell/dossier/aktuell_20181202_buchen","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge dahme-spreewald"],"isTrailer":false,"duration":309,"termids":["1.2.3.11.1","1.2.3.9.1","1.2.3.12.2","1.2.3.6.1","1.2.3.7.1","5.2.13.12.1"]}}'><img data-src='/content/dam/rbb/rbb/fernsehen/1_brandenburg_aktuell/2018_10/BA-Landschleicher-online.jpg.jpg/size=320x180.jpg' alt="BA Landschleicher Logo neu" title="BA Landschleicher Logo neu"/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-12-02T19:30">So 02.12.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/dahme-spreewald/buchwaeldchen.html" class="sendeplatz"><span class="manualteaserroofline">Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Buchwäldchen</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Buchwäldchen in der Nähe von Calau wirkt an diesem ersten Adventswochenende ein bisschen verschlafen. Einst brachte die Ziegelfabrik Leben in den Ort. Die schönen Klinkerfassaden bestimmen bis heute das Dorfbild. Eigens für die damals gut 250 Arbeiter wurden drei Wohnblocks gebaut. Inzwischen ist einer von ihnen abgerissen und im Klinkerwerk sind nur noch 7 Leute beschäftigt. Nun brachte unser Landschleicher Leben ins Dorf.</p>
+<p>Beitrag von Beate Tyron</p>
+</div>
+
+
+</article><article class="count25 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=45d154f2-da2b-4df9-be84-7d3c481bcb09/cpp=c2838d00-c023-4801-b86f-4dd36ce71914/imageref=c2838d00-c023-4801-b86f-4dd36ce71914%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Ullersdorf","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20181125_ullersdorf","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge dahme-spreewald"],"isTrailer":false,"duration":282,"termids":["1.2.3.12.2","1.2.3.11.1","1.2.3.9.1","1.2.3.7.1","1.2.3.6.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/dahme-spreewald/landschleicher-in-ullersdorf/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-11-25T19:30">So 25.11.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/dahme-spreewald/landschleicher-in-ullersdorf.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher in </span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Ullersdorf	</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Die Route unseres Landschleichers führte diesmal in die Niederlausitz. In den niedersorbischen Ort Ullersdorf: 140 Einwohner, gelegen zwischen Schwansee und fast unendlichen Kiefernforsten.</p>
+<p>&nbsp;</p>
+</div>
+
+
+</article><article class="count26 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=6201998a-52d3-4bb6-96ec-ea6beed734c7/cpp=f5f4d585-921d-4a39-bb76-d65f2ddff925/imageref=f5f4d585-921d-4a39-bb76-d65f2ddff925%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Langewahl","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20181118_langewahl","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge oder-spree"],"isTrailer":false,"duration":263,"termids":["1.2.3.6.1","1.2.3.12.2","1.2.3.7.1","1.2.3.9.1","1.2.3.11.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/oder-spree/langewahl/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-11-18T19:30">So 18.11.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/oder-spree/langewahl.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Langewahl    </span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Seinen Namen verdankt Langewahl einem preußischen Hauptmann. Auf Geheiß Friedrich des Großen sollte der sich Land zur Urbarmachung aussuchen. Nach langer Wahl entschied er sich für einen Flecken im heutigen Oder-Spree-Kreis. Daher: Langewahl.</p>
+</div>
+
+
+</article><article class="count27 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=4b1a3e9c-cf7e-4039-b768-e9654ae33945/cpp=bba0c019-f249-4ec0-8844-03b1ee7bb881/imageref=bba0c019-f249-4ec0-8844-03b1ee7bb881%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Raddusch","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20181111_raddusch","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge oberspreewald-lausitz"],"isTrailer":false,"duration":337,"termids":["1.2.3.12.2","1.2.3.6.1","1.2.3.9.1","1.2.3.7.1","1.2.3.11.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/oberspreewald-lausitz/Raddusch/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-11-11T19:30">So 11.11.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/oberspreewald-lausitz/Raddusch.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Raddusch </span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Raddusch steckt voller Zauber der Vergangenheit. Sagen und Mythen aus längst vergangener Zeit ranken sich um den Ort - &nbsp;im Mittelpunkt dabei natürlich die Gewässer und die Fahrzeuge, die sich auf ihnen bewegen.</p>
+<p><b>&nbsp;</b></p>
+<p>&nbsp;</p>
+</div>
+
+
+</article><article class="count28 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=990867bb-bbb7-4e6f-92f5-bd12e3c1b888/cpp=cee20b99-3d94-47c5-bb1f-2a6d2ade0fe0/imageref=%21content%21dam%21rbb%21rbb%21fernsehen%211_brandenburg_aktuell%212018_10%21BA-Landschleicher-online.jpg.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Ranzig","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20181104_ranzig","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge oder-spree"],"isTrailer":false,"duration":320,"termids":["1.2.3.12.2","1.2.3.11.1","1.2.3.9.1","1.2.3.7.1","1.2.3.6.1","5.2.13.12.1"]}}'><img data-src='/content/dam/rbb/rbb/fernsehen/1_brandenburg_aktuell/2018_10/BA-Landschleicher-online.jpg.jpg/size=320x180.jpg' alt="BA Landschleicher Logo neu" title="BA Landschleicher Logo neu"/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-11-04T19:30">So 04.11.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/oder-spree/ranzig.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Ranzig</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Bei dem Namen weiß man gar nicht so richtig, wo man anfangen soll. Der Ort in der Gemeinde Tauche, im Landkreis Oder-Spree ist aber gar nicht ranzig, sondern eher das Gegenteil. Im weiten Umkreis ist er zum Beispiel bekannt für sein gutes Fleisch. Unsere Reporterin besucht außerdem die Feuerwehr und spricht mit ein paar anderen der 300 Einwohnern.&nbsp;</p>
+</div>
+
+
+</article><article class="count29 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=f4ac9894-d208-4bc5-bbbc-62f6b2acf2ce/cpp=43dc7ff7-dd73-42bd-98df-b54b3dd8fb3f/imageref=43dc7ff7-dd73-42bd-98df-b54b3dd8fb3f%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Meuro","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20181028_meuro","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge oberspreewald-lausitz"],"isTrailer":false,"duration":276,"termids":["1.2.3.9.1","1.2.3.6.1","1.2.3.7.1","1.2.3.12.2","1.2.3.11.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/oberspreewald-lausitz/meuro/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-10-28T19:30">So 28.10.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/oberspreewald-lausitz/meuro.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Meuro  </span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Unser Landschleicher ist diesmal ganz im Süden unterwegs. Gelegen Nahe Tagebau und Lausitzring hat Meuro oft Erfahrung mit unsicherer Zukunft gemacht. Heute bedeutet das für den Ort: Die Dinge positiv sehen und stets optimistisch nach vorne schauen.<b></b></p>
+<p>&nbsp;</p>
+</div>
+
+
+</article><article class="count30 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=9304772f-12c4-4d44-91e8-214aa944cc4d/cpp=b43db623-5d40-4058-9878-5ecd5246b56e/imageref=b43db623-5d40-4058-9878-5ecd5246b56e%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Kolberg","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20181021_kolberg","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge dahme-spreewald"],"isTrailer":false,"duration":337,"termids":["1.2.3.6.1","1.2.3.7.1","1.2.3.12.2","1.2.3.9.1","1.2.3.11.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/dahme-spreewald/landschleicher-in-kolberg/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-10-21T19:30">So 21.10.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/dahme-spreewald/landschleicher-in-kolberg.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Kolberg</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Kolbergs Lage direkt am Wolziger See ist sicher ein Grund, warum das Dorf schon in den 1930er Jahren zum Geheimtipp für Berliner wurde. Zu DDR-Zeiten hatte Kolberg 300 Einwohner und 5000 Touristen. Heute ist es wesentlich ruhiger. Ein Großteil des Ortes liegt versteckt im Wald, unser Landschleicher war dort.</p>
+<p>&nbsp;</p>
+</div>
+
+
+</article><article class="count31 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=7d856b77-13ba-4c6d-aba0-33605e34e3f3/cpp=55a0d978-af35-4127-bc2b-5fcd8f76023c/imageref=55a0d978-af35-4127-bc2b-5fcd8f76023c%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Mädewitz im Oderbruch","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20181014_maedewitz","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge maerkisch-oderland"],"isTrailer":false,"duration":288,"termids":["1.2.3.11.1","1.2.3.7.1","1.2.3.12.2","1.2.3.6.1","1.2.3.9.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/maerkisch-oderland/landschleicher-maedewitz/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-10-14T19:30">So 14.10.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/maerkisch-oderland/landschleicher-maedewitz.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Mädewitz im Oderbruch</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Der Landschleicher ist unterwegs in Mädewitz, nordöstlich der Stadt Wriezen. Der Ort besteht aus dem Dorf Ältmädewitz, dessen Ursprung bis ins 11. Jahrhundert zurückgeht. Und aus dem Kolonistendorf Neumädewitz, das mit der Trockenlegung des Oderbruchs entstand.</p>
+</div>
+
+
+</article><article class="count32 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=8032756c-247f-47ce-8138-c4f4f02a0884/cpp=99895e76-e720-4cd1-b703-a1f683980282/imageref=99895e76-e720-4cd1-b703-a1f683980282%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Görsdorf","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20181007_goersdorf","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge oder-spree"],"isTrailer":false,"duration":288,"termids":["1.2.3.11.1","1.2.3.6.1","1.2.3.9.1","1.2.3.7.1","1.2.3.12.2","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/oder-spree/goersdorf/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-10-07T19:30">So 07.10.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/oder-spree/goersdorf.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Görsdorf </span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Der Landschleicher besucht Görsdorf. Dieser Namen findet sich häufiger in Brandenburg. Wir meinen jenen bei Beeskow. Gegründet wurde er im 15. Jahrhundert. Was zeichnet heute Görsdorf? Vor allem, dass sich die Görsdorfer um ihre Heimat liebevoll kümmern.</p>
+</div>
+
+
+</article><article class="count33 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=976f00a9-21a9-4309-8e09-7689d5d29cc1/cpp=bb9f882b-3b9f-4d05-92f6-e119c8aa32d4/imageref=bb9f882b-3b9f-4d05-92f6-e119c8aa32d4%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Neulögow","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180930_neuloegow","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge oberhavel"],"isTrailer":false,"duration":294,"termids":["1.2.3.6.1","1.2.3.11.1","1.2.3.12.2","1.2.3.7.1","1.2.3.9.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/oberhavel/neulgoew/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-09-30T19:30">So 30.09.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/oberhavel/neulgoew.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Neulögow</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Unser Landschleicher steuerte an diesem Wochenende nach Neulögow, einem Ortsteil von Gransee im Norden Brandenburgs. In seiner knapp 600-jährigen Geschichte wurde der Ort unter anderem von Hugenotten und Böhmen besiedelt. Und auch in der Gegenwart könnte man von einer neuen Besiedlungswelle sprechen.</p>
+<p>&nbsp;</p>
+</div>
+
+
+</article><article class="count34 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=678fc5ed-c4cd-4e12-96eb-940ca38a8bb9/cpp=b3fd61c2-4437-46c3-b938-3677c033d828/imageref=b3fd61c2-4437-46c3-b938-3677c033d828%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Döbbrick","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180923_doebbrick","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge oberspreewald-lausitz"],"isTrailer":false,"duration":315,"termids":["1.2.3.12.2","1.2.3.9.1","1.2.3.7.1","1.2.3.11.1","1.2.3.6.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/oberspreewald-lausitz/doebbrick/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-09-23T19:30">So 23.09.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/oberspreewald-lausitz/doebbrick.html" class="sendeplatz"><span class="manualteaserroofline">Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Döbbrick</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Die Einwohner von Döbbrick &nbsp;warten sehnsüchtig auf den Landschleicher. Wir dürfen dabei sein, wenn die Erntekönigin eingekleidet wird – in eine Tracht die teilweise schon 100 Jahre alt ist.&nbsp;</p>
+</div>
+
+
+</article><article class="count35 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=0fa14720-02d4-4d40-bca0-079b748ef7ba/cpp=63662665-a652-4c9d-bcbd-41b7fe4f2e50/imageref=63662665-a652-4c9d-bcbd-41b7fe4f2e50%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Bischdorf","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180916_bischdorf","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge oberspreewald-lausitz"],"isTrailer":false,"duration":286,"termids":["1.2.3.12.2","1.2.3.6.1","1.2.3.11.1","1.2.3.7.1","1.2.3.9.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/oberspreewald-lausitz/ls-bischdorf/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-09-16T19:30">So 16.09.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/oberspreewald-lausitz/ls-bischdorf.html" class="sendeplatz"><span class="manualteaserroofline">Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Bischdorf	</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Für unseren Landschleicher ging es heute nach Bischdorf an den Rande des Spreewaldes. Stolz ist man in dem über 600 Jahre alten Dorf auf seinen Anger. Als Dorfmittelpunkt wird er gehegt und gepflegt und dient als oft genutzter Treffpunkt. Denn wenn die Bewohner hier zusammenkommen, dann bewegt sich was im ganzen Dorf.</p>
+</div>
+
+
+</article><article class="count36 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=19712bf0-c08f-46d9-902d-00a27ddfe7f6/cpp=e237db0c-2623-4337-bff6-b4d7e9814308/imageref=e237db0c-2623-4337-bff6-b4d7e9814308%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Kauxdorf","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180909_kauxdorf","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge elbe-elster"],"isTrailer":false,"duration":277,"termids":["1.2.3.6.1","1.2.3.12.2","1.2.3.7.1","1.2.3.9.1","1.2.3.11.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/elbe-elster/kauxdorf/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-09-09T19:30">So 09.09.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/elbe-elster/kauxdorf.html" class="sendeplatz"><span class="manualteaserroofline">Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Kauxdorf                  </span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Kauxdorf hieß eigentlich mal Kuckucksdorf. Doch das ist schon ein Weilchen her: 1217 wurde der Ort (Elbe-Elster) unter diesem Namen erstmals urkundlich erwähnt. Was zeichnet Kauxdorf heute aus? Die Ruhe seiner Einwohner, findet zumindest unser Landschleicher.</p>
+</div>
+
+
+</article><article class="count37 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=14f3a945-ff37-4b0c-990c-eb5e97123004/cpp=ba10a7c5-fb87-4f4c-8cfc-878ea03dcbe2/imageref=%21content%21dam%21rbb%21rbb%21fernsehen%21programm%21logos%216627320.jpg.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Nexdorf","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180902_land","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge elbe-elster"],"isTrailer":false,"duration":260,"termids":["1.2.3.9.1","1.2.3.7.1","1.2.3.11.1","1.2.3.6.1","1.2.3.12.2","5.2.13.12.1"]}}'><img data-src='/content/dam/rbb/rbb/fernsehen/programm/logos/6627320.jpg.jpg/size=320x180.jpg' alt="Landschleicher_Logo2015.jpg" title="Landschleicher_Logo2015.jpg"/>
+<div class="pictsrc">RBB</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-09-02T19:30">So 02.09.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/elbe-elster/Landschleicher-Nexdorf.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Nexdorf</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Ein kleines Dorf mit rund 150 Einwohnern ist in Aufruhr - Nexdorf im Landkreis Elbe-Elster. Die Feuerwehr feiert ihr 85-jähriges Jubiläum und das halbe Dorf hilft bei den Vorbereitungen mit. Doch Nexdorf hat noch ein ganz anderes Highlight zu bieten: eine Hundepension. Fast immer ausgebucht und in aller Munde, denn hier werden Hunde wie Menschen behandelt. Kein Scherz. Mit Essen am Tisch und abendliches Fernsehgucken inklusive.</p>
+</div>
+
+
+</article><article class="count38 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=075fee2a-a15c-4619-932f-7f98ad3bba67/cpp=4969763a-a8fb-4cc1-863b-166315d459c0/imageref=4969763a-a8fb-4cc1-863b-166315d459c0%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Schernsdorf","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180826_dorf","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge oder-spree"],"isTrailer":false,"duration":300,"termids":["1.2.3.11.1","1.2.3.6.1","1.2.3.9.1","1.2.3.7.1","1.2.3.12.2","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/oder-spree/der-landschleicher-in-schernsdorf/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-08-26T19:30">So 26.08.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/oder-spree/der-landschleicher-in-schernsdorf.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher in</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Schernsdorf</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Wer sich in Siehdichum umsieht, sieht vielleicht den Ortsteil, den unser Landschleicher am Wochenende entdeckt. Schernsdorf im Landkreis Oder-Spree nicht weit von Eisenhüttenstadt, der sich bei unserem Besuch zunächst von seiner verschlafenen Seite zeigte und dann so richtig wach wurde.</p>
+</div>
+
+
+</article><article class="count39 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=33c1c887-b21e-4339-befc-2436144ae94f/cpp=3ee2db95-7fbc-403a-9df7-02d648f16d12/imageref=3ee2db95-7fbc-403a-9df7-02d648f16d12%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Lindena","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180819_landschleicher","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge elbe-elster"],"isTrailer":false,"duration":272,"termids":["1.2.3.7.1","1.2.3.11.1","1.2.3.6.1","1.2.3.9.1","1.2.3.12.2","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/elbe-elster/lindena/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-08-19T19:30">So 19.08.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/elbe-elster/lindena.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Lindena</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Wir sind zu Gast in Lindena im Elbe-Elster Kreis, in der Nähe von Doberlug-Kirchhain und werden schon erwartet. Knapp 400 Einwohner präsentieren ihr Dorf von der schönsten Seite und zeigen vom Bauernmuseum, über den Spielmannszug und Traktoren alles was es sehenswertes im Ort gibt.</p>
+</div>
+
+
+</article><article class="count40 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=10b9c816-5be1-4d2a-a1d2-e4c362204680/cpp=fdba7a01-3a76-4f25-be41-bd242b230ac6/imageref=fdba7a01-3a76-4f25-be41-bd242b230ac6%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Schönberg","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180812_schoenberg","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge ostprignitz-ruppin"],"isTrailer":false,"duration":282,"termids":["1.2.3.12.2","1.2.3.7.1","1.2.3.9.1","1.2.3.6.1","1.2.3.11.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/ostprignitz-ruppin/schoenberg/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-08-12T19:30">So 12.08.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/ostprignitz-ruppin/schoenberg.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Schönberg</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Im Landkreis Ostprignitz-Ruppin gibt es zwei Orte namens Schönberg. In jenem nahe Lindow war der Landschleicher vor mehr als 20 Jahren. Schönberg östlich der Ruppiner Heide lernt er nun kennen.</p>
+</div>
+
+
+</article><article class="count41 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=b5cae233-1884-4137-9425-3efb904a527a/cpp=1e21ef1e-15ab-4f2d-8627-aea83ec232db/imageref=1e21ef1e-15ab-4f2d-8627-aea83ec232db%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Kienitz","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180805_land","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge maerkisch-oderland"],"isTrailer":false,"duration":293,"termids":["1.2.3.11.1","1.2.3.6.1","1.2.3.12.2","1.2.3.7.1","1.2.3.9.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/maerkisch-oderland/Landschleicher-Kienitz-/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-08-05T19:30">So 05.08.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/maerkisch-oderland/Landschleicher-Kienitz-.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Kienitz </span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Das kleine Dorf in der Gemeinde Letschin im Landkreis Märkisch-Oderland erlangte vor allem Bekanntheit durch das Oder-Hochwasser. Unser Reporter hat es schon über ein Dutzend Mal besucht, doch noch nie als Landschleicher. Bis jetzt.</p>
+<p>&nbsp;</p>
+</div>
+
+
+</article><article class="count42 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=78ff981d-d251-4266-859f-0f71141871b2/cpp=360f3301-18b4-4e79-92d5-b57cb9c554cc/imageref=360f3301-18b4-4e79-92d5-b57cb9c554cc%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Werenzhain","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180729_werenzhain","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge elbe-elster"],"isTrailer":false,"duration":292,"termids":["1.2.3.7.1","1.2.3.9.1","1.2.3.12.2","1.2.3.6.1","1.2.3.11.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/elbe-elster/Landschleicher-werenzhain/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-07-29T19:30">So 29.07.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/elbe-elster/Landschleicher-werenzhain.html" class="sendeplatz"><span class="manualteaserroofline">Landschleicher </span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Werenzhain</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Unser Landschleicherdorf Werenzhain scheint von der Muse geküsst - ob beim Kirchenchor, dem Künstlerhaus, der Galerie, der Begegnungsstätte oder verschiedenen Ateliers.</p>
+</div>
+
+
+</article><article class="count43 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=8304c54c-cdb2-4984-917d-1c8cde240929/cpp=e65c25b9-04a3-4bd8-b435-45c87acb19d5/imageref=e65c25b9-04a3-4bd8-b435-45c87acb19d5%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Netzow","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180722_netzow","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge prignitz"],"isTrailer":false,"duration":262,"termids":["1.2.3.12.2","1.2.3.9.1","1.2.3.11.1","1.2.3.6.1","1.2.3.7.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/prignitz/Landschleicher-Netzow-Templin/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-07-22T19:30">So 22.07.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/prignitz/Landschleicher-Netzow-Templin.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher </span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Netzow</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Heute geht es für unseren Landschleicher in die Uckermark. Nach Netzow – ein winziges Dorf im Ortsteil von Templin. Wer hier nicht gezielt hinfährt, würde wohl dran vorbeifahren. Doch nicht unser Landschleicher.</p>
+<p>&nbsp;</p>
+</div>
+
+
+</article><article class="count44 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=65a5b13a-3e09-48b2-a980-523edbf8797e/cpp=ba4f2ade-bf48-40ec-8299-5b5260e0a24e/imageref=ba4f2ade-bf48-40ec-8299-5b5260e0a24e%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Perwenitz","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180715_perwenitz","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge havelland"],"isTrailer":false,"duration":295,"termids":["1.2.3.9.1","1.2.3.12.2","1.2.3.7.1","1.2.3.11.1","1.2.3.6.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/havelland/landschleicher-in-perwenitz/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-07-15T19:30">So 15.07.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/havelland/landschleicher-in-perwenitz.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher in</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Perwenitz</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Perwenitz ist angeblich die erste Siedlung nördlich von Spandau gewesen. Daher der Name, „pervyy“ slawisch für erste. Das wurde uns zumindest erzählt. Das Dorf liegt mitten im Speckgürtel im Havelland und gehört zur Gemeinde Schönwalde/Glien.</p>
+</div>
+
+
+</article><article class="count45 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=ff450b91-2750-4933-8339-99f7ff5a3b8b/cpp=82c7e240-8ae8-4107-aeb6-9d53323c9df5/imageref=82c7e240-8ae8-4107-aeb6-9d53323c9df5%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Kolzenburg","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180708_kolzenburg","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge teltow-flaeming"],"isTrailer":false,"duration":286,"termids":["1.2.3.11.1","1.2.3.6.1","1.2.3.9.1","1.2.3.7.1","1.2.3.12.2","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/teltow-flaeming/kolzenburg/8/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-07-08T19:30">So 08.07.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/teltow-flaeming/kolzenburg/8.html" class="sendeplatz"><span class="manualteaserroofline">Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Kolzenburg</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Unser Landschleicher führt Sie heute nach Kolzenburg im Landkreis Teltow-Fläming. 400 Einwohner leben im Dorf, doch es geht alles andere als beschaulich zu. Denn an dem Ort liegt die Fläming-Skate-Bahn. Das bringt Touristen und hält das Dorf in Schwung. Auch in Sachen Unternehmertum bewegt sich hier einiges.</p>
+</div>
+
+
+</article><article class="count46 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=750d25a0-d5ab-430b-bb71-1b93fc05f033/cpp=5b0db064-f2ef-488a-aac2-486101e45f15/imageref=5b0db064-f2ef-488a-aac2-486101e45f15%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Hindenberg","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180701_land","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge oberspreewald-lausitz"],"isTrailer":false,"duration":258,"termids":["1.2.3.12.2","1.2.3.7.1","1.2.3.11.1","1.2.3.6.1","1.2.3.9.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/oberspreewald-lausitz/landschleicher-hindenberg/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-07-01T19:30">So 01.07.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/oberspreewald-lausitz/landschleicher-hindenberg.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Hindenberg</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Diesen Landschleicher-Ausflug hätte es beinahe nie gegeben. Denn Hindenberg, heute ein Ortsteil der Stadt Lübbenau, stand kurz vor der Abbaggerung. Weil die Qualität der Kohle aber zu schlecht war, blieb dem heute 130 Einwohner zählenden Dorf dieses Schicksal erspart. Heute gibt es vor allem Pferde, eine Eule auf dem Zaun des Grundstücks von Hans oritz und viel Platz.<br>
+</p>
+</div>
+
+
+</article><article class="count47 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=81a9f388-41bf-4b0f-aa82-07cfcbd9cc61/cpp=98c9d384-0887-422c-8ad6-880d7dc5dcd7/imageref=98c9d384-0887-422c-8ad6-880d7dc5dcd7%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Schönfeld","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180624_land","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge uckermark"],"isTrailer":false,"duration":290,"termids":["1.2.3.7.1","1.2.3.9.1","1.2.3.12.2","1.2.3.6.1","1.2.3.11.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/uckermark/Landschleicher-Brandenburg-Schoenfeld/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-06-24T19:30">So 24.06.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/uckermark/Landschleicher-Brandenburg-Schoenfeld.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher </span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Schönfeld </span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Den Landschleicher führt es an diesem Wochenende nach Schönfeld in der Uckermark. Ein Dorf mit 170 Einwohnern. Die Bewohner sind zufrieden, auch wenn in den vergangenen Jahren immer mehr Geschäfte geschlossen wurden. Vom Bäcker bis zur Poststelle – alles nicht mehr da. Doch abgehängt fühlen sie sich trotzdem nicht.</p>
+<p>&nbsp;</p>
+</div>
+
+
+</article><article class="count48 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=f2dc03f9-861e-4ce8-ad60-5a9446aecc95/cpp=597c5d4e-437f-46ed-ac0a-94ccef40a3ef/imageref=597c5d4e-437f-46ed-ac0a-94ccef40a3ef%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Freyenstein","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180617_landschleicher","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge prignitz"],"isTrailer":false,"duration":318,"termids":["1.2.3.9.1","1.2.3.12.2","1.2.3.11.1","1.2.3.6.1","1.2.3.7.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/prignitz/freyenstein/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-06-17T19:30">So 17.06.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/prignitz/freyenstein.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Freyenstein</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Der Landschleicher ist zu Besuch in Freyenstein, an der Landesgrenze zu Mecklenburg-Vorpommern. Dort sind unserem Reporter gleich viele, sehr gut gelaunte Frauen in die Arme gelaufen. Außerdem hat er viel Interessantes über das geschichtsträchtige Dorf erfahren, aber sehen Sie selbst.</p>
+</div>
+
+
+</article><article class="count49 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=402bd470-54bf-47d7-9dc2-0368eb102031/cpp=8a2c0d5e-f4c9-49a0-9399-cfbb57209aef/imageref=8a2c0d5e-f4c9-49a0-9399-cfbb57209aef%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Grassau","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180610_grassau","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge elbe-elster"],"isTrailer":false,"duration":284,"termids":["1.2.3.9.1","1.2.3.11.1","1.2.3.7.1","1.2.3.6.1","1.2.3.12.2","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/elbe-elster/grassau/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-06-10T19:30">So 10.06.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/elbe-elster/grassau.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher in </span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Grassau</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Den Landschleicher führt es an diesem Wochenende nach Grassau, &nbsp;wo er schon erwartet wurde – vom Dorfverein, der auch an diesem heißen Sonntag den Ton im Dorf angibt. Mit lauten männlichen und eher leisen weiblichen Tönen.</p>
+<p>&nbsp;</p>
+</div>
+
+
+</article><article class="count50 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=0c652b36-ff7b-4a3d-b22c-243f7de3b871/cpp=8fcbae49-718b-4f1d-a717-88ff8b61d742/imageref=8fcbae49-718b-4f1d-a717-88ff8b61d742%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Rietz","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180603_rietz","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge potsdam-mittelmark"],"isTrailer":false,"duration":297,"termids":["1.2.3.11.1","1.2.3.7.1","1.2.3.12.2","1.2.3.6.1","1.2.3.9.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/potsdam-mittelmark/rietz/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-06-03T19:30">So 03.06.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/potsdam-mittelmark/rietz.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher in</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Rietz</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Den Landschleicher führte es an diesem Wochenende nach Rietz, einem Ort, den es in Brandenburg gleich zweimal gibt. Diesmal war es Rietz bei Kloster Lenin. Ein Dorf am See, das neben eingeschränkten Seeblick noch sehr viel mehr zu bieten hat.</p>
+<p>&nbsp;</p>
+</div>
+
+
+</article><article class="count51 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=392fe912-5b3d-446c-a4cd-6b411ea7e7ca/cpp=61bdf548-0cd9-488d-93a2-fb81ce59a31a/imageref=61bdf548-0cd9-488d-93a2-fb81ce59a31a%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Diepensee","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180527_diepensee","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge dahme-spreewald"],"isTrailer":false,"duration":290,"termids":["1.2.3.9.1","1.2.3.12.2","1.2.3.6.1","1.2.3.7.1","1.2.3.11.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/dahme-spreewald/diepensee/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-05-27T19:30">So 27.05.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/dahme-spreewald/diepensee.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher in</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Diepensee </span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Unser Landschleicherdorf ist heute ein ganz besonderes. Den Ort, der vor knapp 25 Jahren in unserem Lostopf landete, den gibt es nämlich heute nicht mehr, zumindest nicht an der ursprünglichen Stelle. Er musste 2004 der Landebahn des zukünftigen Flughafens BER weichen. Unser Landschleicher war im neuen Diepensee, wo die Erinnerung an das alte noch sehr lebendig ist.&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+
+
+</article><article class="count52 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=b5303ae3-7234-4d79-8f75-ad9ee4dfa94a/cpp=08a3be80-e921-40c9-a512-a5adb1cca7b3/imageref=08a3be80-e921-40c9-a512-a5adb1cca7b3%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Gülitz","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180520_guelitz","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge prignitz"],"isTrailer":false,"duration":288,"termids":["1.2.3.6.1","1.2.3.9.1","1.2.3.7.1","1.2.3.12.2","1.2.3.11.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/prignitz/landschleicher-guelitz/jcr:content/image.img.jpg/size=320x180.jpg' alt="Eine Frau sitzt auf einer Bank vor ihrem Haus (Quelle: rbb)" title="Eine Frau sitzt auf einer Bank vor ihrem Haus (Quelle: rbb)"/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-05-20T19:30">So 20.05.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/prignitz/landschleicher-guelitz.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Gülitz</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Den Langschleicher zieht’s heute in die Gemeinde Gülitz-Reetz in die Prignitz. Die Gemeinde liegt zirka 15 Kilometer nördlich der Kreisstadt Perleberg. Östlich der Gemeinde fließt das Flüsschen Stepenitz. Zehn Kilometer nördlich liegen - schon in Mecklenburg-Vorpommern - die Ruhner Berge.&nbsp;Ein kleiner Ort, der viel aus der Vergangenheit erzählen kann.</p>
+</div>
+
+
+</article><article class="count53 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=e8e01666-2a4c-4aaa-9680-d7709f76ef03/cpp=6ec0bf4b-92a5-4ddf-85b1-affef2983f5d/imageref=6ec0bf4b-92a5-4ddf-85b1-affef2983f5d%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Lübnitz","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180513_luebnitz","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge potsdam-mittelmark"],"isTrailer":false,"duration":280,"termids":["1.2.3.6.1","1.2.3.11.1","1.2.3.7.1","1.2.3.9.1","1.2.3.12.2","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/potsdam-mittelmark/landschleicher-luebnitz/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-05-13T19:30">So 13.05.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/potsdam-mittelmark/landschleicher-luebnitz.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher in</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Lübnitz</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>In Lübnitz (Potsdam-Mittelmark) konnte der Landschleicher etwas lernen - über Dorfgemeinschaft und das Verhältnis von Alteingesessenen und Zugezogenen. Nicht einmal 200 Leute leben in Lübnitz und das Leben spielt sich oft im alten Gut ab. Nur was sich da so abspielt, das finden nicht alle im Dorf sofort gut. Viel Arbeit für den neuen Ortsvorsteher.</p>
+</div>
+
+
+</article><article class="count54 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=cd692f07-9a2f-4231-ba22-eed572bb1950/cpp=59c16e00-fad2-4123-a6e1-81bfd9874715/imageref=59c16e00-fad2-4123-a6e1-81bfd9874715%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Landschleicher","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180506_land","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge potsdam-mittelmark"],"isTrailer":false,"duration":274,"termids":["1.2.3.11.1","1.2.3.6.1","1.2.3.9.1","1.2.3.7.1","1.2.3.12.2","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/potsdam-mittelmark/Landschleicher-Neuehuetten-Brandenburg/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-05-06T19:30">So 06.05.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/potsdam-mittelmark/Landschleicher-Neuehuetten-Brandenburg.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher in</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Neuehütten</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Das rund 170 Einwohnerdorf in Fläming hat alles, was es braucht: Viel Grün, eine aktive Dorfgemeinschaft und eine spannende Geschichte. Und nach Ansicht der Lage ist hier viel Wald und von dem hat man auch immer gelebt. Sägewerke gabs, Holzkohlemeiler, Pech und Teerhütten - damit erklärt sich auch der Dorfname.</p>
+<p>&nbsp;</p>
+</div>
+
+
+</article><article class="count55 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=2e198a05-be30-472f-990a-0aa853e9bfc9/cpp=dfda85ed-ae8f-4117-bf93-fd5c07be35c2/imageref=dfda85ed-ae8f-4117-bf93-fd5c07be35c2%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Landschleicher in Ludwigsburg","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180429_Ludwigsburg","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge uckermark"],"isTrailer":false,"duration":295,"termids":["1.2.3.9.1","1.2.3.6.1","1.2.3.12.2","1.2.3.7.1","1.2.3.11.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/uckermark/ludwigsburg/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-04-29T19:30">So 29.04.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/uckermark/ludwigsburg.html" class="sendeplatz"><span class="manualteaserroofline">100-Einwohner-Ort in der Uckermark</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Landschleicher in Ludwigsburg</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Mit seinem großen Bruder ist unser Lanschleicherort Ludwigsburg in der Uckermark nicht vergleichbar. Statt 80.000 hat er nur 100 Einwohner. Seit 2001 gehört der Ort zur Gemeinde Schenkenberg und zum Amt Brüssow.</p>
+</div>
+
+
+</article><article class="count56 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=f9484302-42e3-4f23-8727-c01c68cc69ee/cpp=0d9e0782-7cff-4388-87b2-f175cd037fc3/imageref=0d9e0782-7cff-4388-87b2-f175cd037fc3%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Kietz Lenzerwische","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180422_kietz","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge prignitz"],"isTrailer":false,"duration":284,"termids":["1.2.3.11.1","1.2.3.12.2","1.2.3.9.1","1.2.3.7.1","1.2.3.6.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/prignitz/landschleicher-kietz/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-04-22T19:30">So 22.04.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/prignitz/landschleicher-kietz.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Kietz (Lenzerwische)</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Das Dorf Kietz gibt es mehrfach in Brandenburg. Unser Landschleicher hat Kietz in der Gemeinde Lenzerwische besucht. Dafür ist er an den äußersten Rand Brandenburgs gefahren. Dass Kietz fotogen ist, hat der Ort bereits bewiesen: Till Schweiger drehte hier seinen Kindofilm „Honig im Kopf“.</p>
+</div>
+
+
+</article><article class="count57 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=30e85930-f5ce-4bd6-8826-bfb1f838e569/cpp=c54fb107-5698-4b72-99a5-93038d29e06c/imageref=c54fb107-5698-4b72-99a5-93038d29e06c%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Stolpe","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180415_stolpe","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge uckermark"],"isTrailer":false,"duration":266,"termids":["1.2.3.7.1","1.2.3.6.1","1.2.3.9.1","1.2.3.11.1","1.2.3.12.2","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/uckermark/landschleicher-stolpe/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-04-15T19:30">So 15.04.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/uckermark/landschleicher-stolpe.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher in</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Stolpe</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Orte mit dem Namen Stolpe gibt es einige in Brandenburg. Dieses Stolpe hat 350 Einwohner und liegt in der Uckermark mitten im Nationalpark Unteres Odertal. Besonders bekannt ist der Ortschef bzw. trägt er einen großen Namen.</p>
+</div>
+
+
+</article><article class="count58 doctypesendeplatz even intermediate layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=98f86fb7-aa37-4fb5-9dfe-bbdea327ddc7/cpp=8abed138-ffbc-4dec-8a1a-527e18dc16d4/imageref=8abed138-ffbc-4dec-8a1a-527e18dc16d4%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Jagsal","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180408_jagsal","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge elbe-elster"],"isTrailer":false,"duration":321,"termids":["1.2.3.11.1","1.2.3.6.1","1.2.3.9.1","1.2.3.12.2","1.2.3.7.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/elbe-elster/jagsal/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-04-08T19:30">So 08.04.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/elbe-elster/jagsal.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Jagsal</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Einen Ort, in dem keine Kirche steht, findet der Landschleicher selten. Jagsal im Elbe-Elster-Kreis, ein Ortsteil von Schlieben, ist so ein Dorf. Der Gastfreundschaft tut das aber keinen Abbruch. Unsere Landschleicherin Beate Tyron fast in jedem zweiten Haus einen Kaffee angeboten und das gesamte Team fuhr am Ende alles andere als hungrig nach Hause.</p>
+</div>
+
+
+</article><article class="count59 doctypesendeplatz intermediate layoutbeitrag_av layoutstandard manualteaser odd"><div class="manualteaserpicture player video jsb_ jsb_playerInitialize-video video_customClass" data-jsb='{"config":"/vorlagen/videoplayer/_jcr_content/properties/property_406262186.js.jsn","media":"/brandenburgaktuell/landschleicher/chronologisch/index/_jcr_content/middleColumnList/19590/teaserList/automaticteaser.mediajsn.jsn/layout=standardteaser/path=828075ad-2d21-4f0e-bdcc-cbfb65a82203/cpp=b28eeb3d-cfce-423c-aef1-c5bde70c6ebb/imageref=b28eeb3d-cfce-423c-aef1-c5bde70c6ebb%21jcr:content%21image.img.jpg%21size%24320x180.jpg.jsn","analytics":{"rbbtitle":"Der Landschleicher in","rbbhandle":"/content/rbb/rbb/av/aktuell/land/aktuell_20180401_fischwasser","ATIxtn2":"26","chapter":["Brandenburg aktuell","Landschleicher","Beiträge elbe-elster"],"isTrailer":false,"duration":278,"termids":["1.2.3.6.1","1.2.3.11.1","1.2.3.12.2","1.2.3.7.1","1.2.3.9.1","5.2.13.12.1"]}}'><img data-src='/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/elbe-elster/fischwasser/jcr:content/image.img.jpg/size=320x180.jpg' alt="" title=""/>
+<div class="pictsrc">rbb</div></div><!-- sendeplatz --><time class="onAirInfo" datetime="2018-04-01T19:30">So 01.04.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/elbe-elster/fischwasser.html" class="sendeplatz"><span class="manualteaserroofline">Fischwasser</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Der Landschleicher</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Das Dorf Fischwasser war vor 800 Jahren von Mönchen gegründet worden, die hier Fische züchteten. Der Ort hält einige Überraschungen bereit: eine Kirche, deren Turm nicht darüber, sondern daneben steht und eine ehemalige Gaststätte, die wir zum ersten Mal nach Jahren betreten.</p>
+<p>&nbsp;</p>
+</div>
+
+
+</article><article class="count60 doctypesendeplatz even last layoutbeitrag_av layoutstandard manualteaser"><div class="manualteaserpicture"><a href="/brandenburgaktuell/landschleicher/beitraege/teltow-flaeming/markendorf.html" class="sendeplatz"><img width="320" height="180" alt="Logo: Brandenburg aktuell, Quelle: rbb" title="Logo: Brandenburg aktuell, Quelle: rbb" id="middleColumnList_19590_teaserList_automaticteaser_1788632390" data-src="/brandenburgaktuell/landschleicher/beitraege/teltow-flaeming/markendorf/_jcr_content/image.img.jpg/size=320x180.jpg"/></a><div class="pictsrc">rbb</div></div>
+<!-- sendeplatz --><time class="onAirInfo" datetime="2018-03-25T19:30">So 25.03.2018 | 19:30 | Brandenburg aktuell</time>
+	
+
+
+
+	<h3>
+		<a href="/brandenburgaktuell/landschleicher/beitraege/teltow-flaeming/markendorf.html" class="sendeplatz"><span class="manualteaserroofline">Der Landschleicher</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Markendorf</span>
+			
+				<!-- manualteaserdoctype: sendeplatz -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Schon Kaiser Wilhelms Truppen testeten in Markendorf bei Jüterbog ihre Artillerie und schwere Mörser. Heute streicht dort gern mal ein Rudel Wölfe um die Kiefern und hinterlässt seine Spuren im Frühlingsschnee.</p>
+</div>
+
+
+</article><div class="actionbar"><ul class="pager">
+	
+	<li class="active">
+				
+				
+				<a href="/brandenburgaktuell/landschleicher/chronologisch/index.htm/page=0.html" rel="nofollow">
+					
+					1
+				</a>
+			</li><li >
+			
+			<a href="/brandenburgaktuell/landschleicher/chronologisch/index.htm/page=1.html" rel="nofollow">
+				
+				2
+			</a>
+		</li><li >
+			
+			<a href="/brandenburgaktuell/landschleicher/chronologisch/index.htm/page=2.html" rel="nofollow">
+				
+				3
+			</a>
+		</li><li >
+			
+			<a href="/brandenburgaktuell/landschleicher/chronologisch/index.htm/page=3.html" rel="nofollow">
+				
+				4
+			</a>
+		</li><li ><a href="/brandenburgaktuell/landschleicher/chronologisch/index.htm/page=4.html" rel="nofollow" title="Seite 5 und weitere"><b>...</b></a></li><li class="forward"><a href="/brandenburgaktuell/landschleicher/chronologisch/index.htm/page=1.html" rel="nofollow" title="nächste">nächste</a></li>
+	</ul></div></section>
+		</div>
+
+		</div>
+	</section>
+		
+		<script src="/basis/js/gsa/dpsjsclient/dps.min.js" type="text/javascript"></script>
+<script src="/basis/js/gsa/json2.js" type="text/javascript"></script>
+<script src="/basis/js/gsa/previewer.js" type="text/javascript"></script>
+<script src="/basis/js/gsa/GSA.js" type="text/javascript"></script>
+<link rel="stylesheet" href="/basis/js/gsa/dpsjsclient/dps-floating-viewer.css" type="text/css"></link>
+
+</section>
+
+<!-- END: AJAX-SEARCH  -->
+	
+<!--  commentSaved:false
+requiresModerator:false
+commentsVisible:false
+commentsActivated:false
+feedback:Danke für Ihre Meinung
+ -->
+
+	</div><!-- ende: col1--><!-- anfang: col2 --><div id="col2" role="complementary">
+<section class="count1 doctypeteaser first layoutstandard odd teaserbox"><h2 class="boxheadline">Drei-Stufen-Test-Verfahren</h2>
+<article class="count1 doctypelink first last layoutstandard manualteaser odd"><!-- link -->
+
+
+
+	<h3>
+		<a href="http://www.rbb-online.de/rundfunkrat/dst/drei_stufen_test.html" class="link"><span class="manualteaserroofline">rbb-online.de</span><span class="hideme"> - </span>
+			<span class="manualteasertitle">Zeithistorisches Archiv</span>
+			
+				<!-- manualteaserdoctype: link -->
+			
+		</a>
+	</h3>
+<div class="manualteasershorttext"><p>Das Angebot &quot;1000 Landschleicher&quot; ist ein Archiv im Sinne von §11d Abs. 2 Nr. 4 Rundfunkstaatsvertrag.</p>
+<p>&nbsp;</p>
+</div>
+
+</article></section><section class="count2 doctypeteaser even last layoutstandard teaserbox"><h2 class="boxheadline">Information</h2>
+<article class="count1 doctypeteaser first last layoutstandard manualteaser odd"><!-- teaser -->
+
+
+<div class="manualteasershorttext"><p>Bitte beachten Sie: Archiv-Beiträge werden nicht aktualisiert. Die in den Beiträgen dargestellten Sachverhalte entsprechen also dem Stand des jeweiligen Sendetermins.</p>
+</div>
+
+</article></section>
+
+</div><!-- ende: col2--></div><!-- ende: main -->
+
+
+
+
+	<!--  Lightbox -->
+	<section class="overlay jsb_ jsb_lightbox_view" data-jsb="{}">
+		<article class="overlaylighbox jsb_ jsb_lightbox" data-jsb="{}">
+			<span class="ico ico_close" title="Schließen"><!-- Schließen --></span>
+			<figure class="manualteaserpicture">
+				<img src="" alt="Bild in groß"/>
+				<figcaption>Bildunterschrift</figcaption>
+			</figure>
+		</article>
+	</section>
+<footer id="footer" role="contentinfo">
+	<div class="footer_content jsb_ jsb_toggle toggled">
+		<a class="back_to_top" role="button" href="#top">nach oben</a>
+
+		
+
+		<h4 class="logo"><a href="/" class="uebersicht">rbb-online.de</a></h4>
+
+		<a class="footer_expand_link js_toggle" href="#" role="button" aria-controls="footer" title="Footer minimieren/maximieren">Footer minimieren/maximieren</a>
+
+		<ul class="link_list jsb_ jsb_FooterLinks" role="contentinfo">
+			
+					<li>
+						<h4 class="title"><a href="/" class="uebersicht">rbb-online.de</a></h4>
+		
+						<form class="form" action="#"><fieldset>
+							<label class="hide">rbb-online.de</label>
+							<select size="1">
+							<option value="https://www.rbb24.de">rbb|24</option>
+							<option value="https://www.rbb-online.de/fernsehen/">Fernsehen</option>
+							<option value="https://mediathek.rbb-online.de/tv">Mediathek</option>
+							<option value="https://www.rbb24.de/wetter/wetterkarte/">Wetter</option>
+							<option value="https://www.rbb-online.de/radio/">Radioprogramme</option>
+							<option value="/unternehmen/der_rbb/profil/internet/internet.html">Programmprojekte</option>
+							
+							</select>
+						</fieldset></form>
+						<ul>
+							<li><a href="https://www.rbb24.de" class="verknuepfung" title="www.rbb24.de">rbb|24</a></li>
+							<li><a href="https://www.rbb-online.de/fernsehen/" class="link">Fernsehen</a></li>
+							<li><a href="https://mediathek.rbb-online.de/tv" class="verknuepfung">Mediathek</a></li>
+							<li><a href="https://www.rbb24.de/wetter/wetterkarte/" class="uebersicht">Wetter</a></li>
+							<li><a href="https://www.rbb-online.de/radio/" class="link">Radioprogramme</a></li>
+							<li><a href="/unternehmen/der_rbb/profil/internet/internet.html" class="uebersicht">Programmprojekte</a></li>
+						</ul>
+					</li>
+				
+					<li>
+						<h4 class="title"><a href="/unternehmen/der_rbb/" class="uebersicht">Der rbb</a></h4>
+		
+						<form class="form" action="#"><fieldset>
+							<label class="hide">Der rbb</label>
+							<select size="1">
+							<option value="/unternehmen/der_rbb/">Unternehmen</option>
+							<option value="/unternehmen/presse/">Presse</option>
+							<option value="/unternehmen/der_rbb/rundfunkbeitrag/">Rundfunkbeitrag</option>
+							<option value="/unternehmen/service/service-redaktion/wegbeschreibung.html">Wegbeschreibung / Anfahrt</option>
+							
+							</select>
+						</fieldset></form>
+						<ul>
+							<li><a href="/unternehmen/der_rbb/" class="uebersicht">Unternehmen</a></li>
+							<li><a href="/unternehmen/presse/" class="uebersicht">Presse</a></li>
+							<li><a href="/unternehmen/der_rbb/rundfunkbeitrag/" class="uebersicht">Rundfunkbeitrag</a></li>
+							<li><a href="/unternehmen/service/service-redaktion/wegbeschreibung.html" class="beitrag">Wegbeschreibung / Anfahrt</a></li>
+						</ul>
+					</li>
+				
+					<li>
+						<h4 class="title"><a href="/unternehmen/service/" class="uebersicht">Service</a></h4>
+		
+						<form class="form" action="#"><fieldset>
+							<label class="hide">Service</label>
+							<select size="1">
+							<option value="/fernsehen/frequenzen/">Frequenzen - Fernsehen</option>
+							<option value="/radio/frequenzen/">Frequenzen - Radio</option>
+							<option value="/unternehmen/service/korrekturen.html">Korrekturen</option>
+							<option value="/unternehmen/service/mitschnittservice.html">Mitschnittservice</option>
+							<option value="https://www.rbb-online.de/static/shop/rbb_shop.html">rbb Shop</option>
+							
+							</select>
+						</fieldset></form>
+						<ul>
+							<li><a href="/fernsehen/frequenzen/" class="uebersicht">Frequenzen - Fernsehen</a></li>
+							<li><a href="/radio/frequenzen/" class="uebersicht">Frequenzen - Radio</a></li>
+							<li><a href="/unternehmen/service/korrekturen.html" class="beitrag">Korrekturen</a></li>
+							<li><a href="/unternehmen/service/mitschnittservice.html" class="beitrag">Mitschnittservice</a></li>
+							<li><a href="https://www.rbb-online.de/static/shop/rbb_shop.html" class="verknuepfung" target="_blank">rbb Shop</a></li>
+						</ul>
+					</li>
+				
+					<li>
+						<h4 class="title"><a href="/kontakt/" class="contact">Kontakt</a></h4>
+		
+						<form class="form" action="#"><fieldset>
+							<label class="hide">Kontakt</label>
+							<select size="1">
+							<option value="/hilfe/video-und-audio.html">Hilfe</option>
+							<option value="/hilfe/copyright_und_datenschutz/">Rechtliche Hinweise</option>
+							
+							</select>
+						</fieldset></form>
+						<ul>
+							<li><a href="/hilfe/video-und-audio.html" class="uebersicht">Hilfe</a></li>
+							<li><a href="/hilfe/copyright_und_datenschutz/" class="beitrag">Rechtliche Hinweise</a></li>
+						</ul>
+					</li>
+				
+		</ul>
+
+		<a href="https://www.ard.de/" class="verknuepfung ard_logo" title="www.ard.de">ard.de</a>
+
+		<ul class="logo_list">
+			
+						<li class="rbb_fernsehen"><a href="/fernsehen/" class="uebersicht" title="rbb Fernsehen">rbb Fernsehen</a></li>
+					
+						<li class="rbb24"><a href="https://www.rbb24.de" class="verknuepfung" title="www.rbb24.de">rbb24</a></li>
+					
+						<li class="kulturradio"><a href="https://www.rbbkultur.de/" class="verknuepfung" title="www.rbbkultur.de">rbbkultur</a></li>
+					
+						<li class="radio_berlin"><a href="https://www.rbb888.de" class="verknuepfung" title="www.rbb888.de">rbb 88.8</a></li>
+					
+						<li class="antenne_brandenburg"><a href="https://www.antennebrandenburg.de/" class="verknuepfung" title="www.antennebrandenburg.de">Antenne Brandenburg</a></li>
+					
+						<li class="radio_eins"><a href="https://www.radioeins.de" class="verknuepfung" title="www.radioeins.de">radioeins</a></li>
+					
+						<li class="inforadio"><a href="https://www.inforadio.de/" class="verknuepfung" title="www.inforadio.de">Inforadio</a></li>
+					
+						<li class="fritz"><a href="https://www.fritz.de/" class="verknuepfung" title="www.fritz.de">Fritz</a></li>
+					
+						<li class="funkhaus_europa"><a href="https://www1.wdr.de/radio/cosmo/" class="verknuepfung" title="www.cosmoradio.de">COSMO</a></li>
+					
+		</ul>
+
+		<p class="left"><span class="desktop">© Rundfunk Berlin-Brandenburg</span><span class="mobile">© rbb</span></p>
+		<p class="right"><a href="/impressum/" class="beitrag highlight">Impressum</a> | <a href="/datenschutz/datenschutzerklaerung.html" class="beitrag highlight">Datenschutz</a></p>
+	</div>
+</footer>
+
+
+
+	</div>
+
+
+	
+
+
+
+
+
+<script src="/vorlagen/compressor.combined.js/v=8.9.0/f=js.js" type="text/javascript"></script>
+
+
+
+
+<!-- Print -->
+
+
+	</body>
+</html>

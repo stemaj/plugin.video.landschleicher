@@ -1,0 +1,43 @@
+import re
+
+def increment(i):
+  return i+1
+
+class Film():
+  def __init__(self, film, link, plot, poster):
+        self.film = film
+        self.link = link
+        self.plot = plot
+        self.poster = poster
+
+def listOfNewest(bytes, size):
+  split1 = bytes.decode('utf-8').split('Default Content')[1]
+  split2 = split1.split('actionbar')[0]
+  splits3 = split2.split('<article')
+  splits4 = splits3[1:len(splits3)]
+
+  regex = r"src=\\'(.+)\\'.+href=\"(.+)\".+=\"sende.+teasertitle\">(.+)</span.+shorttext.+<p>(.+)</p>"
+  
+  i = 0
+  filme = []
+  for data in splits4:
+      data = data.replace("\n","\\n")
+      data = data.replace("\t","\\t")
+      data = data.replace("\'","\\\'")
+      matches = re.findall(regex, data, re.MULTILINE)
+      if len (matches) > 0:
+        link = 'https://www.rbb-online.de' + matches[0][1] + '/trailer'
+        link2 = 'https://www.rbb-online.de' + matches[0][0]
+        film = Film(matches[0][2], link, matches[0][3], link2)
+        filme.append(film)
+      i = i+1
+      if i == size:
+        return filme
+  return filme
+
+def videoLink(bytes):
+  regex = r"contentUrl.+\"(.+)\""
+  matches = re.findall(regex, bytes.decode('utf-8'), re.MULTILINE)
+  if len(matches) > 0:
+    return matches[0]
+  return ""
