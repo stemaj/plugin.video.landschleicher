@@ -6,7 +6,7 @@ class Test_1(unittest.TestCase):
 
   def test_1(self):
     data = read.load_file('000')
-    arr = main.listOfNewest(data, 0)
+    arr = main.listOfNewest(data)
     self.assertEqual(59, len(arr))
 
   def test_2(self):
@@ -16,7 +16,7 @@ class Test_1(unittest.TestCase):
 
   def test_4(self):
     data = read.load_file('004')
-    arr = main.listOfNewest(data, 0)
+    arr = main.listOfNewest(data)
     self.assertEqual(60, len(arr))
 
   
