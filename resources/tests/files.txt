@@ -14,3 +14,18 @@ https://www.rbb-online.de/brandenburgaktuell/landschleicher/chronologisch/index.
 
 004 - > 50 Orte
 https://www.rbb-online.de/brandenburgaktuell/landschleicher/chronologisch/index.htm/page=0.html
+
+
+Neueste
+Titel, Link, Bild, duration
+https://www.rbb-online.de/brandenburgaktuell/archiv/landschleicher-archiv.html
+
+1379 beitraege
+Titel, Link
+https://www.rbb-online.de/brandenburgaktuell/landschleicher/a-z.html
+
+description, thumbnailUrl, uploadDate, duration, contentUrl
+https://www.rbb-online.de/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/spree-neisse/aktuell_19980816_Drehnow_SPN.html
+
+alternativ
+https://www.rbb-online.de/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/spree-neisse/aktuell_19980816_Drehnow_SPN.mediajsn.jsn
