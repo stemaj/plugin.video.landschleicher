@@ -1,6 +1,7 @@
 import routing
 from xbmcplugin import addDirectoryItem, endOfDirectory, setResolvedUrl
 from xbmcgui import ListItem
+from pyStemaj import stringExtractor
 
 plugin = routing.Plugin()
 
@@ -11,10 +12,14 @@ class Film():
         self.plot = plot
         self.poster = poster
 
-def listeDerLandkreise():
+def listeDerLandkreise(listOfRawData):
+    for data in listOfRawData:
+        result = stringExtractor.matchesByRegex3(data, b"datetime=\"(.+)\".+href=\"(.+)\".class.+manualteasertitle\">(.+)</span>.+Artikel")
+        result = result
+        
     arr = []
-    arr.append('Spree-Neiße')
-    arr.append('OSL')
+    #arr.append('Spree-Neiße')
+    #arr.append('OSL')
     return arr
 
 def listeDerLandkreisFilme(landkreis: str):

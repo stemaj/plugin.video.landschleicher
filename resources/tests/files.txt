@@ -20,9 +20,10 @@ Neueste
 Titel, Link, Bild, duration
 https://www.rbb-online.de/brandenburgaktuell/archiv/landschleicher-archiv.html
 
-1379 beitraege
-Titel, Link
+1380 beitraege
+Titel, Link, date
 https://www.rbb-online.de/brandenburgaktuell/landschleicher/a-z.html
+--> file.000
 
 description, thumbnailUrl, uploadDate, duration, contentUrl
 https://www.rbb-online.de/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/spree-neisse/aktuell_19980816_Drehnow_SPN.html
