@@ -18,7 +18,8 @@ logger = logging.getLogger(ADDON.getAddonInfo('id'))
 kodilogging.config()
 plugin = routing.Plugin()
 
-def fuelleGuiMitListeVonLandkreisen(arr) -> None:
+def fuelleGuiMitListeVonLandkreisen() -> None:
+    arr = inhalt.listeDerLandkreise()
     for x in arr:
         addDirectoryItem(plugin.handle, plugin.url_for(show_landkreis, x)   , ListItem(x), True)
     endOfDirectory(plugin.handle)
@@ -44,7 +45,7 @@ def show_category(category_id: str):
     if category_id == 'kategorieNeueste':
         fuelleGuiMitListeVonFilmen(inhalt.listeDerNeuestenFilme())
     elif category_id == 'kategorieAz':
-        fuelleGuiMitListeVonLandkreisen(inhalt.listeDerLandkreise())
+        fuelleGuiMitListeVonLandkreisen()
     elif category_id == 'kategorieSuche':
         text = kodiZeug.tastaturEingabe()
         if text:

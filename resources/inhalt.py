@@ -1,7 +1,7 @@
 import routing
 from xbmcplugin import addDirectoryItem, endOfDirectory, setResolvedUrl
 from xbmcgui import ListItem
-from pyStemaj import stringExtractor
+from pyStemaj import byteStream, bytesExtractor, stringExtractor
 
 plugin = routing.Plugin()
 
@@ -12,15 +12,21 @@ class Film():
         self.plot = plot
         self.poster = poster
 
-def listeDerLandkreise(listOfRawData):
+def listeDerLandkreiseByData(listOfRawData: bytes):
+    landkreisList = []
     for data in listOfRawData:
-        result = stringExtractor.matchesByRegex3(data, b"datetime=\"(.+)\".+href=\"(.+)\".class.+manualteasertitle\">(.+)</span>.+Artikel")
-        result = result
-        
-    arr = []
-    #arr.append('Spree-Neiße')
-    #arr.append('OSL')
-    return arr
+        # name = stringExtractor.matchByRegex(data, b"manualteasertitle\">(.+)</span")
+        # link = stringExtractor.matchByRegex(data, b"href=\"(.+)\".class.+sendeplatz")
+        # datetime = stringExtractor.matchByRegex(data, b"datetime.+>(.+)<")
+        landkreis = stringExtractor.matchByRegex(bytes(data), b"beitraege/(.+)/.+html")
+        if not landkreis in landkreisList:
+            print(landkreis)
+            if isinstance(landkreis, str):
+                landkreisList.append(landkreis)
+    return landkreisList
+
+def listeDerLandkreise():
+    return listeDerLandkreiseByData(byteStream.fromUrl("https://www.rbb-online.de/brandenburgaktuell/landschleicher/a-z.html"))
 
 def listeDerLandkreisFilme(landkreis: str):
     a = Film('filmx', "link1", 'Bla', 'image1.jpg')

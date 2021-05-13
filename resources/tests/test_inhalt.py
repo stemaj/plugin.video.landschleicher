@@ -17,4 +17,5 @@ class Test_Inhalt(unittest.TestCase):
         data = data.split(b"</article>")
         data.pop()
         self.assertEqual(len(data), 1380)
-        inhalt.listeDerLandkreise(data)
+        landkreisList = inhalt.listeDerLandkreiseByData(data)
+        self.assertEqual(len(landkreisList), 16)
