@@ -18,7 +18,12 @@ logger = logging.getLogger(ADDON.getAddonInfo('id'))
 kodilogging.config()
 plugin = routing.Plugin()
 
-def fuelleGuiMitListeVonFilmen(arr) -> []:
+def fuelleGuiMitListeVonLandkreisen(arr) -> None:
+    for x in arr:
+        addDirectoryItem(plugin.handle, plugin.url_for(show_landkreis, x)   , ListItem(x), True)
+    endOfDirectory(plugin.handle)
+
+def fuelleGuiMitListeVonFilmen(arr) -> None:
     for x in arr:
         listItem = ListItem(label=x.film)
         listItem.setArt({'poster':x.poster})
@@ -38,12 +43,19 @@ def index():
 def show_category(category_id: str):
     if category_id == 'kategorieNeueste':
         fuelleGuiMitListeVonFilmen(inhalt.listeDerNeuestenFilme())
+    elif category_id == 'kategorieAz':
+        fuelleGuiMitListeVonLandkreisen(inhalt.listeDerLandkreise())
     elif category_id == 'kategorieSuche':
         text = kodiZeug.tastaturEingabe()
         if text:
             fuelleGuiMitListeVonFilmen(inhalt.listeDerNeuestenFilme())
         else:
             endOfDirectory(plugin.handle)
+
+@plugin.route('/landkreis/<landkreis_id>')
+def show_landkreis(landkreis_id: str):
+    fuelleGuiMitListeVonFilmen(inhalt.listeDerLandkreisFilme(landkreis_id))
+
 
 @plugin.route('/video/<video_id>')
 def play_video(video_id):

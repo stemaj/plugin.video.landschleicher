@@ -11,6 +11,20 @@ class Film():
         self.plot = plot
         self.poster = poster
 
+def listeDerLandkreise():
+    arr = []
+    arr.append('Spree-Neiße')
+    arr.append('OSL')
+    return arr
+
+def listeDerLandkreisFilme(landkreis: str):
+    a = Film('filmx', "link1", 'Bla', 'image1.jpg')
+    b = Film('filmy', "link2", 'Bla', 'image2.jpg')
+    arr = []
+    arr.append(a)
+    arr.append(b)
+    return arr
+
 def listeDerNeuestenFilme():
     a = Film('film1', "link1", 'Bla', 'image1.jpg')
     b = Film('film2', "link2", 'Bla', 'image2.jpg')
