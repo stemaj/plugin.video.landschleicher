@@ -11,3 +11,4 @@ Thumbs.db
 .cache
 .vscode/*
 routing.py
+xbmc*.py
