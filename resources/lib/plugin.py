@@ -19,16 +19,18 @@ kodilogging.config()
 plugin = routing.Plugin()
 
 def fuelleGuiMitListeVonLandkreisen() -> None:
-    arr = inhalt.listeDerLandkreise()
-    for x in arr:
+    inhalt.listeDerLandkreise()
+    log("+++++1")
+    for x in inhalt.Landschleicher.beitraege.keys():
+        log("+++++2")
         addDirectoryItem(plugin.handle, plugin.url_for(show_landkreis, x)   , ListItem(x), True)
     endOfDirectory(plugin.handle)
 
 def fuelleGuiMitListeVonFilmen(arr) -> None:
     for x in arr:
         listItem = ListItem(label=x.film)
-        listItem.setArt({'poster':x.poster})
-        listItem.setInfo('video',infoLabels={ 'plot': x.plot })
+        #listItem.setArt({'poster':x.poster})
+        listItem.setInfo('video',infoLabels={ 'plot': x.datetime })
         listItem.setProperty('IsPlayable', 'true')
         addDirectoryItem(plugin.handle, plugin.url_for(play_video, x.link), listItem)
     endOfDirectory(plugin.handle)

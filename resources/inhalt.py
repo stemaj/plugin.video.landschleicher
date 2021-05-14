@@ -1,44 +1,51 @@
 import routing
 from xbmcplugin import addDirectoryItem, endOfDirectory, setResolvedUrl
 from xbmcgui import ListItem
+from xbmc import log
 from pyStemaj import byteStream, bytesExtractor, stringExtractor
 
 plugin = routing.Plugin()
 
+class Landschleicher():
+    beitraege = {}
+    @staticmethod
+    def addLandkreis(x):
+        Landschleicher.beitraege[x] = []
+    @staticmethod
+    def addBeitrag(x,y):
+        Landschleicher.beitraege[x].append(y)
+
 class Film():
-    def __init__(self, film: str, link: str, plot: str, poster: str):
+    def __init__(self, film: str, link: str, datetime: str):
         self.film = film
         self.link = link
-        self.plot = plot
-        self.poster = poster
+        self.datetime = datetime
 
-def listeDerLandkreiseByData(listOfRawData: bytes):
-    landkreisList = []
-    for data in listOfRawData:
-        # name = stringExtractor.matchByRegex(data, b"manualteasertitle\">(.+)</span")
-        # link = stringExtractor.matchByRegex(data, b"href=\"(.+)\".class.+sendeplatz")
-        # datetime = stringExtractor.matchByRegex(data, b"datetime.+>(.+)<")
-        landkreis = stringExtractor.matchByRegex(bytes(data), b"beitraege/(.+)/.+html")
-        if not landkreis in landkreisList:
-            print(landkreis)
+def listeDerLandkreiseByData(arr):
+    for data in arr:
+        if isinstance(data, bytes):
+            film = stringExtractor.matchByRegex(data, b"manualteasertitle\">(.+)</span")
+            link = stringExtractor.matchByRegex(data, b"href=\"(.+)\".class.+sendeplatz")
+            datetime = stringExtractor.matchByRegex(data, b"datetime.+>(.+)<")
+            landkreis = stringExtractor.matchByRegex(bytes(data), b"beitraege/(.+)/.+html")
+            if not landkreis in Landschleicher.beitraege and isinstance(landkreis, str):
+                Landschleicher.addLandkreis(landkreis)
             if isinstance(landkreis, str):
-                landkreisList.append(landkreis)
-    return landkreisList
+                Landschleicher.addBeitrag(landkreis, Film(film,link,datetime))
 
 def listeDerLandkreise():
-    return listeDerLandkreiseByData(byteStream.fromUrl("https://www.rbb-online.de/brandenburgaktuell/landschleicher/a-z.html"))
+    listeDerLandkreiseByData(bytesExtractor.extractInnerPartAndSplit(byteStream.fromUrl("https://www.rbb-online.de/brandenburgaktuell/landschleicher/a-z.html"), b"tab_content", b"commentSaved", b"</article>"))
 
 def listeDerLandkreisFilme(landkreis: str):
-    a = Film('filmx', "link1", 'Bla', 'image1.jpg')
-    b = Film('filmy', "link2", 'Bla', 'image2.jpg')
+    listeDerLandkreise()
     arr = []
-    arr.append(a)
-    arr.append(b)
+    for x in Landschleicher.beitraege[landkreis]:
+        arr.append(x)
     return arr
 
 def listeDerNeuestenFilme():
-    a = Film('film1', "link1", 'Bla', 'image1.jpg')
-    b = Film('film2', "link2", 'Bla', 'image2.jpg')
+    a = Film('film1', "link1", 'Bla')
+    b = Film('film2', "link2", 'Bla')
     arr = []
     arr.append(a)
     arr.append(b)
