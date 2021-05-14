@@ -30,3 +30,7 @@ https://www.rbb-online.de/content/rbb/rbb/brandenburgaktuell/landschleicher/beit
 
 alternativ
 https://www.rbb-online.de/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/spree-neisse/aktuell_19980816_Drehnow_SPN.mediajsn.jsn
+
+
+https://www.rbb-online.de/content/rbb/rbb/brandenburgaktuell/landschleicher/beitraege/maerkisch-oderland/aktuell_20140302_altfriedland.mediajsn.jsn
+/brandenburgaktuell/landschleicher/beitraege/maerkisch-oderland/aktuell_20140302_altfriedland.html
