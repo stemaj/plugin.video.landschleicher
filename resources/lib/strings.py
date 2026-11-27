@@ -1,0 +1,7 @@
+# String IDs from resources/language/*/strings.po
+CACHE_CLEARED = 30011
+LATEST = 30012
+LANDKREISE = 30013
+SEARCH = 30014
+NO_RESULTS = 30015
+NO_VIDEO = 30016

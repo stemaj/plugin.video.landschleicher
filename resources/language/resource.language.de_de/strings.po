@@ -70,3 +70,7 @@ msgstr "Suche"
 msgctxt "#30015"
 msgid "No results"
 msgstr "Keine Treffer"
+
+msgctxt "#30016"
+msgid "This entry has no video."
+msgstr "Zu diesem Beitrag gibt es kein Video."

@@ -1,3 +1,4 @@
+import logging
 import sys
 from concurrent.futures import ThreadPoolExecutor
 from urllib.parse import parse_qsl, urlencode
@@ -6,12 +7,14 @@ import xbmc
 import xbmcgui
 import xbmcplugin
 
-from resources.lib import player, search, sorting
+from resources.lib import player, search, sorting, strings
 from resources.lib.cache import DetailCache
 from resources.lib.models import Dorf
 from resources.lib.scraper import http, parser
 from resources.lib.scraper.parser import BASE_URL
 from resources.lib.utils import kodilogging, kodiutils
+
+logger = logging.getLogger(__name__)
 
 MAX_WORKERS = 10
 ROOT_URL = BASE_URL + '/brandenburgaktuell/landschleicher/'
@@ -25,7 +28,7 @@ def build_url(**params) -> str:
 
 
 def show_root() -> None:
-    for label_id, action in ((30012, 'neueste'), (30013, 'landkreise'), (30014, 'suche')):
+    for label_id, action in ((strings.LATEST, 'neueste'), (strings.LANDKREISE, 'landkreise'), (strings.SEARCH, 'suche')):
         item = xbmcgui.ListItem(label=kodiutils.get_string(label_id))
         xbmcplugin.addDirectoryItem(HANDLE, build_url(action=action), item, True)
     xbmcplugin.endOfDirectory(HANDLE)
@@ -42,7 +45,8 @@ def show_landkreise() -> None:
 def fetch_details(dorf: Dorf):
     try:
         return dorf.url, parser.parse_meta(http.fetch_head(dorf.url))
-    except OSError:
+    except OSError as e:
+        logger.warning('Could not load details for %s: %s', dorf.url, e)
         return dorf.url, None
 
 
@@ -83,6 +87,7 @@ def nachladen(fehlende, cache: DetailCache, folder_path: str, reload_url: str = 
                 neu += 1
             if monitor.abortRequested():
                 break
+    logger.debug('Loaded details for %d of %d entries', neu, len(fehlende))
     if neu:
         cache.save()
         if xbmc.getInfoLabel('Container.FolderPath') == folder_path:
@@ -91,16 +96,17 @@ def nachladen(fehlende, cache: DetailCache, folder_path: str, reload_url: str = 
 
 def suche(text: str) -> None:
     reload_url = ''
+    text = text.strip()
     if not text:
-        text = xbmcgui.Dialog().input(kodiutils.get_string(30014))
-        if not text.strip():
+        text = xbmcgui.Dialog().input(kodiutils.get_string(strings.SEARCH)).strip()
+        if not text:
             xbmcplugin.endOfDirectory(HANDLE, succeeded=False)
             return
         # The prompt URL has no query, so a plain refresh would ask again
         reload_url = build_url(action='suche', q=text)
     treffer = search.suche_doerfer(parser.parse_doerfer(http.fetch(ROOT_URL + 'a-z.html')), text)
     if not treffer:
-        kodiutils.notification('Landschleicher', kodiutils.get_string(30015))
+        kodiutils.notification(kodiutils.get_string(strings.NO_RESULTS))
     show_doerfer(sortierte_doerfer(treffer), reload_url)
 
 
@@ -123,9 +129,10 @@ def run() -> None:
             player.play(HANDLE, params['url'])
         elif action == 'clear_cache':
             DetailCache().clear()
-            kodiutils.notification('Landschleicher', kodiutils.get_string(30011))
+            kodiutils.notification(kodiutils.get_string(strings.CACHE_CLEARED))
         else:
             xbmcplugin.endOfDirectory(HANDLE, succeeded=False)
     except OSError as e:
-        kodiutils.notification('Landschleicher', str(e))
+        logger.error('Request %s failed: %s', sys.argv[2], e)
+        kodiutils.notification(str(e))
         xbmcplugin.endOfDirectory(HANDLE, succeeded=False)

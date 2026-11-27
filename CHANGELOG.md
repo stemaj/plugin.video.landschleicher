@@ -21,6 +21,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 - Restructured `resources/lib` into `models`, `player`, `scraper` and `utils`.
 - Require `xbmc.python` 3.0.0.
+- Reduced `kodiutils` to the helpers in use, moved string IDs to `strings.py` and removed empty `addon.xml` tags.
+
+### Fixed
+
+- Searching for only whitespace listed every village.
+- Truncated HTTP responses are reported as errors instead of crashing the background loader.
+- Errors are now written to the Kodi log; the "no video" message is localised.
 
 ### Removed
 

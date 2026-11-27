@@ -9,15 +9,9 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="de_DE">1000 Landschleicher - das Archiv</summary>
         <description lang="de_DE">Seit dem 28. März 1993 besucht der Landschleicher jedes Wochenende einen Brandenburger Ort mit einer Einwohnerzahl unter 2.000. Zum 20. Jubiläum öffnete der Landschleicher sein Archiv und ermöglicht einen besonderen Blick auf die Geschichte des Landes Brandenburg. Die Landschleicher-Videos aus mittlerweile 21 Jahren erzählen die kleinen und großen Geschichten der kleinsten Orte des Landes und ihrer Bewohner.</description>
-        <language></language>
         <platform>all</platform>
         <license>MIT</license>
-        <forum></forum>
-        <website></website>
         <email>steffen.majaura@gmail.com</email>
-        <source></source>
-        <news></news>
-        <disclaimer></disclaimer>
         <assets>
             <icon>resources/icon.png</icon>
             <fanart>resources/fanart.jpg</fanart>
