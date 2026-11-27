@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.landschleicher" name="Landschleicher" version="1.0.1" provider-name="stemaj">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
     <extension point="xbmc.python.pluginsource" library="main.py">
         <provides>video</provides>
     </extension>

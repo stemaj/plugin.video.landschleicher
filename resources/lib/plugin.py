@@ -3,7 +3,7 @@
 import sys
 import logging
 import xbmcaddon
-from resources.lib import kodilogging
+from resources.lib.utils import kodilogging
 from xbmcplugin import endOfDirectory
 
 ADDON = xbmcaddon.Addon()
