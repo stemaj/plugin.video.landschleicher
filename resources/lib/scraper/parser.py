@@ -1,39 +1,40 @@
 import re
+from datetime import datetime
+from html import unescape
+from typing import List
 
-def increment(i):
-  return i+1
+from resources.lib.models import Dorf, Landkreis
 
-class Film():
-  def __init__(self, film, link, plot, poster):
-        self.film = film
-        self.link = link
-        self.plot = plot
-        self.poster = poster
+BASE_URL = 'https://www.rbb-online.de'
 
-def listOfNewest(bytes):
-  split1 = bytes.decode('utf-8').split('Default Content')[1]
-  split2 = split1.split('actionbar')[0]
-  splits3 = split2.split('<article')
-  splits4 = splits3[1:len(splits3)]
+_LANDKREIS_RE = re.compile(
+    r'<area[^>]+href="(?P<url>/brandenburgaktuell/landschleicher/1000/(?P<slug>[^"/]+)\.html)"[^>]*alt="(?P<name>[^"]*)"')
+_ARTICLE_RE = re.compile(
+    r'datetime="(?P<datetime>[^"]*)".*?'
+    r'href="(?P<url>[^"]+)"\s+class="sendeplatz".*?'
+    r'<span class="manualteasertitle">(?P<name>.*?)</span>',
+    re.DOTALL)
 
-  regex = r"src=\\'(.+)\\'.+href=\"(.+)\".+=\"sende.+teasertitle\">(.+)</span.+shorttext.+<p>(.+)</p>"
-  
-  filme = []
-  for data in splits4:
-      data = data.replace("\n","\\n")
-      data = data.replace("\t","\\t")
-      data = data.replace("\'","\\\'")
-      matches = re.findall(regex, data, re.MULTILINE)
-      if len (matches) > 0:
-        link = 'https://www.rbb-online.de' + matches[0][1] + '/trailer'
-        link2 = 'https://www.rbb-online.de' + matches[0][0]
-        film = Film(matches[0][2], link, matches[0][3], link2)
-        filme.append(film)
-  return filme
 
-def videoLink(bytes):
-  regex = r"contentUrl.+\"(.+)\""
-  matches = re.findall(regex, bytes.decode('utf-8'), re.MULTILINE)
-  if len(matches) > 0:
-    return matches[0]
-  return ""
+def parse_landkreise(html: str) -> List[Landkreis]:
+    gefunden = {}
+    for m in _LANDKREIS_RE.finditer(html):
+        gefunden.setdefault(m['slug'], Landkreis(m['slug'], unescape(m['name']).strip(), BASE_URL + m['url']))
+    return sorted(gefunden.values(), key=lambda l: l.name)
+
+
+def parse_doerfer(html: str) -> List[Dorf]:
+    doerfer = {}
+    for article in html.split('<article')[1:]:
+        m = _ARTICLE_RE.search(article)
+        if m:
+            doerfer.setdefault(
+                m['url'], Dorf(unescape(m['name']).strip(), BASE_URL + m['url'], _format_datum(m['datetime'])))
+    return sorted(doerfer.values(), key=lambda d: d.name.casefold())
+
+
+def _format_datum(value: str) -> str:
+    try:
+        return datetime.fromisoformat(value).strftime('%d.%m.%Y')
+    except ValueError:
+        return value

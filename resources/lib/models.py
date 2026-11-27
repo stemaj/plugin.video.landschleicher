@@ -1,22 +1,15 @@
-class Landschleicher():
-    beitraege = {}
-    @staticmethod
-    def addLandkreis(x):
-        Landschleicher.beitraege[x] = []
-    @staticmethod
-    def addBeitrag(x,y):
-        Landschleicher.beitraege[x].append(y)
+from dataclasses import dataclass
 
-class Film():
-    def __init__(self, film: str, link: str, datetime: str):
-        self.film = film
-        self.link = link
-        self.datetime = datetime
 
-def listeDerNeuestenFilme():
-    a = Film('film1', "link1", 'Bla')
-    b = Film('film2', "link2", 'Bla')
-    arr = []
-    arr.append(a)
-    arr.append(b)
-    return arr
+@dataclass(frozen=True)
+class Landkreis:
+    slug: str
+    name: str
+    url: str
+
+
+@dataclass(frozen=True)
+class Dorf:
+    name: str
+    url: str
+    datum: str
