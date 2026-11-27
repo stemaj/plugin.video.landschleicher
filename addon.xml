@@ -9,6 +9,9 @@
     <extension point="xbmc.addon.metadata">
         <summary lang="de_DE">1000 Landschleicher - das Archiv</summary>
         <description lang="de_DE">Seit dem 28. März 1993 besucht der Landschleicher jedes Wochenende einen Brandenburger Ort mit einer Einwohnerzahl unter 2.000. Zum 20. Jubiläum öffnete der Landschleicher sein Archiv und ermöglicht einen besonderen Blick auf die Geschichte des Landes Brandenburg. Die Landschleicher-Videos aus mittlerweile 21 Jahren erzählen die kleinen und großen Geschichten der kleinsten Orte des Landes und ihrer Bewohner.</description>
+        <summary lang="en_GB">1000 Landschleicher - the archive</summary>
+        <disclaimer lang="de_DE">Inoffizielles Addon, nicht mit dem rbb verbunden. Alle Videos, Bilder und Texte gehören dem Rundfunk Berlin-Brandenburg (rbb) und werden nur von dessen Website verlinkt, nicht gespeichert oder weiterverbreitet. Die Lizenz dieses Addons gilt nur für den Quellcode.</disclaimer>
+        <disclaimer lang="en_GB">Unofficial add-on, not affiliated with rbb. All videos, images and texts belong to Rundfunk Berlin-Brandenburg (rbb) and are only linked from its website, not stored or redistributed. This add-on's licence covers the source code only.</disclaimer>
         <platform>all</platform>
         <license>MIT</license>
         <email>steffen.majaura@gmail.com</email>
