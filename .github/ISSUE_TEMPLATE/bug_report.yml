@@ -1,0 +1,31 @@
+name: Bug report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: input
+    id: kodi
+    attributes:
+      label: Kodi version and platform
+      placeholder: Kodi 21.3 on macOS
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Add-on version
+      placeholder: "1.0.1"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Include the steps, and the Landkreis or village if it is specific to one.
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Kodi log
+      description: Enable "Debug logging" in the add-on settings first. Remove personal data before pasting.
+      render: text

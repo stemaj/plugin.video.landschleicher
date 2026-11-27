@@ -1,0 +1,24 @@
+name: Build release zip
+
+# Manual only: builds an installable zip and attaches it to the run.
+on:
+  workflow_dispatch:
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build zip
+        run: |
+          ID=plugin.video.landschleicher
+          VERSION=$(sed -n 's/.*<addon id="[^"]*" name="[^"]*" version="\([^"]*\)".*/\1/p' addon.xml)
+          mkdir -p "dist/$ID"
+          git archive HEAD | tar -x -C "dist/$ID"
+          rm -rf "dist/$ID/tests" "dist/$ID/.github" "dist/$ID/.gitignore"
+          (cd dist && zip -qr "$ID-$VERSION.zip" "$ID")
+          echo "ZIP=dist/$ID-$VERSION.zip" >> "$GITHUB_ENV"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: addon-zip
+          path: ${{ env.ZIP }}
