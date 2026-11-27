@@ -6,6 +6,7 @@ import xbmc
 import xbmcgui
 import xbmcplugin
 
+from resources.lib import player
 from resources.lib.cache import DetailCache
 from resources.lib.models import Dorf
 from resources.lib.scraper import http, parser
@@ -45,9 +46,10 @@ def show_doerfer(url: str) -> None:
         tag = item.getVideoInfoTag()
         tag.setTitle(dorf.name)
         tag.setPlot(dorf.beschreibung)
+        item.setProperty('IsPlayable', 'true')
         if dorf.bild:
             item.setArt({'thumb': dorf.bild, 'poster': dorf.bild})
-        xbmcplugin.addDirectoryItem(HANDLE, build_url(action='dorf', url=dorf.url), item, False)
+        xbmcplugin.addDirectoryItem(HANDLE, build_url(action='play', url=dorf.url), item, False)
     xbmcplugin.endOfDirectory(HANDLE, cacheToDisc=False)
     nachladen([d for d in doerfer if d.url not in cache], cache, BASE + sys.argv[2])
 
@@ -80,6 +82,8 @@ def run() -> None:
             show_landkreise()
         elif action == 'landkreis' and params.get('url', '').startswith(ROOT_URL):
             show_doerfer(params['url'])
+        elif action == 'play' and params.get('url', '').startswith(ROOT_URL):
+            player.play(HANDLE, params['url'])
         else:
             xbmcplugin.endOfDirectory(HANDLE, succeeded=False)
     except OSError as e:

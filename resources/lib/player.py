@@ -1,15 +1,19 @@
-import sys
-from xbmcgui import ListItem
-from xbmcplugin import setResolvedUrl
+import xbmcgui
+import xbmcplugin
+
+from resources.lib.scraper import http, parser
+from resources.lib.utils import kodiutils
 
 
-def videoUrlZumLink(link: str):
-    if (str != ''):
-        print('####################################Spiel Videooooo')
-        return 'https://rbbhttpstream-a.akamaihd.net/rbb/aktuell/landschleicher/prignitz/aktuell_19990131_Gerdshagen_PR_m_16_9_512x288.mp4'
-
-
-def spieleVideo(videoUrl) -> None:
-    play_item = ListItem(path=videoUrl)
-    play_item.setProperty('IsPlayable', 'true')
-    setResolvedUrl(int(sys.argv[1]), True, listitem=play_item)
+def play(handle: int, url: str) -> None:
+    try:
+        video_url = parser.parse_video_url(http.fetch(url))
+    except OSError as e:
+        kodiutils.notification('Landschleicher', str(e))
+        xbmcplugin.setResolvedUrl(handle, False, xbmcgui.ListItem())
+        return
+    if not video_url:
+        kodiutils.notification('Landschleicher', 'Zu diesem Beitrag gibt es kein Video.')
+        xbmcplugin.setResolvedUrl(handle, False, xbmcgui.ListItem())
+        return
+    xbmcplugin.setResolvedUrl(handle, True, xbmcgui.ListItem(path=video_url))

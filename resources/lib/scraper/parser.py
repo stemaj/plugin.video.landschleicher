@@ -14,6 +14,7 @@ _ARTICLE_RE = re.compile(
     r'href="(?P<url>[^"]+)"\s+class="sendeplatz".*?'
     r'<span class="manualteasertitle">(?P<name>.*?)</span>',
     re.DOTALL)
+_VIDEO_RE = re.compile(r'"contentUrl":\s*"(https://[^"]+)"')
 
 
 def parse_landkreise(html: str) -> List[Landkreis]:
@@ -36,6 +37,12 @@ def parse_doerfer(html: str) -> List[Dorf]:
 def parse_meta(html: str) -> Tuple[str, str]:
     """Returns (beschreibung, bild) from the Open Graph tags of a Beitrag page."""
     return _og(html, 'description'), _og(html, 'image')
+
+
+def parse_video_url(html: str) -> str:
+    """Returns the stream URL from the JSON-LD block of a Beitrag page, or '' if there is no video."""
+    m = _VIDEO_RE.search(html)
+    return m[1] if m else ''
 
 
 def _og(html: str, prop: str) -> str:
