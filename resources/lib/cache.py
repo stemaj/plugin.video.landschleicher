@@ -17,6 +17,7 @@ class DetailCache:
         xbmcvfs.mkdirs(profile)
         self._path = os.path.join(profile, 'details.json')
         self._data: Dict[str, Dict[str, str]] = self._load()
+        self._new: Dict[str, Dict[str, str]] = {}
 
     def _load(self) -> Dict[str, Dict[str, str]]:
         try:
@@ -35,17 +36,20 @@ class DetailCache:
         return replace(dorf, beschreibung=entry.get('beschreibung', ''), bild=entry.get('bild', ''))
 
     def put(self, url: str, beschreibung: str, bild: str) -> None:
-        self._data[url] = {'beschreibung': beschreibung, 'bild': bild}
+        self._data[url] = self._new[url] = {'beschreibung': beschreibung, 'bild': bild}
 
     def clear(self) -> None:
         self._data = {}
+        self._new = {}
         try:
             os.remove(self._path)
         except OSError:
             pass
 
     def save(self) -> None:
+        # Merge with the file again, since another list may have saved entries in the meantime
+        merged = {**self._load(), **self._new}
         tmp = self._path + '.tmp'
         with open(tmp, 'w', encoding='utf-8') as f:
-            json.dump(self._data, f, ensure_ascii=False)
+            json.dump(merged, f, ensure_ascii=False)
         os.replace(tmp, self._path)
