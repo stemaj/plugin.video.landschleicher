@@ -22,7 +22,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ### Changed
 
 - Restructured `resources/lib` into `models`, `player`, `scraper` and `utils`.
-- Require `xbmc.python` 3.0.0.
+- Require `xbmc.python` 3.0.1 (Kodi 20 Nexus or newer), because the video info tag setters are not available in Kodi 19.
 - Reduced `kodiutils` to the helpers in use, moved string IDs to `strings.py` and removed empty `addon.xml` tags.
 
 ### Fixed
