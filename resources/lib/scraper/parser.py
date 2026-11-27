@@ -15,6 +15,8 @@ _ARTICLE_RE = re.compile(
     r'<span class="manualteasertitle">(?P<name>.*?)</span>',
     re.DOTALL)
 _VIDEO_RE = re.compile(r'"contentUrl":\s*"(https://[^"]+)"')
+_NEUESTE_RE = re.compile(
+    r'<h3 class="manualteasertitle">\s*<a href="(?P<url>[^"]+)" class="sendeplatz">\s*(?P<name>[^<]*?)\s*<')
 
 
 def parse_landkreise(html: str) -> List[Landkreis]:
@@ -30,6 +32,14 @@ def parse_doerfer(html: str) -> List[Dorf]:
         m = _ARTICLE_RE.search(article)
         if m:
             doerfer.setdefault(m['url'], Dorf(unescape(m['name']).strip(), BASE_URL + m['url'], m['datetime']))
+    return list(doerfer.values())
+
+
+def parse_neueste(html: str) -> List[Dorf]:
+    """Parses the 'Die neuesten Folgen' ticker of the start page, newest first."""
+    doerfer = {}
+    for m in _NEUESTE_RE.finditer(html):
+        doerfer.setdefault(m['url'], Dorf(unescape(m['name']).strip(), BASE_URL + m['url'], ''))
     return list(doerfer.values())
 
 

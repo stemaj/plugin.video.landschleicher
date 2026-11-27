@@ -54,3 +54,19 @@ msgstr "Cache leeren"
 msgctxt "#30011"
 msgid "Cache cleared"
 msgstr "Cache geleert"
+
+msgctxt "#30012"
+msgid "Latest videos"
+msgstr "Neueste Videos"
+
+msgctxt "#30013"
+msgid "Landkreise"
+msgstr "Landkreise"
+
+msgctxt "#30014"
+msgid "Search"
+msgstr "Suche"
+
+msgctxt "#30015"
+msgid "No results"
+msgstr "Keine Treffer"

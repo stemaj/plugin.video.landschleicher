@@ -6,7 +6,7 @@ import xbmc
 import xbmcgui
 import xbmcplugin
 
-from resources.lib import player, sorting
+from resources.lib import player, search, sorting
 from resources.lib.cache import DetailCache
 from resources.lib.models import Dorf
 from resources.lib.scraper import http, parser
@@ -24,6 +24,13 @@ def build_url(**params) -> str:
     return f'{BASE}?{urlencode(params)}'
 
 
+def show_root() -> None:
+    for label_id, action in ((30012, 'neueste'), (30013, 'landkreise'), (30014, 'suche')):
+        item = xbmcgui.ListItem(label=kodiutils.get_string(label_id))
+        xbmcplugin.addDirectoryItem(HANDLE, build_url(action=action), item, True)
+    xbmcplugin.endOfDirectory(HANDLE)
+
+
 def show_landkreise() -> None:
     landkreise = parser.parse_landkreise(http.fetch(ROOT_URL))
     for landkreis in sorting.sortiere_landkreise(landkreise, kodiutils.get_setting_as_int('sort_landkreise')):
@@ -39,12 +46,16 @@ def fetch_details(dorf: Dorf):
         return dorf.url, None
 
 
-def show_doerfer(url: str) -> None:
+def sortierte_doerfer(doerfer):
+    return sorting.sortiere_doerfer(doerfer, kodiutils.get_setting_as_int('sort_doerfer'))
+
+
+def show_doerfer(doerfer, reload_url: str = '') -> None:
     cache = DetailCache()
-    doerfer = sorting.sortiere_doerfer(parser.parse_doerfer(http.fetch(url)), kodiutils.get_setting_as_int('sort_doerfer'))
     doerfer = [cache.apply(d) for d in doerfer]
     for dorf in doerfer:
-        item = xbmcgui.ListItem(label=f'{dorf.name} ({parser.format_datum(dorf.datum)})')
+        datum = parser.format_datum(dorf.datum)
+        item = xbmcgui.ListItem(label=f'{dorf.name} ({datum})' if datum else dorf.name)
         tag = item.getVideoInfoTag()
         tag.setTitle(dorf.name)
         tag.setPlot(dorf.beschreibung)
@@ -53,11 +64,14 @@ def show_doerfer(url: str) -> None:
             item.setArt({'thumb': dorf.bild, 'poster': dorf.bild})
         xbmcplugin.addDirectoryItem(HANDLE, build_url(action='play', url=dorf.url), item, False)
     xbmcplugin.endOfDirectory(HANDLE, cacheToDisc=False)
-    nachladen([d for d in doerfer if d.url not in cache], cache, BASE + sys.argv[2])
+    nachladen([d for d in doerfer if d.url not in cache], cache, BASE + sys.argv[2], reload_url)
 
 
-def nachladen(fehlende, cache: DetailCache, folder_path: str) -> None:
-    """Loads missing details after the list is shown, then refreshes the list if it is still open."""
+def nachladen(fehlende, cache: DetailCache, folder_path: str, reload_url: str = '') -> None:
+    """Loads missing details after the list is shown, then reloads the list if it is still open.
+
+    reload_url replaces the current folder, for lists whose URL cannot be refreshed as is.
+    """
     if not fehlende:
         return
     monitor = xbmc.Monitor()
@@ -72,7 +86,22 @@ def nachladen(fehlende, cache: DetailCache, folder_path: str) -> None:
     if neu:
         cache.save()
         if xbmc.getInfoLabel('Container.FolderPath') == folder_path:
-            xbmc.executebuiltin('Container.Refresh')
+            xbmc.executebuiltin(f'Container.Update({reload_url}, replace)' if reload_url else 'Container.Refresh')
+
+
+def suche(text: str) -> None:
+    reload_url = ''
+    if not text:
+        text = xbmcgui.Dialog().input(kodiutils.get_string(30014))
+        if not text.strip():
+            xbmcplugin.endOfDirectory(HANDLE, succeeded=False)
+            return
+        # The prompt URL has no query, so a plain refresh would ask again
+        reload_url = build_url(action='suche', q=text)
+    treffer = search.suche_doerfer(parser.parse_doerfer(http.fetch(ROOT_URL + 'a-z.html')), text)
+    if not treffer:
+        kodiutils.notification('Landschleicher', kodiutils.get_string(30015))
+    show_doerfer(sortierte_doerfer(treffer), reload_url)
 
 
 def run() -> None:
@@ -81,9 +110,15 @@ def run() -> None:
     action = params.get('action')
     try:
         if action is None:
+            show_root()
+        elif action == 'landkreise':
             show_landkreise()
+        elif action == 'neueste':
+            show_doerfer(parser.parse_neueste(http.fetch(ROOT_URL)))
+        elif action == 'suche':
+            suche(params.get('q', ''))
         elif action == 'landkreis' and params.get('url', '').startswith(ROOT_URL):
-            show_doerfer(params['url'])
+            show_doerfer(sortierte_doerfer(parser.parse_doerfer(http.fetch(params['url']))))
         elif action == 'play' and params.get('url', '').startswith(ROOT_URL):
             player.play(HANDLE, params['url'])
         elif action == 'clear_cache':
