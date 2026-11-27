@@ -25,7 +25,7 @@ Kodi 20 (Nexus) or newer. Developed and tested with Kodi 21.3 (Omega).
 
 ## Installation
 
-1. Download the zip from the "Build release zip" workflow run (Actions tab), or zip the
+1. Download the zip from the latest [GitHub release](https://github.com/stemaj/plugin.video.landschleicher/releases), or zip the
    `plugin.video.landschleicher` folder yourself.
 2. In Kodi: *Add-ons → Install from zip file*, and select the zip.
 

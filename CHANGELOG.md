@@ -22,7 +22,7 @@ Complete rewrite: the add-on no longer depends on `script.module.routing`, `urll
 - Thumbnails and descriptions for villages, read from the Open Graph tags of each Beitrag page. They load in the background after the list is shown, are cached in the addon profile, and the list refreshes once they are available.
 - MIT `LICENSE` file, an unofficial-add-on disclaimer (icon and fanart are excluded from the licence) and an English summary in `addon.xml`.
 - Landkreis and broadcast date in the plot of each village; entries are marked as videos so Kodi can track them as watched.
-- Issue template and a manual "Build release zip" GitHub Actions workflow.
+- Issue template and a manual "Release" GitHub Actions workflow that attaches the zip to the GitHub release.
 - English `README.md`.
 - Live tests (`tests/`) that check URL reachability and scraping against the rbb website, runnable manually via the "Live tests" GitHub Actions workflow.
 
