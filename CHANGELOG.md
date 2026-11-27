@@ -16,7 +16,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Video playback for villages; the stream URL is read from the Beitrag page (HLS or MP4).
 - Settings: sort order of Landkreise and villages, debug logging and a button to clear the cache (English and German strings).
 - Thumbnails and descriptions for villages, read from the Open Graph tags of each Beitrag page. They load in the background after the list is shown, are cached in the addon profile, and the list refreshes once they are available.
-- MIT `LICENSE` file, an unofficial-add-on disclaimer and an English summary in `addon.xml`.
+- MIT `LICENSE` file, an unofficial-add-on disclaimer (icon and fanart are excluded from the licence) and an English summary in `addon.xml`.
 
 ### Changed
 
