@@ -1,7 +1,7 @@
 import re
 from datetime import datetime
 from html import unescape
-from typing import List
+from typing import List, Tuple
 
 from resources.lib.models import Dorf, Landkreis
 
@@ -31,6 +31,16 @@ def parse_doerfer(html: str) -> List[Dorf]:
             doerfer.setdefault(
                 m['url'], Dorf(unescape(m['name']).strip(), BASE_URL + m['url'], _format_datum(m['datetime'])))
     return sorted(doerfer.values(), key=lambda d: d.name.casefold())
+
+
+def parse_meta(html: str) -> Tuple[str, str]:
+    """Returns (beschreibung, bild) from the Open Graph tags of a Beitrag page."""
+    return _og(html, 'description'), _og(html, 'image')
+
+
+def _og(html: str, prop: str) -> str:
+    m = re.search(rf'<meta property="og:{prop}" content="([^"]*)"', html)
+    return unescape(m[1]).strip() if m else ''
 
 
 def _format_datum(value: str) -> str:

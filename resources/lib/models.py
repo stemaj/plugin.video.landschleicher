@@ -13,3 +13,5 @@ class Dorf:
     name: str
     url: str
     datum: str
+    beschreibung: str = ''
+    bild: str = ''
