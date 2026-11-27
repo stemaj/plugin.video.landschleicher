@@ -1,46 +1,31 @@
-# -*- coding: utf-8 -*-
-
-from __future__ import unicode_literals
-from resources.lib.utils.kodiutils import get_setting_as_bool
-
 import logging
+
 import xbmc
 import xbmcaddon
 
-
-class KodiLogHandler(logging.StreamHandler):
-
-    def __init__(self):
-        pass
-        #logging.StreamHandler.__init__(self)
-        #addon_id = xbmcaddon.Addon().getAddonInfo('id')
-        #prefix = b"[%s] " % addon_id.encode('utf-8')
-        #formatter = logging.Formatter(b'%(name)s: %(message)s')
-        #self.setFormatter(formatter)
-
-    def emit(self, record):
-        pass
-        # levels = {
-        #     logging.CRITICAL: xbmc.LOGFATAL,
-        #     logging.ERROR: xbmc.LOGERROR,
-        #     logging.WARNING: xbmc.LOGWARNING,
-        #     logging.INFO: xbmc.LOGINFO,
-        #     logging.DEBUG: xbmc.LOGDEBUG,
-        #     logging.NOTSET: xbmc.LOGNONE,
-        # }
-        # if get_setting_as_bool('debug'):
-        #     try:
-        #         xbmc.log(self.format(record), levels[record.levelno])
-        #     except UnicodeEncodeError:
-        #         xbmc.log(self.format(record).encode(
-        #             'utf-8', 'ignore'), levels[record.levelno])
-
-    def flush(self):
-        pass
+LEVELS = {
+    logging.CRITICAL: xbmc.LOGFATAL,
+    logging.ERROR: xbmc.LOGERROR,
+    logging.WARNING: xbmc.LOGWARNING,
+    logging.INFO: xbmc.LOGINFO,
+    logging.DEBUG: xbmc.LOGDEBUG,
+}
 
 
-def config():
-    pass
-    # logger = logging.getLogger()
-    # logger.addHandler(KodiLogHandler())
-    # logger.setLevel(logging.DEBUG)
+class KodiLogHandler(logging.Handler):
+    """Forwards Python log records to the Kodi log."""
+
+    def __init__(self) -> None:
+        super().__init__()
+        addon_id = xbmcaddon.Addon().getAddonInfo('id')
+        self.setFormatter(logging.Formatter(f'[{addon_id}] %(name)s: %(message)s'))
+
+    def emit(self, record: logging.LogRecord) -> None:
+        xbmc.log(self.format(record), LEVELS.get(record.levelno, xbmc.LOGDEBUG))
+
+
+def config() -> None:
+    root = logging.getLogger()
+    if not any(isinstance(h, KodiLogHandler) for h in root.handlers):
+        root.addHandler(KodiLogHandler())
+    root.setLevel(logging.DEBUG)
