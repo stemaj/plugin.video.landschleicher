@@ -7,7 +7,7 @@ import xbmc
 import xbmcgui
 import xbmcplugin
 
-from resources.lib import player, search, sorting, strings
+from resources.lib import landkreise, player, search, sorting, strings
 from resources.lib.cache import DetailCache
 from resources.lib.models import Dorf
 from resources.lib.scraper import http, parser
@@ -35,8 +35,8 @@ def show_root() -> None:
 
 
 def show_landkreise() -> None:
-    landkreise = parser.parse_landkreise(http.fetch(ROOT_URL))
-    for landkreis in sorting.sortiere_landkreise(landkreise, kodiutils.get_setting_as_int('sort_landkreise')):
+    liste = parser.parse_landkreise(http.fetch(ROOT_URL))
+    for landkreis in sorting.sortiere_landkreise(liste, kodiutils.get_setting_as_int('sort_landkreise')):
         item = xbmcgui.ListItem(label=landkreis.name)
         xbmcplugin.addDirectoryItem(HANDLE, build_url(action='landkreis', url=landkreis.url), item, True)
     xbmcplugin.endOfDirectory(HANDLE)
@@ -62,7 +62,10 @@ def show_doerfer(doerfer, reload_url: str = '') -> None:
         item = xbmcgui.ListItem(label=f'{dorf.name} ({datum})' if datum else dorf.name)
         tag = item.getVideoInfoTag()
         tag.setTitle(dorf.name)
-        tag.setPlot(dorf.beschreibung)
+        tag.setMediaType('video')
+        tag.setPlot('\n\n'.join(filter(None, (
+            ', '.join(filter(None, (landkreise.name_aus_url(dorf.url), datum))),
+            dorf.beschreibung))))
         item.setProperty('IsPlayable', 'true')
         if dorf.bild:
             item.setArt({'thumb': dorf.bild, 'poster': dorf.bild})
