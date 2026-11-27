@@ -17,6 +17,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Settings: sort order of Landkreise and villages, debug logging and a button to clear the cache (English and German strings).
 - Thumbnails and descriptions for villages, read from the Open Graph tags of each Beitrag page. They load in the background after the list is shown, are cached in the addon profile, and the list refreshes once they are available.
 - MIT `LICENSE` file, an unofficial-add-on disclaimer (icon and fanart are excluded from the licence) and an English summary in `addon.xml`.
+- Landkreis and broadcast date in the plot of each village; entries are marked as videos so Kodi can track them as watched.
+- Issue template and a manual "Build release zip" GitHub Actions workflow.
+- English `README.md`.
 - Live tests (`tests/`) that check URL reachability and scraping against the rbb website, runnable manually via the "Live tests" GitHub Actions workflow.
 
 ### Changed
@@ -30,6 +33,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Searching for only whitespace listed every village.
 - Truncated HTTP responses are reported as errors instead of crashing the background loader.
 - Errors are now written to the Kodi log; the "no video" message is localised.
+- Saving the detail cache merges with the file on disk, so parallel lists no longer overwrite each other's entries.
 
 ### Removed
 
