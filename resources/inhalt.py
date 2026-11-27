@@ -1,10 +1,6 @@
-import routing
-from xbmcplugin import addDirectoryItem, endOfDirectory, setResolvedUrl
+import sys
+from xbmcplugin import setResolvedUrl
 from xbmcgui import ListItem
-from xbmc import log
-from pyStemaj import byteStream, bytesExtractor, stringExtractor
-
-plugin = routing.Plugin()
 
 class Landschleicher():
     beitraege = {}
@@ -20,28 +16,6 @@ class Film():
         self.film = film
         self.link = link
         self.datetime = datetime
-
-def listeDerLandkreiseByData(arr):
-    for data in arr:
-        if isinstance(data, bytes):
-            film = stringExtractor.matchByRegex(data, b"manualteasertitle\">(.+)</span")
-            link = stringExtractor.matchByRegex(data, b"href=\"(.+)\".class.+sendeplatz")
-            datetime = stringExtractor.matchByRegex(data, b"datetime.+>(.+)<")
-            landkreis = stringExtractor.matchByRegex(bytes(data), b"beitraege/(.+)/.+html")
-            if not landkreis in Landschleicher.beitraege and isinstance(landkreis, str):
-                Landschleicher.addLandkreis(landkreis)
-            if isinstance(landkreis, str):
-                Landschleicher.addBeitrag(landkreis, Film(film,link,datetime))
-
-def listeDerLandkreise():
-    listeDerLandkreiseByData(bytesExtractor.extractInnerPartAndSplit(byteStream.fromUrl("https://www.rbb-online.de/brandenburgaktuell/landschleicher/a-z.html"), b"tab_content", b"commentSaved", b"</article>"))
-
-def listeDerLandkreisFilme(landkreis: str):
-    listeDerLandkreise()
-    arr = []
-    for x in Landschleicher.beitraege[landkreis]:
-        arr.append(x)
-    return arr
 
 def listeDerNeuestenFilme():
     a = Film('film1', "link1", 'Bla')
@@ -59,4 +33,4 @@ def videoUrlZumLink(link: str):
 def spieleVideo(videoUrl) -> None:
     play_item = ListItem(path=videoUrl)
     play_item.setProperty('IsPlayable', 'true')
-    setResolvedUrl(plugin.handle, True, listitem=play_item)
+    setResolvedUrl(int(sys.argv[1]), True, listitem=play_item)
