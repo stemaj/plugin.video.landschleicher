@@ -3,6 +3,8 @@ import logging
 import xbmc
 import xbmcaddon
 
+from resources.lib.utils.kodiutils import get_setting_as_bool
+
 LEVELS = {
     logging.CRITICAL: xbmc.LOGFATAL,
     logging.ERROR: xbmc.LOGERROR,
@@ -28,4 +30,4 @@ def config() -> None:
     root = logging.getLogger()
     if not any(isinstance(h, KodiLogHandler) for h in root.handlers):
         root.addHandler(KodiLogHandler())
-    root.setLevel(logging.DEBUG)
+    root.setLevel(logging.DEBUG if get_setting_as_bool('debug') else logging.INFO)

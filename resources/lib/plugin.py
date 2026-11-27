@@ -6,7 +6,7 @@ import xbmc
 import xbmcgui
 import xbmcplugin
 
-from resources.lib import player
+from resources.lib import player, sorting
 from resources.lib.cache import DetailCache
 from resources.lib.models import Dorf
 from resources.lib.scraper import http, parser
@@ -25,7 +25,8 @@ def build_url(**params) -> str:
 
 
 def show_landkreise() -> None:
-    for landkreis in parser.parse_landkreise(http.fetch(ROOT_URL)):
+    landkreise = parser.parse_landkreise(http.fetch(ROOT_URL))
+    for landkreis in sorting.sortiere_landkreise(landkreise, kodiutils.get_setting_as_int('sort_landkreise')):
         item = xbmcgui.ListItem(label=landkreis.name)
         xbmcplugin.addDirectoryItem(HANDLE, build_url(action='landkreis', url=landkreis.url), item, True)
     xbmcplugin.endOfDirectory(HANDLE)
@@ -40,9 +41,10 @@ def fetch_details(dorf: Dorf):
 
 def show_doerfer(url: str) -> None:
     cache = DetailCache()
-    doerfer = [cache.apply(d) for d in parser.parse_doerfer(http.fetch(url))]
+    doerfer = sorting.sortiere_doerfer(parser.parse_doerfer(http.fetch(url)), kodiutils.get_setting_as_int('sort_doerfer'))
+    doerfer = [cache.apply(d) for d in doerfer]
     for dorf in doerfer:
-        item = xbmcgui.ListItem(label=f'{dorf.name} ({dorf.datum})')
+        item = xbmcgui.ListItem(label=f'{dorf.name} ({parser.format_datum(dorf.datum)})')
         tag = item.getVideoInfoTag()
         tag.setTitle(dorf.name)
         tag.setPlot(dorf.beschreibung)
@@ -84,6 +86,9 @@ def run() -> None:
             show_doerfer(params['url'])
         elif action == 'play' and params.get('url', '').startswith(ROOT_URL):
             player.play(HANDLE, params['url'])
+        elif action == 'clear_cache':
+            DetailCache().clear()
+            kodiutils.notification('Landschleicher', kodiutils.get_string(30011))
         else:
             xbmcplugin.endOfDirectory(HANDLE, succeeded=False)
     except OSError as e:

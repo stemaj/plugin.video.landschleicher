@@ -37,6 +37,13 @@ class DetailCache:
     def put(self, url: str, beschreibung: str, bild: str) -> None:
         self._data[url] = {'beschreibung': beschreibung, 'bild': bild}
 
+    def clear(self) -> None:
+        self._data = {}
+        try:
+            os.remove(self._path)
+        except OSError:
+            pass
+
     def save(self) -> None:
         tmp = self._path + '.tmp'
         with open(tmp, 'w', encoding='utf-8') as f:

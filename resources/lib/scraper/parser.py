@@ -21,7 +21,7 @@ def parse_landkreise(html: str) -> List[Landkreis]:
     gefunden = {}
     for m in _LANDKREIS_RE.finditer(html):
         gefunden.setdefault(m['slug'], Landkreis(m['slug'], unescape(m['name']).strip(), BASE_URL + m['url']))
-    return sorted(gefunden.values(), key=lambda l: l.name)
+    return list(gefunden.values())
 
 
 def parse_doerfer(html: str) -> List[Dorf]:
@@ -29,9 +29,8 @@ def parse_doerfer(html: str) -> List[Dorf]:
     for article in html.split('<article')[1:]:
         m = _ARTICLE_RE.search(article)
         if m:
-            doerfer.setdefault(
-                m['url'], Dorf(unescape(m['name']).strip(), BASE_URL + m['url'], _format_datum(m['datetime'])))
-    return sorted(doerfer.values(), key=lambda d: d.name.casefold())
+            doerfer.setdefault(m['url'], Dorf(unescape(m['name']).strip(), BASE_URL + m['url'], m['datetime']))
+    return list(doerfer.values())
 
 
 def parse_meta(html: str) -> Tuple[str, str]:
@@ -50,7 +49,7 @@ def _og(html: str, prop: str) -> str:
     return unescape(m[1]).strip() if m else ''
 
 
-def _format_datum(value: str) -> str:
+def format_datum(value: str) -> str:
     try:
         return datetime.fromisoformat(value).strftime('%d.%m.%Y')
     except ValueError:

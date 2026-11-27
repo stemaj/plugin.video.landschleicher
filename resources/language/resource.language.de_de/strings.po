@@ -1,0 +1,56 @@
+# Kodi Media Center language file
+# Addon Name: Landschleicher
+# Addon id: plugin.video.landschleicher
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30000"
+msgid "General"
+msgstr "Allgemein"
+
+msgctxt "#30001"
+msgid "Sorting"
+msgstr "Sortierung"
+
+msgctxt "#30002"
+msgid "Order of Landkreise"
+msgstr "Reihenfolge der Landkreise"
+
+msgctxt "#30003"
+msgid "Name A-Z"
+msgstr "Name A-Z"
+
+msgctxt "#30004"
+msgid "Name Z-A"
+msgstr "Name Z-A"
+
+msgctxt "#30005"
+msgid "Order of villages"
+msgstr "Reihenfolge der Dörfer"
+
+msgctxt "#30006"
+msgid "Newest first"
+msgstr "Neueste zuerst"
+
+msgctxt "#30007"
+msgid "Oldest first"
+msgstr "Älteste zuerst"
+
+msgctxt "#30008"
+msgid "Development"
+msgstr "Entwicklung"
+
+msgctxt "#30009"
+msgid "Debug logging"
+msgstr "Debug-Logging"
+
+msgctxt "#30010"
+msgid "Clear cache"
+msgstr "Cache leeren"
+
+msgctxt "#30011"
+msgid "Cache cleared"
+msgstr "Cache geleert"

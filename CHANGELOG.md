@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Root list of Landkreise, scraped from the Landschleicher start page.
 - Village list per Landkreis, with the broadcast date to tell repeat visits apart.
 - Video playback for villages; the stream URL is read from the Beitrag page (HLS or MP4).
+- Settings: sort order of Landkreise and villages, debug logging and a button to clear the cache (English and German strings).
 - Thumbnails and descriptions for villages, read from the Open Graph tags of each Beitrag page. They load in the background after the list is shown, are cached in the addon profile, and the list refreshes once they are available.
 
 ### Changed
