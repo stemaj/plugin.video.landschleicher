@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [2.0.0] - 2026-11-27
+
+Complete rewrite: the add-on no longer depends on `script.module.routing`, `urllib3` or the `pyStemaj` submodule.
+
 ### Added
 
 - Root list of Landkreise, scraped from the Landschleicher start page.
